@@ -1,0 +1,308 @@
+html {
+  scroll-behavior: smooth;
+}
+/* Main background and border for theme switching */
+.main-bg {
+    background-color: var(--bg-primary) !important;
+    color: var(--text-primary) !important;
+    transition: background-color 0.3s, color 0.3s;
+}
+.main-border {
+    border-color: var(--border-color) !important;
+}
+/* Base Styles */
+
+:root {
+    /* Light theme variables (abu-abu medium, tidak terlalu terang) */
+    --bg-primary: #d1d5db; /* gray-300 */
+    --bg-secondary: #9ca3af; /* gray-400 */
+    --text-primary: #23272f; /* abu gelap */
+    --text-secondary: #374151; /* gray-700 */
+    --accent-color: #0d6efd;
+    --border-color: #6b7280; /* gray-500 */
+    --card-bg: #9ca3af; /* gray-400 */
+    --card-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.10);
+    --highlight-color: #ffc107;
+}
+
+[data-theme="dark"] {
+    /* Dark theme variables */
+    --bg-primary: #121212;
+    --bg-secondary: #1e1e1e;
+    --text-primary: #e0e0e0;
+    --text-secondary: #a0a0a0;
+    --accent-color: #38bdf8;
+    --border-color: #333333;
+    --card-bg: #1e1e1e;
+    --card-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.2);
+    --highlight-color: #facc15;
+}
+
+/* Menggunakan font Inter sebagai font utama */
+body {
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
+    background-color: var(--bg-primary);
+    color: var(--text-primary);
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Heading dan judul lebih tebal di light theme agar lebih jelas */
+[data-theme="light"] h1 {
+    color: #111827 !important; /* gray-900, sangat gelap */
+    font-weight: 900;
+    letter-spacing: 0.01em;
+}
+[data-theme="light"] h2 {
+    color: #1f2937 !important; /* gray-800 */
+    font-weight: 800;
+    letter-spacing: 0.01em;
+}
+[data-theme="light"] h3 {
+    color: #374151 !important; /* gray-700 */
+    font-weight: 700;
+    letter-spacing: 0.01em;
+}
+[data-theme="light"] h4, [data-theme="light"] h5, [data-theme="light"] h6 {
+    color: #4b5563 !important; /* gray-600 */
+    font-weight: 700;
+    letter-spacing: 0.01em;
+}
+
+/* Perbaiki warna link di light theme agar lebih kontras */
+[data-theme="light"] a {
+    color: #2563eb;
+}
+[data-theme="light"] a:hover {
+    color: #1d4ed8;
+}
+
+/* Perbaiki warna card agar tidak terlalu gelap di light theme */
+[data-theme="light"] .bg-gray-800, [data-theme="light"] .bg-gray-800\/50 {
+    background-color: var(--card-bg) !important;
+    color: var(--text-primary) !important;
+    border-radius: 8px;
+    box-shadow: var(--card-shadow);
+}
+[data-theme="light"] .main-bg, [data-theme="light"] body {
+    background-color: var(--bg-primary) !important;
+    color: var(--text-primary) !important;
+}
+
+[data-theme="light"] h1, [data-theme="light"] h2, [data-theme="light"] h3, [data-theme="light"] h4, [data-theme="light"] h5, [data-theme="light"] h6 {
+    color: var(--text-primary) !important;
+    font-weight: 800;
+}
+
+/* Styling untuk scrollbar agar lebih modern */
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+::-webkit-scrollbar-track {
+    background: #111827; /* gray-900 */
+}
+::-webkit-scrollbar-thumb {
+    background: #4b5563; /* gray-600 */
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #6b7280; /* gray-500 */
+}
+
+/* Efek transisi halus untuk highlight pencarian */
+.highlight {
+    background-color: var(--highlight-color);
+    color: #111827; /* gray-900 */
+    padding: 1px 2px;
+    border-radius: 3px;
+}
+
+/* Class untuk link TOC yang aktif */
+.toc-link.active {
+    background-color: rgba(56, 189, 248, 0.2); /* sky-400/20 */
+    color: #7dd3fc; /* sky-300 */
+    font-weight: 600;
+}
+
+/* Class untuk teks hukuman dan denda berwarna merah */
+.punishment-value {
+    color: #f87171; /* red-400 */
+    font-weight: 600;
+}
+
+/* Theme toggle styling */
+.toggle-checkbox {
+    right: 0;
+    z-index: 10;
+    border-color: #4b5563;
+    transition: all 0.3s;
+}
+.toggle-checkbox:checked {
+    right: 6px;
+    border-color: #38bdf8;
+}
+.toggle-label {
+    transition: background-color 0.3s ease;
+}
+.toggle-checkbox:checked + .toggle-label {
+    background-color: #38bdf8;
+}
+
+/* Language selector styling */
+.lang-btn {
+    transition: all 0.3s ease;
+}
+.lang-btn.active {
+    background-color: #38bdf8;
+    color: white;
+}
+
+/* Filter option styling */
+.filter-option input:checked + span {
+    background-color: #38bdf8;
+    color: white;
+}
+
+/* Preloader */
+#preloader {
+    transition: opacity 0.5s ease, visibility 0.5s ease;
+}
+#preloader.hidden {
+    opacity: 0;
+    visibility: hidden;
+}
+
+/* TOC styling */
+.toc-item {
+    margin-bottom: 0.5rem;
+}
+.toc-header {
+    display: flex;
+    align-items: center;
+}
+.toc-collapse-btn {
+    background: none;
+    border: none;
+    padding: 0.25rem;
+    cursor: pointer;
+    color: var(--text-secondary);
+    transition: transform 0.2s;
+}
+.toc-collapse-btn.collapsed {
+    transform: rotate(-90deg);
+}
+.toc-link {
+    display: block;
+    padding: 0.5rem;
+    border-radius: 0.25rem;
+    color: var(--text-secondary);
+    text-decoration: none;
+    transition: background-color 0.2s, color 0.2s;
+    flex: 1;
+}
+.toc-link:hover, .toc-sublink:hover {
+    background-color: var(--bg-secondary);
+    color: var(--accent-color);
+}
+.toc-link.active {
+    background-color: var(--accent-color);
+    color: white;
+    font-weight: 600;
+}
+.section-count {
+    font-size: 0.75rem;
+    opacity: 0.7;
+    margin-left: 0.25rem;
+}
+.toc-sections {
+    margin-left: 1.5rem;
+    max-height: 1000px;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+}
+.toc-sections.collapsed {
+    max-height: 0;
+}
+.toc-subitem {
+    margin: 0.25rem 0;
+}
+.toc-sublink {
+    display: block;
+    padding: 0.25rem 0.5rem;
+    border-radius: 0.25rem;
+    color: var(--text-secondary);
+    text-decoration: none;
+    transition: background-color 0.2s, color 0.2s;
+    font-size: 0.875rem;
+}
+.toc-sublink.active {
+    background-color: var(--accent-color);
+    color: white;
+    font-weight: 600;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    #sidebar {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        z-index: 40;
+        transform: translateX(-100%);
+        transition: transform 0.3s ease;
+    }
+    #sidebar.open {
+        transform: translateX(0);
+    }
+}
+
+/* Styling for definitions section */
+.definitions-container {
+    margin-top: 1rem;
+}
+
+.definition-item {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    border-left: 3px solid rgba(56, 189, 248, 0.3);
+    transition: all 0.3s ease;
+}
+
+.definition-item:hover {
+    border-left-color: rgba(56, 189, 248, 0.8);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+.definition-item h4 {
+    font-size: 0.95rem;
+    letter-spacing: 0.025em;
+}
+
+.definition-item p {
+    font-size: 0.875rem;
+    line-height: 1.5;
+}
+
+/* Light theme adjustments for definitions */
+[data-theme="light"] .definition-item {
+    background-color: rgba(241, 245, 249, 0.7);
+    border-left: 3px solid rgba(14, 165, 233, 0.3);
+}
+
+[data-theme="light"] .definition-item:hover {
+    background-color: rgba(241, 245, 249, 0.9);
+    border-left-color: rgba(14, 165, 233, 0.8);
+}
+
+[data-theme="light"] .definition-item h4 {
+    color: #0284c7;
+}
+
+[data-theme="light"] .definition-item p {
+    color: #334155;
+}

@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Los Santos Penal Code</title>
+    <meta name="description" content="Los Santos Penal Code Interactive Reference. An interactive legal reference for citizens and law enforcement.">
+    <!-- Preconnect untuk Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" media="print" onload="this.media='all'">
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="main-bg">
+    <!-- Preloader -->
+    <div id="preloader" class="fixed inset-0 z-50 flex items-center justify-center bg-gray-900" aria-label="Loading...">
+        <div class="animate-spin rounded-full h-16 w-16 border-t-4 border-b-4 border-sky-500"></div>
+    </div>
+
+    <div class="flex flex-col md:flex-row min-h-screen main-bg">
+        <!-- Sidebar untuk Indeks/Daftar Isi -->
+        <aside id="sidebar" class="w-full md:w-80 main-bg backdrop-blur-sm p-6 border-b md:border-r main-border md:sticky top-0 h-auto max-h-[50vh] md:max-h-screen overflow-y-auto">
+            <!-- Header Sidebar -->
+            <div class="flex items-center justify-between mb-6">
+                <div class="flex items-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-sky-400 mr-3 shrink-0" viewBox="0 0 20 20" fill="currentColor">
+                        <path d="M9 4.804A7.968 7.968 0 005.5 4c-1.255 0-2.443.29-3.5.804v10A7.969 7.969 0 015.5 14c1.669 0 3.218.51 4.5 1.385A7.962 7.962 0 0114.5 14c1.255 0 2.443.29 3.5.804v-10A7.968 7.968 0 0014.5 4c-1.255 0-2.443.29-3.5.804V12a1 1 0 11-2 0V4.804z" />
+                    </svg>
+                    <h2 class="text-xl font-bold text-sky-400" data-lang-key="indexTitle">Penal Code Index</h2>
+                </div>
+                <!-- Mobile sidebar toggle -->
+                <button id="sidebar-close" class="md:hidden text-gray-500 hover:text-white" aria-label="Close sidebar">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+                    </svg>
+                </button>
+            </div>
+            <nav id="table-of-contents" class="overflow-y-auto px-2 pt-2 pb-6">
+                <ul></ul>
+            </nav>
+            <!-- Sidebar menu dan daftar isi akan dirender dinamis oleh JavaScript -->
+        </aside>
+
+        <!-- Konten Utama -->
+        <main class="flex-1 p-4 md:p-8 lg:p-10 overflow-y-auto main-bg">
+            <!-- Tombol filter Felony/Misdemeanor dipindahkan ke bawah search bar -->
+            <div class="flex flex-col lg:flex-row gap-8">
+                <div class="flex-1">
+                    <!-- Header dengan toggle sidebar untuk mobile -->
+            <div class="flex items-center justify-between mb-4 md:hidden">
+                <button id="sidebar-toggle" class="text-gray-500 hover:text-white" aria-label="Open sidebar">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                    </svg>
+                </button>
+                
+                <!-- Controls untuk mobile -->
+                <div class="flex items-center space-x-4">
+                    <!-- Language Selector Mobile -->
+                    <div class="language-selector">
+                        <button id="lang-en" class="lang-btn active px-2 py-1 text-sm rounded bg-gray-800 hover:bg-sky-500" aria-label="Switch to English">EN</button>
+                        <button id="lang-id" class="lang-btn px-2 py-1 text-sm rounded bg-gray-800 hover:bg-sky-500" aria-label="Switch to Indonesian">ID</button>
+                    </div>
+                    
+                    <!-- Theme Toggle Mobile -->
+                    <div class="theme-toggle">
+                        <button id="theme-toggle-btn" class="p-1 rounded-full bg-gray-800 hover:bg-sky-500" aria-label="Toggle theme">
+                            <svg id="dark-icon" xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                                <path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z" />
+                            </svg>
+                            <svg id="light-icon" xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 hidden" viewBox="0 0 20 20" fill="currentColor">
+                                <path fill-rule="evenodd" d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.95l.707.707a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414zm2.12-10.607a1 1 0 010 1.414l-.706.707a1 1 0 11-1.414-1.414l.707-.707a1 1 0 011.414 0zM17 11a1 1 0 100-2h-1a1 1 0 100 2h1zm-7 4a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zM5.05 6.464A1 1 0 106.465 5.05l-.708-.707a1 1 0 00-1.414 1.414l.707.707zm1.414 8.486l-.707.707a1 1 0 01-1.414-1.414l.707-.707a1 1 0 011.414 1.414zM4 11a1 1 0 100-2H3a1 1 0 000 2h1z" clip-rule="evenodd" />
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            
+            <header class="mb-8 text-center md:text-left">
+                <h1 class="text-3xl md:text-4xl lg:text-5xl font-extrabold text-white mb-2" data-lang-key="title">Los Santos Penal Code</h1>
+                <p class="text-gray-400" data-lang-key="subtitle">An interactive legal reference for citizens and law enforcement.</p>
+                
+                <!-- Controls untuk desktop -->
+                <div class="hidden md:flex items-center justify-between mt-4">
+                    <!-- Language Selector -->
+                    <div class="language-selector flex items-center space-x-2">
+                        <span class="text-gray-500" data-lang-key="language">Language:</span>
+                        <button id="lang-en-desktop" class="lang-btn px-3 py-1 rounded bg-gray-800 hover:bg-sky-500 transition-colors" aria-label="Switch to English">English</button>
+                        <button id="lang-id-desktop" class="lang-btn px-3 py-1 rounded bg-gray-800 hover:bg-sky-500 transition-colors" aria-label="Switch to Indonesian">Indonesia</button>
+                    </div>
+                    
+                    <!-- Theme Toggle -->
+                    <div class="theme-toggle flex items-center space-x-2">
+                        <span class="text-gray-500" data-lang-key="theme">Theme:</span>
+                        <div class="relative inline-block w-12 align-middle select-none">
+                            <input type="checkbox" name="theme-switch" id="theme-switch" class="toggle-checkbox absolute block w-6 h-6 rounded-full bg-white border-4 appearance-none cursor-pointer transition-transform duration-200 ease-in-out" aria-label="Theme switch"/>
+                            <label for="theme-switch" class="toggle-label block overflow-hidden h-6 rounded-full bg-gray-700 cursor-pointer"></label>
+                        </div>
+                        <span id="theme-label" class="text-gray-500" data-lang-key="darkMode">Dark Mode</span>
+                    </div>
+                </div>
+            </header>
+
+            <!-- Fitur Pencarian -->
+            <div class="mb-8 sticky top-0 main-bg backdrop-blur-sm py-4 z-10">
+                <div class="relative">
+                    <input type="text" id="search-input" data-lang-key-placeholder="searchPlaceholder" placeholder="Search for a statute, title, or keyword..." class="w-full bg-gray-800 border border-gray-700 rounded-lg py-3 pl-12 pr-4 text-white placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-sky-500 transition-all duration-300">
+                    <div class="absolute inset-y-0 left-0 pl-4 flex items-center pointer-events-none">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-gray-400" viewBox="0 0 20 20" fill="currentColor">
+                            <path fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z" clip-rule="evenodd" />
+                        </svg>
+                    </div>
+                    
+                    <!-- Clear search button -->
+                    <button id="clear-search" class="absolute inset-y-0 right-0 pr-4 flex items-center text-gray-500 hover:text-white hidden" aria-label="Clear search">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                            <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z" clip-rule="evenodd" />
+                        </svg>
+                    </button>
+                </div>
+                
+                <!-- Search filters -->
+                <div class="search-filters flex flex-wrap gap-2 mt-2">
+                    <label class="filter-option inline-flex items-center">
+                        <input type="radio" name="search-filter" value="all" checked class="hidden" id="filter-all">
+                        <span class="px-2 py-1 text-sm rounded bg-sky-500 text-white cursor-pointer" data-lang-key="filterAll" id="filter-all-span">All</span>
+                    </label>
+                    <label class="filter-option inline-flex items-center">
+                        <input type="radio" name="search-filter" value="title" class="hidden" id="filter-title">
+                        <span class="px-2 py-1 text-sm rounded bg-gray-800 text-gray-300 cursor-pointer" data-lang-key="filterTitle" id="filter-title-span">Title</span>
+                    </label>
+                    <label class="filter-option inline-flex items-center">
+                        <input type="radio" name="search-filter" value="code" class="hidden" id="filter-code">
+                        <span class="px-2 py-1 text-sm rounded bg-gray-800 text-gray-300 cursor-pointer" data-lang-key="filterCode" id="filter-code-span">Code</span>
+                    </label>
+                    <label class="filter-option inline-flex items-center">
+                        <input type="radio" name="search-filter" value="content" class="hidden" id="filter-content">
+                        <span class="px-2 py-1 text-sm rounded bg-gray-800 text-gray-300 cursor-pointer" data-lang-key="filterContent" id="filter-content-span">Content</span>
+                    </label>
+                </div>
+                
+                <!-- Search stats -->
+                <div id="search-stats" class="mt-2 text-sm text-gray-500 hidden"></div>
+                <!-- Filter Felony/Misdemeanor untuk konten utama -->
+                <div class="mt-4 flex gap-2">
+                  <button id="main-filter-all-crime" class="px-3 py-1 rounded bg-sky-500 text-white font-semibold" data-lang-key="filterAll">All</button>
+                  <button id="main-filter-felony" class="px-3 py-1 rounded bg-gray-800 text-gray-300 font-semibold" data-lang-key="filterFelony">Felony (F)</button>
+                  <button id="main-filter-misdemeanor" class="px-3 py-1 rounded bg-gray-800 text-gray-300 font-semibold" data-lang-key="filterMisdemeanor">Misdemeanor (M)</button>
+                </div>
+            </div>
+
+                    <!-- Kontainer untuk konten KUHP -->
+                    <div id="penal-code-content" class="space-y-12">
+                        <!-- Konten akan dibuat secara dinamis oleh JavaScript -->
+                    </div>
+                </div>
+                <!-- Kolom tabel ringkasan pelanggaran -->
+                <aside class="w-full lg:w-96 shrink-0 mt-8 lg:mt-0">
+                    <div class="bg-gray-800/80 rounded-lg shadow-lg p-4">
+                        <h3 class="text-lg font-bold text-sky-400 mb-4" data-lang-key="summaryTitle">Ringkasan Pelanggaran</h3>
+                        <!-- Filter Felony/Misdemeanor -->
+                        <div class="mb-4 flex gap-2">
+                          <button id="filter-all-crime" class="px-3 py-1 rounded bg-sky-500 text-white font-semibold" data-lang-key="filterAll">All</button>
+                          <button id="filter-felony" class="px-3 py-1 rounded bg-gray-800 text-gray-300 font-semibold" data-lang-key="filterFelony">Felony (F)</button>
+                          <button id="filter-misdemeanor" class="px-3 py-1 rounded bg-gray-800 text-gray-300 font-semibold" data-lang-key="filterMisdemeanor">Misdemeanor (M)</button>
+                        </div>
+                        <div class="overflow-x-auto">
+                            <table class="min-w-full text-sm text-left border-separate border-spacing-y-2">
+                                <thead>
+                                    <tr>
+                                        <th class="px-3 py-2 bg-gray-700 text-sky-300 rounded-tl-lg" data-lang-key="tableSubtitle">Subtitle</th>
+                                        <th class="px-3 py-2 bg-gray-700 text-sky-300" data-lang-key="tableFine">Fine</th>
+                                        <th class="px-3 py-2 bg-gray-700 text-sky-300 rounded-tr-lg" data-lang-key="tableJail">Jail</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="summary-table-body">
+                                    <!-- Data akan diisi oleh JavaScript -->
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </aside>
+            </div>
+            
+            <!-- Pesan jika tidak ada hasil pencarian -->
+            <div id="no-results" class="hidden text-center py-16">
+                <svg xmlns="http://www.w3.org/2000/svg" class="mx-auto h-12 w-12 text-gray-500" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M9.172 16.172a4 4 0 015.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                </svg>
+                <h3 class="mt-2 text-xl font-semibold text-gray-400" data-lang-key="noResults">No Results Found</h3>
+                <p class="mt-1 text-gray-500" data-lang-key="tryDifferent">Try using different keywords.</p>
+            </div>
+        </main>
+    </div>
+
+    <!-- Footer -->
+    <footer class="main-bg border-t main-border py-6 px-4 md:px-8">
+        <div class="container mx-auto text-center text-gray-500 text-sm">
+            <p data-lang-key="footerText">Los Santos Penal Code Interactive Reference. All rights reserved.</p>
+            <p class="mt-2">
+                <a href="#" class="text-sky-400 hover:text-sky-300 transition-colors" data-lang-key="about" rel="noopener noreferrer">About</a> • 
+                <a href="#" class="text-sky-400 hover:text-sky-300 transition-colors" data-lang-key="contact" rel="noopener noreferrer">Contact</a> • 
+                <a href="#" class="text-sky-400 hover:text-sky-300 transition-colors" data-lang-key="privacy" rel="noopener noreferrer">Privacy</a>
+            </p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <noscript>
+        <div style="background:#222;color:#fff;padding:1em;text-align:center;">This site works best with JavaScript enabled.</div>
+    </noscript>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        // Menandai bahwa JavaScript telah dimuat
+        document.documentElement.classList.add('js-loaded');
+    </script>
+    <!-- Core Scripts -->
+    <script src="js/theme.js"></script>
+    <script src="js/search.js"></script>
+    <script src="js/toc.js"></script>
+    <script src="js/app.js"></script>
+<script>
+// Logic multi bahasa modern
+const LANGS = ['en', 'id'];
+let currentLang = localStorage.getItem('lang');
+if (!currentLang || !['en', 'id'].includes(currentLang)) {
+  currentLang = 'en';
+  localStorage.setItem('lang', currentLang);
+}
+window.currentLang = currentLang;
+
+const labels = {
+  en: {
+    title: 'Los Santos Penal Code',
+    desc: 'An interactive legal reference for citizens and law enforcement.',
+    search: 'Search for a statute, title, or keyword...',
+    noResultTitle: 'No Results Found',
+    noResultDesc: 'Try using different keywords.'
+  },
+  id: {
+    title: 'Kode Pidana Los Santos',
+    desc: 'Referensi hukum interaktif untuk warga dan penegak hukum.',
+    search: 'Cari pasal, judul, atau kata kunci...',
+    noResultTitle: 'Tidak ada hasil',
+    noResultDesc: 'Coba gunakan kata kunci lain.'
+  }
+};
+
+function setLabels(lang) {
+  const mainTitle = document.querySelector('[data-lang-key="title"]');
+  const mainDesc = document.querySelector('[data-lang-key="subtitle"]');
+  const searchInput = document.getElementById('search-input');
+  const noResultTitle = document.querySelector('[data-lang-key="noResults"]');
+  const noResultDesc = document.querySelector('[data-lang-key="tryDifferent"]');
+  if(mainTitle) mainTitle.textContent = labels[lang].title;
+  if(mainDesc) mainDesc.textContent = labels[lang].desc;
+  if(searchInput) searchInput.placeholder = labels[lang].search;
+  if(noResultTitle) noResultTitle.textContent = labels[lang].noResultTitle;
+  if(noResultDesc) noResultDesc.textContent = labels[lang].noResultDesc;
+}
+
+function switchLanguage(lang) {
+  if (!LANGS.includes(lang)) lang = 'en';
+  currentLang = lang;
+  window.currentLang = lang;
+  localStorage.setItem('lang', lang);
+  setLabels(lang);
+  if (typeof renderSummaryTable === 'function') renderSummaryTable(lang);
+  setActiveLangBtn(lang);
+  if (window.appManager && typeof window.appManager.loadPenalCodeData === 'function') {
+    window.appManager.loadPenalCodeData();
+  }
+}
+
+function setActiveLangBtn(lang) {
+  const btns = [
+    document.getElementById('lang-en'),
+    document.getElementById('lang-id'),
+    document.getElementById('lang-en-desktop'),
+    document.getElementById('lang-id-desktop')
+  ];
+  btns.forEach(btn => {
+    if (!btn) return;
+    if (btn.id.endsWith(lang)) {
+      btn.classList.add('bg-sky-500', 'text-white');
+      btn.classList.remove('bg-gray-800', 'text-gray-300');
+    } else {
+      btn.classList.remove('bg-sky-500', 'text-white');
+      btn.classList.add('bg-gray-800', 'text-gray-300');
+    }
+  });
+}
+
+document.addEventListener('DOMContentLoaded', function() {
+  const btnEn = document.getElementById('lang-en');
+  const btnId = document.getElementById('lang-id');
+  const btnEnDesktop = document.getElementById('lang-en-desktop');
+  const btnIdDesktop = document.getElementById('lang-id-desktop');
+  if (btnEn) btnEn.onclick = () => switchLanguage('en');
+  if (btnId) btnId.onclick = () => switchLanguage('id');
+  if (btnEnDesktop) btnEnDesktop.onclick = () => switchLanguage('en');
+  if (btnIdDesktop) btnIdDesktop.onclick = () => switchLanguage('id');
+  switchLanguage(currentLang);
+});
+</script>
+<script>
+// Filter Felony/Misdemeanor untuk konten utama: trigger search input
+document.addEventListener('DOMContentLoaded', function() {
+  const mainBtnAll = document.getElementById('main-filter-all-crime');
+  const mainBtnFelony = document.getElementById('main-filter-felony');
+  const mainBtnMisdemeanor = document.getElementById('main-filter-misdemeanor');
+  const searchInput = document.getElementById('search-input');
+  function setActive(btns, activeBtn) {
+    btns.forEach(b => {
+      b.classList.remove('bg-sky-500', 'text-white');
+      b.classList.add('bg-gray-800', 'text-gray-300');
+    });
+    activeBtn.classList.remove('bg-gray-800', 'text-gray-300');
+    activeBtn.classList.add('bg-sky-500', 'text-white');
+  }
+  if (mainBtnAll && mainBtnFelony && mainBtnMisdemeanor && searchInput) {
+    mainBtnAll.addEventListener('click', function() {
+      setActive([mainBtnAll, mainBtnFelony, mainBtnMisdemeanor], mainBtnAll);
+      searchInput.value = '';
+      searchInput.dispatchEvent(new Event('input', { bubbles: true }));
+    });
+    mainBtnFelony.addEventListener('click', function() {
+      setActive([mainBtnAll, mainBtnFelony, mainBtnMisdemeanor], mainBtnFelony);
+      searchInput.value = '(F)';
+      searchInput.dispatchEvent(new Event('input', { bubbles: true }));
+    });
+    mainBtnMisdemeanor.addEventListener('click', function() {
+      setActive([mainBtnAll, mainBtnFelony, mainBtnMisdemeanor], mainBtnMisdemeanor);
+      searchInput.value = '(M)';
+      searchInput.dispatchEvent(new Event('input', { bubbles: true }));
+    });
+  }
+});
+</script>
+<script>
+// Otomatis isi tabel Ringkasan Pelanggaran dari penal-code-[lang].json (array)
+function renderSummaryTable(lang) {
+  fetch(`data/penal-code-${lang}.json`)
+    .then(res => res.json())
+    .then(data => {
+      const allRows = [];
+      data.forEach(title => {
+        if (title.sections && Array.isArray(title.sections)) {
+          title.sections.forEach(section => {
+            let subtitle = section.name || section.title || section.code || '-';
+            subtitle = subtitle.replace(/^CHPC\s*[-\.]?\s*/i, '');
+            const fine = section.fine !== undefined ? section.fine : (section.Fine !== undefined ? section.Fine : undefined);
+            if (fine !== undefined) {
+              let jail = '-';
+              if (section.jail !== undefined) {
+                jail = section.jail;
+              } else if (section.Jail !== undefined) {
+                jail = section.Jail;
+              } else if (section.punishment !== undefined) {
+                jail = section.punishment;
+              }
+              allRows.push({ subtitle, fine, jail });
+            }
+          });
+        }
+      });
+      function renderRows(filter) {
+        const tbody = document.getElementById('summary-table-body');
+        if (!tbody) return;
+        let rows = '';
+        allRows.forEach(row => {
+          if (filter === 'felony' && !/\(F\)/i.test(row.subtitle)) return;
+          if (filter === 'misdemeanor' && !/\(M\)/i.test(row.subtitle)) return;
+          rows += `<tr>
+            <td class=\"px-3 py-2 bg-gray-900/70 text-white rounded-l-lg\">${row.subtitle}</td>
+            <td class=\"px-3 py-2 bg-gray-900/70 text-sky-200\">${row.fine}</td>
+            <td class=\"px-3 py-2 bg-gray-900/70 text-sky-200 rounded-r-lg\">${row.jail}</td>
+          </tr>`;
+        });
+        tbody.innerHTML = rows;
+      }
+      const btnAll = document.getElementById('filter-all-crime');
+      const btnFelony = document.getElementById('filter-felony');
+      const btnMisdemeanor = document.getElementById('filter-misdemeanor');
+      function setActive(btns, activeBtn) {
+        btns.forEach(b => {
+          b.classList.remove('bg-sky-500', 'text-white');
+          b.classList.add('bg-gray-800', 'text-gray-300');
+        });
+        activeBtn.classList.remove('bg-gray-800', 'text-gray-300');
+        activeBtn.classList.add('bg-sky-500', 'text-white');
+      }
+      function setFilter(filter) {
+        setActive([btnAll, btnFelony, btnMisdemeanor],
+          filter === 'all' ? btnAll : filter === 'felony' ? btnFelony : btnMisdemeanor);
+        renderRows(filter);
+      }
+      btnAll.addEventListener('click', function() { setFilter('all'); });
+      btnFelony.addEventListener('click', function() { setFilter('felony'); });
+      btnMisdemeanor.addEventListener('click', function() { setFilter('misdemeanor'); });
+      setFilter('all');
+    });
+}
+window.renderSummaryTable = renderSummaryTable;
+// Jalankan saat load dan saat ganti bahasa
+document.addEventListener('DOMContentLoaded', function() {
+  let lang = window.languageManager ? window.languageManager.currentLang : 'en';
+  renderSummaryTable(lang);
+  // Hook ke languageManager agar update tabel saat ganti bahasa
+  if (window.languageManager) {
+    const origSetLanguage = window.languageManager.setLanguage;
+    window.languageManager.setLanguage = function(lang, loadData = true) {
+      origSetLanguage.call(window.languageManager, lang, loadData);
+      // Selalu render ulang konten utama penal-code-content
+      if (window.appManager && typeof window.appManager.loadPenalCodeData === 'function') {
+        window.appManager.loadPenalCodeData();
+      }
+      renderSummaryTable(lang);
+      // Update semua label multi-bahasa
+      if (window.languageManager && typeof window.languageManager.updateLabels === 'function') {
+        window.languageManager.updateLabels();
+      }
+    };
+  }
+});
+</script>
+</script>
+<script>
+// Fix search filter button active state
+document.addEventListener('DOMContentLoaded', function() {
+  const filters = ['all', 'title', 'code', 'content'];
+  filters.forEach(f => {
+    const radio = document.getElementById('filter-' + f);
+    const span = document.getElementById('filter-' + f + '-span');
+    if (radio && span) {
+      span.addEventListener('click', function() {
+        filters.forEach(ff => {
+          const r = document.getElementById('filter-' + ff);
+          const s = document.getElementById('filter-' + ff + '-span');
+          if (r && s) {
+            r.checked = (ff === f);
+            if (ff === f) {
+              s.classList.remove('bg-gray-800', 'text-gray-300');
+              s.classList.add('bg-sky-500', 'text-white');
+            } else {
+              s.classList.remove('bg-sky-500', 'text-white');
+              s.classList.add('bg-gray-800', 'text-gray-300');
+            }
+          }
+        });
+      });
+    }
+  });
+});
+</script>
+<script src="js/float-btn.js"></script>
+</body>
+</html>

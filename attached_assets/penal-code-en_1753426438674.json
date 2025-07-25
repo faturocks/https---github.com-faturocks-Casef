@@ -1,0 +1,1161 @@
+[
+  {
+    "id": "title-1",
+    "title": "1. POLICY, GUIDELINES AND GENERAL",
+    "sections": [
+      {
+        "code": "1-01. Policy",
+        "text": "All commonly unknown policies and areas of law are explained. All TITLES are listed as reference. All Crimes listed within TITLES are explained and appropriate punishment is given."
+      },
+      {
+        "code": "1-02. Purpose",
+        "text": "• For the safety of Los Santos residents and enforceable jurisdiction while ensuring the prevention of rights alienation and protection of their residents and property.\n• To uphold the rights of the Amendment for proper procedure, cruel and unusual punishment."
+      },
+      {
+        "code": "1-03. Definitions",
+        "definitions": [
+          { "term": "Act", "definition": "A bodily movement, whether voluntary or involuntary, and includes speech." },
+          { "term": "Actor", "definition": "A person whose criminal responsibility is in issue in a proceeding." },
+          { "term": "Agency", "definition": "Includes authority, board, bureau, commission, committee, council, department, district, division, and office." },
+          { "term": "Alcoholic beverage", "definition": "Has the meaning provided by the Alcoholic Beverage Code." },
+          { "term": "Another", "definition": "A person other than the actor." },
+          { "term": "Association", "definition": "A government or subdivision or agency of government, a guardianship, a partnership, or two or more persons having a joint economic interest." },
+          { "term": "Benefit", "definition": "Anything reasonably regarded as a benefit or advantage, economic or otherwise, including benefit to another person in whose welfare the beneficiary is interested." },
+          { "term": "Bodily injury", "definition": "Physical pain, illness, or impairment of physical condition." },
+          { "term": "Civil commitment facility", "definition": "A facility owned, leased, or operated by the state, or by a vendor under contract with the state, that houses only persons who have been civilly committed." },
+          { "term": "Compulsion", "definition": "A threat, however communicated: to commit an offense; to inflict bodily injury in the future on the person threatened or another; to accuse anyone of any offense; to expose anyone to hatred, contempt, or ridicule; to impair the credit or business reputation of anyone; or to take or withhold action as a public servant, or to cause a public servant to take or withhold action." },
+          { "term": "Conduct", "definition": "An act or omission and its accompanying mental state." },
+          { "term": "Consent", "definition": "Express or implied consent." },
+          { "term": "Controlled substance", "definition": "Has the meaning provided by the state substance definition." },
+          { "term": "Corporation", "definition": "Includes a nonprofit corporation, a professional association created under law, and a joint-stock company." },
+          { "term": "Correctional facility", "definition": "A place designated by law for the confinement of a person arrested, charged, or convicted of an offense. The term includes: a city or county jail; a detention facility operated by the State of San Andreas; and a community corrections facility operated by the community supervision and corrections department." },
+          { "term": "Criminal negligence", "definition": "Is defined under this section." },
+          { "term": "Dangerous drug", "definition": "Has the meaning provided by the drug definition, threat to life or limb if used." },
+          { "term": "Deadly weapon", "definition": "A firearm or anything that is in its nature or manner of its use or intended use capable of causing death or serious bodily injury." },
+          { "term": "Drug", "definition": "Has the meaning provided by the substances section." },
+          { "term": "Effective consent", "definition": "Includes consent by a person legally authorized to act for the owner. Consent is not effective if: it is induced by coercion, threat, or fraud; it is given by a person whom the actor knows is not legally authorized to act for the owner; it is given by a person whom the actor knows by reason of youth, disease or defect of mind, or intoxication is unable to make reasonable judgment; or it is given solely to detect the commission of an offense." },
+          { "term": "Element of an offense", "definition": "The forbidden conduct; the required culpability; the required result; and the negation of any exception to the offense." },
+          { "term": "Felony", "definition": "An offense so classified by law or that is punishable by death or confinement in a penitentiary." },
+          { "term": "Government", "definition": "The state; a county, municipality, or political subdivision of the state; or a branch or agency of the state, county, municipality, or political subdivision." },
+          { "term": "Harm", "definition": "Anything reasonably regarded as loss, disadvantage, or injury, including harm to another person in whose welfare the person affected is interested." },
+          { "term": "Individual", "definition": "A living human being, including a fetus at any stage of gestation from fertilization until birth." },
+          { "term": "Law", "definition": "The constitution or statute law of this state or of the United States, a written opinion of a court of record, a municipal ordinance, a county commissioner's court order, or a rule permitted by and lawfully adopted under statute." },
+          { "term": "Misdemeanor", "definition": "An offense so classified by law or that is punishable by fine, confinement in jail, or both." },
+          { "term": "Oath", "definition": "Includes affirmation." },
+          { "term": "Official proceeding", "definition": "Any type of administrative, executive, legislative, or judicial proceeding that may be conducted before a public servant." },
+          { "term": "Omission", "definition": "A failure to act." },
+          { "term": "Owner", "definition": "A person who: has title to the property, has possession of the property, whether lawful or not, or has a greater right to possession of the property than the actor; or is the holder in due course of an instrument that is negotiable." },
+          { "term": "Peace officer", "definition": "A person elected, employed, or appointed as a peace officer." },
+          { "term": "Penal institution", "definition": "A place designated by law for the confinement of persons arrested, charged, or convicted of an offense." },
+          { "term": "Person", "definition": "An individual or corporation, association, limited partnership, or other entity or organization governed by the Business Organizations Code." },
+          { "term": "Possession", "definition": "Actual care, custody, control, or management." },
+          { "term": "Public place", "definition": "Any place to which the public or a substantial group of the public has access and includes, but is not limited to, streets, highways, and the common areas of schools, hospitals, apartment houses, office buildings, transportation facilities, and retail stores." },
+          { "term": "Public servant", "definition": "A person elected, appointed, employed, or nominated for any of the following, even if he has not yet qualified for office or taken up the duties of his office: an officer, employee, or agent of government; a juror or grand juror; or an arbiter, referee, or other person who is authorized by law or private written agreement to hear or determine a case or controversy; or an attorney or public notary when participating in the performance of a governmental function; or a candidate for nomination or election to public office; or a person exercising a governmental function under claim of right although he is not legally qualified to do so." },
+          { "term": "Reasonable belief", "definition": "A belief that would be held by an ordinary and prudent person in the same circumstances as the actor." },
+          { "term": "Rule", "definition": "Includes regulation." },
+          { "term": "Secure correctional facility", "definition": "A city or county jail." },
+          { "term": "Serious bodily injury", "definition": "Bodily injury that creates a substantial risk of death or that causes death, serious permanent disfigurement, or protracted loss or impairment of the function of any bodily member or organ." },
+          { "term": "Unlawful", "definition": "Criminal or civil or both and includes what would be criminal or civil but for the existence of a defense that is not equivalent to justification or privilege." },
+          { "term": "Death", "definition": "For an individual who is a fetus, failure to be born alive." }
+        ],
+        "note": "Definition of a term in this code applies to any grammatical variation of the term."
+      },
+      {
+        "code": "1-04. Classification of Crimes",
+        "text": "All punishments are classified in 1 of 3 ways.\n• <strong>Infraction</strong> - Minor violation of criminal law. Often a traffic violation, resulting in a fine or loss of privilege.\n• <strong>Misdemeanor</strong> - A crime that is less serious than a felony. Generally punishable by up to 1 year in county jail.\n• <strong>Felony</strong> - A crime that is more serious than a misdemeanor. Punishable by death or imprisonment in state prison."
+      },
+      {
+        "code": "1-05. Rights of the Accused",
+        "text": "• An accused person has the right to remain silent. Anything they say can and will be used against them in a court of law.\n• An accused person has the right to an attorney. If they cannot afford one, one will be provided for them.\n• An accused person has the right to a speedy and public trial by an impartial jury.\n• An accused person has the right to confront the witnesses against them.\n• An accused person has the right to compel the attendance of witnesses in their favor."
+      },
+      {
+        "code": "1-06. Burden of Proof",
+        "text": "• In criminal cases, the burden of proof is on the prosecution. The defendant is presumed innocent until proven guilty beyond a reasonable doubt.\n• In civil cases, the burden of proof is on the plaintiff. The defendant is presumed not liable unless proven otherwise by a preponderance of the evidence."
+      },
+      {
+        "code": "1-07. Double Jeopardy",
+        "text": "• No person shall be subject for the same offense to be twice put in jeopardy of life or limb.\n• If a person is acquitted or convicted of a crime, they cannot be tried again for the same crime based on the same facts."
+      },
+      {
+        "code": "1-08. Search and Seizure",
+        "text": "• The right of the people to be secure in their persons, houses, papers, and effects, against unreasonable searches and seizures, shall not be violated.\n• No warrants shall issue, but upon probable cause, supported by oath or affirmation, and particularly describing the place to be searched, and the persons or things to be seized."
+      },
+      {
+        "code": "1-09. Self Defense and Defense of Others",
+        "text": "• A person is justified in using force against another when and to the extent they reasonably believe the force is necessary to protect themselves or a third person from the imminent use of unlawful force by the other person.\n• A person is justified in using deadly force only if they reasonably believe it is necessary to prevent death or great bodily harm to themselves or a third person, or to prevent the commission of a forcible felony."
+      },
+      {
+        "code": "1-10. Insanity Defense",
+        "text": "• A person is not responsible for criminal conduct if at the time of such conduct, as a result of a mental disease or defect, they lack substantial capacity either to appreciate the criminality of their conduct or to conform their conduct to the requirements of the law."
+      },
+      {
+        "code": "1-11. Entrapment",
+        "text": "• It is a defense to a criminal charge that the defendant engaged in the prohibited conduct because they were induced or encouraged to do so by a law enforcement officer or agent.\n• Mere solicitation, without more, does not constitute entrapment."
+      },
+      {
+        "code": "1-12. Duress",
+        "text": "• A person is not guilty of an offense if their conduct is coerced by the use or threatened use of unlawful force against their person or the person of another, which force or threat thereof is sufficient to establish duress."
+      },
+      {
+        "code": "1-13. Necessity",
+        "text": "• Conduct that the actor believes to be necessary to avoid a harm or evil, is justified if:\n  1. The harm or evil sought to be avoided by such conduct is greater than that sought to be prevented by the law defining the offense charged.\n  2. Neither the actor nor another person brought about the harm or evil.\n  3. The harm or evil imminent.\n  4. There is no legal alternative to the conduct."
+      },
+      {
+        "code": "1-14. Statute of Limitations",
+        "text": "• Except as provided in subsection (b), no person may be prosecuted for a misdemeanor unless an indictment or information is filed within one year after the commission of the offense.\n• No person may be prosecuted for a felony unless an indictment or information is filed within three years after the commission of the offense.\n• There is no statute of limitations for murder, voluntary manslaughter, or any felony punishable by death or life imprisonment."
+      },
+      {
+        "code": "1-15. Speedy Trial",
+        "text": "• A person charged with a crime shall be brought to trial within 100 days of arraignment if held in custody, or within one year if released on bail or own recognizance.\n• Delay caused by the defendant, or by the unavailability of evidence or witnesses, may toll the speedy trial clock."
+      },
+      {
+        "code": "1-16. Bail",
+        "text": "• Bail may be granted to a defendant charged with a bailable offense.\n• Bail may be denied if the court finds clear and convincing evidence that no condition or combination of conditions will reasonably assure the appearance of the person as required or the safety of any other person or the community.\n• Bail shall not be excessive."
+      },
+      {
+        "code": "1-17. Vehicle Forfeiture",
+        "text": "If a vehicle has been used to speed and the violator has multiple citations for exceeding the speed limit by 30 MPH+, the vehicle may be seized at a cost of $1,000-$15,000."
+      },
+      {
+        "code": "1-18. Civil Court",
+        "text": "All civil claims are limited up to the amount of $300,000 except if related to medical malpractice. In this case, the limit is $500,000."
+      },
+      {
+        "code": "1-19. Witness Testimony",
+        "text": "• Witnesses to a crime or other act may request their statement be submitted to court as evidence, but only if the witness has signed the statement under the threat of perjury charges making their statement legally valid.\n• Anonymous witnesses may be requested to testify in open court."
+      }
+    ]
+  },
+  {
+    "id": "title-2",
+    "title": "2. CRIMES AGAINST THE PERSON",
+    "sections": [
+      {
+        "code": "(2)01. Criminal threats (M)",
+        "text": "1. A person who willfully threatens to commit a crime which may result in death or great bodily injury to another person, with the specific intent that the statement is to be taken as a threat, even if there is no intent of actually carrying it out, is guilty under this code.",
+        "punishment": "Up to 10 months",
+        "fine": "$300"
+      },
+      {
+        "code": "(2)02. Assault (M)",
+        "text": "1. A person who attempts, by force or violence, to injure the person of another, is guilty under this code.",
+        "punishment": "Up to 30 months",
+        "fine": "$500"
+      },
+      {
+        "code": "(2)03. Assault with a deadly weapon (F)",
+        "text": "1. A person who assaults another with a deadly weapon or instrument other than a firearm, or by any means of force likely to produce great bodily injury, is guilty under this code.",
+        "punishment": "Up to 60 months",
+        "fine": "$1000"
+      },
+      {
+        "code": "(2)04. Battery (M)",
+        "text": "1. A person who willfully and unlawfully uses force or violence upon the person of another, is guilty under this code.",
+        "punishment": "Up to 30 months",
+        "fine": "$500"
+      },
+      {
+        "code": "(2)05. Aggravated Battery (F)",
+        "text": "1. A person who commits battery causing serious bodily injury to any person, or inflicts great bodily injury upon a peace officer, firefighter, paramedic, or emergency medical technician, is guilty under this code.",
+        "punishment": "Up to 60 months",
+        "fine": "$1000"
+      },
+      {
+        "code": "(2)06. Battery on a Peace Officer (F)",
+        "text": "1. A person who commits battery upon a peace officer, firefighter, paramedic, or emergency medical technician engaged in the performance of their duties, is guilty under this code.",
+        "punishment": "Up to 60 months",
+        "fine": "$1000"
+      },
+      {
+        "code": "(2)07. Mayhem (F)",
+        "text": "1. A person who unlawfully and maliciously deprives a human being of a member of his or her body, or disables, disfigures, or renders it useless, or who cuts or disables the tongue or puts out an eye, or cuts off or disables a limb or any member of another, is guilty under this code.",
+        "punishment": "Up to 90 months",
+        "fine": "$1500"
+      },
+      {
+        "code": "(2)08. Kidnapping (F)",
+        "text": "1. A person who forcibly, or by any other means of instilling fear, steals or takes, or holds, detains, or arrests any person, is guilty under this code.\n2. A person who forcibly, or by any other means of instilling fear, steals or takes, or holds, detains, or arrests any government employee for the purpose of protection from arrest, which substantially increases the risk of harm to the victim, or for the purpose of using the person as a shield, is guilty under this code.",
+        "punishment": "Up to 40 months",
+        "fine": "$1000"
+      },
+      {
+        "code": "(2)09. False Imprisonment (M)",
+        "text": "1. A person who unlawfully and without authority arrests, confines, or restrains any person and causes them to stay or go somewhere against their will, is guilty under this code.",
+        "punishment": "Up to 60 months",
+        "fine": "$400"
+      },
+      {
+        "code": "(2)10. False Imprisonment of a Government Employee (F)",
+        "text": "1. A person who unlawfully and without authority arrests, confines, or restrains any person and causes them to stay or go somewhere against their will, is guilty under this code.\n2. A person who forcibly, or by any other means of instilling fear, steals or takes, or holds, detains, or arrests any government employee including peace officers, is guilty under this code.\n3. A person who commits false imprisonment for the purpose of protecting themselves from arrest, is guilty under this code.",
+        "punishment": "Up to 40 months",
+        "fine": "$1000"
+      },
+      {
+        "code": "(2)11. Torture (F)",
+        "text": "1. A person who intentionally causes extreme physical or mental pain or suffering to another person for the purpose of revenge, extortion, persuasion, or for any sadistic purpose, is guilty under this code.",
+        "punishment": "Up to 90 months",
+        "fine": "$5000"
+      },
+      {
+        "code": "(2)12. Murder (F)",
+        "text": "1. A person who unlawfully kills a human being, or a fetus capable of living outside the womb, with malice aforethought, express or implied, is guilty under this code.\n2. A person who commits murder while engaged in the perpetration or attempted perpetration of certain felonies, is guilty under this code.\n*Punishment is determined by court ruling.*",
+        "punishment": "Up to 240 months",
+        "fine": "$5000"
+      },
+      {
+        "code": "(2)13. Voluntary Manslaughter (F)",
+        "text": "1. A person who unlawfully kills a human being or a fetus capable of living outside the womb, without malice aforethought, upon a sudden quarrel or heat of passion, is guilty under this code.",
+        "punishment": "Up to 120 months",
+        "fine": "$2500"
+      },
+      {
+        "code": "(2)14. Involuntary Manslaughter (F)",
+        "text": "1. A person who kills another person without lawful justification and in the commission of an unlawful act, not amounting to a felony, or in the commission of a lawful act which might produce death, in an unlawful manner, or without due caution and circumspection, is guilty under this code.",
+        "punishment": "Up to 60 months",
+        "fine": "$1500"
+      },
+      {
+        "code": "(2)15. Attempted Murder (F)",
+        "text": "1. A person who attempts to kill another human being with express malice aforethought, but fails in the perpetration or is prevented from completing the act, is guilty under this code.\n2. A person who attempts to kill a peace officer engaged in the performance of their duties, is guilty under this code.",
+        "punishment": "Up to 120 months",
+        "fine": "$2500"
+      }
+    ]
+  },
+  {
+    "id": "title-3",
+    "title": "3. CRIMES AGAINST PROPERTY",
+    "sections": [
+      {
+        "code": "(3)01. Arson (F)",
+        "text": "1. A person who willfully and maliciously sets fire to or burns or causes to be burned, or who aids, counsels, or procures the burning of, any structure, forest land, or property, is guilty under this code.",
+        "punishment": "Up to 90 months",
+        "fine": "$3000"
+      },
+      {
+        "code": "(3)02. Burglary (F)",
+        "text": "1. A person who enters any house, room, apartment, tenement, shop, warehouse, store, mill, barn, stable, outhouse or other building, tent, vessel, or any railroad car, or the enclosure or any part of the grounds of any such building with intent to commit grand or petit larceny or any felony, is guilty under this code.",
+        "punishment": "Up to 60 months",
+        "fine": "$1000"
+      },
+      {
+        "code": "(3)03. Possession of Burglary Tools (M)",
+        "text": "1. A person who possesses any bit, drill, jimmy, screwdriver, picklock, slender piece of metal or other implement, with the intent to use the same for breaking into or opening any building, is guilty under this code.\nTools may include, but are not limited to:\n• Tools\n• Lockpicks\n• Slimjims\n• Screwdrivers\n• Crowbars",
+        "punishment": "Up to 0 months",
+        "fine": "$350"
+      },
+      {
+        "code": "(3)04. Robbery (F)",
+        "text": "1. A person who takes property from the possession of another against their will, by means of force or fear, such as through criminal threats, blunt weapons, assault or battery, is guilty under this code.",
+        "punishment": "Up to 120 months",
+        "fine": "$500"
+      },
+      {
+        "code": "(3)05. Armed Robbery (F)",
+        "text": "1. A person who takes property from the possession of another against their will, by means of force facilitated with any firearm or sharp weapon, is guilty under this code.",
+        "punishment": "Up to 60 months",
+        "fine": "$1000"
+      },
+      {
+        "code": "(3)06. Petty Theft (M)",
+        "text": "1. A person who steals or takes personal property of another valued at $950 or less, is guilty under this code.\n2. A person who fails to pay a contract or invoice within a reasonable time frame for services valued at a total less than $950, is guilty under this code.",
+        "punishment": "Up to 10 months",
+        "fine": "$1500"
+      },
+      {
+        "code": "(3)07. Grand Theft (M/F)",
+        "text": "1. A person who steals or takes personal property of another valued at over $950, or any firearm regardless of value, is guilty under this code.\n2. A person who fails to pay a contract or invoice within a reasonable time frame for services valued at a total over $950, is guilty under this code.\n3. Automatic - A person who is believed by law enforcement based on probable cause to have stolen a vehicle, is guilty under this code.",
+        "punishment": "Up to 180 months",
+        "fine": "$1500"
+      },
+      {
+        "code": "(3)08. Receiving Stolen Property (M)",
+        "text": "1. A person who buys, receives, conceals, sells, or withholds property that they know or believe to be stolen, is guilty under this code.",
+        "punishment": "Up to 30 months",
+        "fine": "$500"
+      },
+      {
+        "code": "(3)09. Embezzlement (F)",
+        "text": "1. A person who fraudulently appropriates property which has been entrusted to them, is guilty under this code.",
+        "punishment": "Up to 90 months",
+        "fine": "$2000"
+      },
+      {
+        "code": "(3)10. Possession of Stolen Vehicle (M)",
+        "text": "1. A person who knowingly buys, sells, receives, conceals, or possesses a vehicle that they know or believe to be stolen, is guilty under this code.",
+        "punishment": "Up to 30 months",
+        "fine": "$1000"
+      },
+      {
+        "code": "(3)11. Forgery/Fraud (F)",
+        "text": "1. A person who willfully alters, makes, or uses any written document with the intent to deceive or defraud another person, is guilty under this code.\n2. A person who willfully signs a document or agreement, electronic or otherwise, without the consent or authority of whom they are signing for, is guilty under this code.\n3. A person who possesses, buys, sells, transfers, or conceals identification documents or personal information with the intent to commit fraud or another crime, is guilty under this code.",
+        "punishment": "Up to 30 months",
+        "fine": "$1000"
+      },
+      {
+        "code": "(3)12. Vandalism (M)",
+        "text": "1. A person who damages, destroys, or defaces the property of another, is guilty under this code.",
+        "punishment": "Up to 30 months",
+        "fine": "$500"
+      },
+      {
+        "code": "(3)13. Extortion (F)",
+        "text": "1. A person who obtains property from another, with their consent, induced by wrongful use of force or fear, or under color of official right, is guilty under this code.",
+        "punishment": "Up to 120 months",
+        "fine": "$2000"
+      }
+    ]
+  },
+  {
+    "id": "title-4",
+    "title": "4. CRIMES AGAINST PUBLIC DECENCY",
+    "sections": [
+      {
+        "code": "(4)01. Indecent Exposure (M)",
+        "text": "1. A person who willfully and lewdly exposes their person, or the private parts thereof, in any public place or in view of the public, is guilty under this code.",
+        "punishment": "Up to 10 months",
+        "fine": "$300"
+      },
+      {
+        "code": "(4)02. Lewd Conduct (F)",
+        "text": "1. A person who engages in lewd or lascivious conduct in the presence of a child under the age of 14 years, with the intent of arousing, appealing to, or gratifying the lust or passions of that person or the child, is guilty under this code.",
+        "punishment": "Up to 90 months",
+        "fine": "$3000"
+      },
+      {
+        "code": "(4)03. Soliciting Prostitution (M)",
+        "text": "1. A person who solicits another person to engage in an act of prostitution, is guilty under this code.",
+        "punishment": "Up to 30 months",
+        "fine": "$500"
+      },
+      {
+        "code": "(4)04. Prostitution (M)",
+        "text": "1. A person who engages in an act of prostitution, is guilty under this code.",
+        "punishment": "Up to 30 months",
+        "fine": "$500"
+      },
+      {
+        "code": "(4)05. Pandering (F)",
+        "text": "1. A person who procures or encourages another person to become a prostitute, or who lives wholly or in part from the earnings of prostitution, is guilty under this code.",
+        "punishment": "Up to 60 months",
+        "fine": "$1000"
+      },
+      {
+        "code": "(4)06. Rape (F)",
+        "text": "1. A person who forces another person to engage in sexual intercourse, is guilty under this code.\n2. A person who engages in sexual intercourse without consent with another person, is guilty under this code.\n3. A person who engages in sexual intercourse with another person who is incapacitated, disabled, or unable to give consent, is guilty under this code.",
+        "punishment": "Up to 90 months",
+        "fine": "$5000"
+      },
+      {
+        "code": "(4)07. Stalking (F)",
+        "text": "1. A person who willfully, maliciously, and repeatedly follows or harasses another person and who makes a credible threat with the intent to place that person in reasonable fear for their safety or the safety of their immediate family, is guilty under this code.",
+        "punishment": "Up to 60 months",
+        "fine": "$1000"
+      }
+    ]
+  },
+  {
+    "id": "title-5",
+    "title": "5. CRIMES AGAINST PUBLIC JUSTICE",
+    "sections": [
+      {
+        "code": "(5)01. Bribery (F)",
+        "text": "1. A person who gives or offers any bribe to any executive, legislative, administrative, or judicial officer of the state or any political subdivision, or to any person selected to serve on any jury, is guilty under this code.\n2. A person who solicits, accepts, or agrees to accept any bribe, is guilty under this code.",
+        "punishment": "Up to 120 months",
+        "fine": "$5000"
+      },
+      {
+        "code": "(5)02. Perjury (F)",
+        "text": "1. A person who, having taken an oath that they know to be false, willfully states as true any material matter which they know to be false, is guilty under this code.",
+        "punishment": "Up to 90 months",
+        "fine": "$3000"
+      },
+      {
+        "code": "(5)03. Filing a False Report (M)",
+        "text": "1. A person who willfully files a false or fraudulent report with any peace officer or public servant, knowing the information to be false, is guilty under this code.",
+        "punishment": "Up to 30 months",
+        "fine": "$500"
+      },
+      {
+        "code": "(5)04. Obstruction of Justice (F)",
+        "text": "1. A person who willfully endeavors to prevent, obstruct, or delay the communication of information or testimony to any legislative, executive, or judicial officer or agency, or to any peace officer, prosecutor, or judge, concerning the commission of a crime, is guilty under this code.",
+        "punishment": "Up to 60 months",
+        "fine": "$1000"
+      },
+      {
+        "code": "(5)05. Tampering with Evidence (F)",
+        "text": "1. A person who knows that a crime has been committed and willfully destroys, alters, conceals, or removes evidence with the intent to prevent its use in any official proceeding, or to impair its verity or availability, is guilty under this code.",
+        "punishment": "Up to 60 months",
+        "fine": "$1000"
+      },
+      {
+        "code": "(5)06. Accessory After the Fact (F)",
+        "text": "1. A person who, after a felony has been committed, harbors, conceals, or aids a principal felon, with the intent that the felon may avoid or escape from arrest, trial, conviction, or punishment, having knowledge that the person has committed a felony, is guilty under this code.",
+        "punishment": "Up to 60 months",
+        "fine": "$1000"
+      },
+      {
+        "code": "(5)07. Conspiracy (F)",
+        "text": "1. If two or more people conspire to commit any crime, to falsely and maliciously charge another with any crime, or to cause another to be prosecuted or arrested for any crime, they shall be punished in the same manner as if the offense had been completed.",
+        "punishment": "Up to 120 months",
+        "fine": "$2500"
+      },
+      {
+        "code": "(5)08. Soliciting (LEVEL 3)",
+        "text": "1. A person who solicits to commit or perform any crime shall be punished in the same manner as if the offense had been completed.",
+        "punishment": "Level 3",
+        "fine": "N/A"
+      },
+      {
+        "code": "(5)09. Weapon Violation (LEVEL 4)",
+        "text": "1. A person who commits a felony while possessing a firearm shall have their firearm license revoked.\n2. A person who demonstrates illegal or irresponsible use of a firearm shall be presumed to have their firearm license suspended or revoked depending on the criminal entry of the firearm violation. If there is no description, it will be officer discretion.",
+        "punishment": "Level 4",
+        "fine": "N/A"
+      },
+      {
+        "code": "(5)10. Impersonation (F)",
+        "text": "1. A person who falsely represents themselves as a peace officer, firefighter, paramedic, emergency medical technician, or other government official, with the intent to obtain a benefit or to deceive another, is guilty under this code.",
+        "punishment": "Up to 60 months",
+        "fine": "$1500"
+      },
+      {
+        "code": "(5)11. Escape (F)",
+        "text": "1. A person who escapes or attempts to escape from the custody of a peace officer or from a jail or prison, is guilty under this code.",
+        "punishment": "Up to 60 months",
+        "fine": "$1000"
+      },
+      {
+        "code": "(5)12. Human Trafficking Violation (F)",
+        "text": "1. A person who willfully smuggles a non-citizen into the state without proper visa and authorization, is guilty under this code.\n2. A person who willfully restricts the liberty of another person with the intent for forced labor or sex trafficking, or other forced activity, is guilty under this code.\n3. This charge cannot be combined with Kidnapping.",
+        "punishment": "Up to 360 months",
+        "fine": "$5000"
+      },
+      {
+        "code": "(5)13. Abuse of Government Channels (M)",
+        "text": "1. A person who willfully uses government communication channels for personal use or for non-official business, is guilty under this code.",
+        "punishment": "Up to 30 months",
+        "fine": "$500"
+      },
+      {
+        "code": "(5)14. Impersonation of a Government Employee (F)",
+        "text": "1. A person is guilty if they fraudulently assume or pretend to be the possessor of the following with the intent to obtain money, property, or any other tangible benefit:\n• Medal of Honor\n• Peace Officer Identification\n• Peace Officer Vest\n• Paramedic Clothing\n• Government Employee ID Card\n• Peace Officer ID Card\n• Any replacement or duplicate medal for such medal as authorized by law.",
+        "punishment": "Up to 90 months",
+        "fine": "$3500"
+      },
+      {
+        "code": "(5)15. Destruction of Government Employee Identity (F)",
+        "text": "1. A person is guilty under this code if they willfully, unlawfully, or maliciously deface, damage, or contaminate public property of San Andreas, United States to obtain money, property, or any other tangible benefit while fraudulently assuming or pretending to be the possessor of the following:\n• Medal of Honor\n• Peace Officer Identification\n• Peace Officer Vest\n• Paramedic Clothing\n• Government Employee ID Card\n• Peace Officer ID Card\n• Any replacement or duplicate medal for such medal as authorized by law.",
+        "punishment": "Up to 90 months",
+        "fine": "$3500"
+      }
+    ]
+  },
+  {
+    "id": "title-6",
+    "title": "6. CRIMES AGAINST PUBLIC PEACE",
+    "sections": [
+      {
+        "code": "(6)01. Disturbing the Peace (M)",
+        "text": "• Any person who unlawfully fights in a public place or challenges another person in a public place to fight, is guilty under this code.\n• Any person who willfully and maliciously disturbs another person with loud and unreasonable noise, is guilty under this code.",
+        "punishment": "Up to 10 months",
+        "fine": "$2000"
+      },
+      {
+        "code": "(6)02. Riot (F)",
+        "text": "1. A person who engages in conduct which creates a grave danger of damage to property or injury to persons, or substantially obstructs law enforcement or other governmental functions, is guilty under this code.",
+        "punishment": "Up to 60 months",
+        "fine": "$1000"
+      },
+      {
+        "code": "(6)03. Inciting a Riot (M)",
+        "text": "1. A person who, with the intent to cause a riot, performs any act or engages in conduct that urges a riot, or urges others to engage in acts of force or violence, or burning or destroying property, and at the time and place and under the circumstances that create a clear and present and immediate danger of acts of force or violence or burning or destroying property, is guilty under this code.",
+        "punishment": "Up to 30 months",
+        "fine": "$800"
+      }
+    ]
+  },
+  {
+    "id": "title-7",
+    "title": "7. CRIMES AGAINST PUBLIC HEALTH AND SAFETY",
+    "sections": [
+      {
+        "code": "(7)01. Possession of Controlled Substance (M)",
+        "text": "1. A person who unlawfully possesses a controlled substance, marijuana, or multiple controlled substances in large quantities, is guilty under this code.\n2. A person who unlawfully possesses a controlled substance or packaged marijuana in separate bags or packages, is guilty under this code.",
+        "punishment": "Up to 60 months",
+        "fine": "$1500"
+      },
+      {
+        "code": "(7)02. Possession of Drug Paraphernalia (M)",
+        "text": "1. A person who willfully possesses a device or mechanism used exclusively for the preparation, distribution, or consumption of illegal controlled substances, is guilty under this code.",
+        "punishment": "Up to 90 months",
+        "fine": "$1500"
+      },
+      {
+        "code": "(7)03. Maintaining a Place for Distribution (F)",
+        "text": "1. A person who opens or maintains any property for the purpose of selling, giving, storing, or using illegal controlled substances, firearms, or other illegal devices, goods, or services, is guilty under this code.",
+        "punishment": "Up to 120 months",
+        "fine": "$3000"
+      },
+      {
+        "code": "(7)04. Sale or Distribution of Controlled Substance (F)",
+        "text": "1. A person who sells, offers to sell, transports with the intent to sell, or gives a controlled substance to another person, regardless of whether they possess the controlled substance or not, is guilty under this code.",
+        "punishment": "Up to 90 months",
+        "fine": "$3000"
+      },
+      {
+        "code": "(7)05. Under the Influence of a Controlled Substance (M)",
+        "text": "1. A person who uses or is under the influence of a controlled substance or dangerous substance without proper authorization or prescription to use the substance, is guilty under this code.",
+        "punishment": "Up to 90 months",
+        "fine": "$5000"
+      },
+      {
+        "code": "(7)06. Littering (M)",
+        "text": "1. As used in this section, 'litter' means trash, waste, ashes, cans, bottles, wire, paper, cardboard, ship parts, vehicle parts, furniture, glass, or anything unsightly or unhealthful.\n2. No person shall place waste, trash, or foreign objects in any area or container except those provided for that purpose.",
+        "punishment": "Up to 0 months",
+        "fine": "$300"
+      },
+      {
+        "code": "(7)07. Loitering for Prostitution (M)",
+        "text": "1. A person who loiters, wanders, or remains in a place with the intent to commit prostitution, is guilty under this code.",
+        "punishment": "Up to 30 months",
+        "fine": "$500"
+      }
+    ]
+  },
+  {
+    "id": "title-8",
+    "title": "8. CRIMES AGAINST STATE DEPENDENTS",
+    "sections": [
+      {
+        "code": "(8)01. Child Abuse (F)",
+        "text": "1. A person who willfully causes or permits any child to suffer, or inflicts upon any child any injury, or allows a child to be placed in a situation where their health is endangered, is guilty under this code.",
+        "punishment": "Up to 120 months",
+        "fine": "$2000"
+      },
+      {
+        "code": "(8)02. Child Neglect (F)",
+        "text": "1. A person who fails to provide necessary food, clothing, shelter, medical care, or supervision for a child, is guilty under this code.",
+        "punishment": "Up to 90 months",
+        "fine": "$1500"
+      },
+      {
+        "code": "(8)03. Contributing to the Delinquency of a Minor (M)",
+        "text": "1. A person who encourages, aids, abets, or contributes to the dependency, delinquency, or waywardness of any minor, is guilty under this code.",
+        "punishment": "Up to 30 months",
+        "fine": "$500"
+      }
+    ]
+  },
+  {
+    "id": "title-9",
+    "title": "9. RESTRICTIONS OF DEADLY WEAPONS AND EQUIPMENT",
+    "sections": [
+      {
+        "code": "(9)01. Unlawful Possession of a Firearm (F)",
+        "text": "1. A person who possesses a firearm in violation of state law, is guilty under this code.",
+        "punishment": "Up to 60 months",
+        "fine": "$1000"
+      },
+      {
+        "code": "(9)02. Brandishing a Firearm (F)",
+        "text": "1. A person who draws or exhibits any deadly weapon, other than a firearm, in a rude, angry, or threatening manner, or unlawfully uses a firearm in any way, is guilty under this code.\n2. A person who holds an object in a manner similar to a firearm attempting to instill fear or the same response as brandishing an actual firearm, is guilty under this code.",
+        "punishment": "Up to 60 months",
+        "fine": "$1500"
+      },
+      {
+        "code": "(9)03. Firearm Use Violation (F)",
+        "text": "1. A person who willfully discharges a firearm in a grossly negligent manner which could cause injury or death, is guilty under this code.",
+        "punishment": "Up to 60 months",
+        "fine": "$1000"
+      },
+      {
+        "code": "(9)04. Unlawful Possession of a Knife (M)",
+        "text": "1. A person who carries a dirk or dagger openly or concealed, or who carries a concealed knife with a blade longer than 3 inches, is guilty under this code.",
+        "punishment": "Up to 30 months",
+        "fine": "$500"
+      },
+      {
+        "code": "(9)05. Felon in Possession of a Firearm (F)",
+        "text": "1. A person who has been convicted of a felony and who possesses a firearm, is guilty under this code.",
+        "punishment": "Up to 60 months",
+        "fine": "$1000"
+      },
+      {
+        "code": "(9)06. Possession of an Explosive (F)",
+        "text": "1. A person who unlawfully possesses any explosive or incendiary device, is guilty under this code.",
+        "punishment": "Up to 120 months",
+        "fine": "$5000"
+      },
+      {
+        "code": "(9)07. Reckless Endangerment (M)",
+        "text": "1. A person who recklessly engages in conduct which creates a substantial risk of serious physical injury to another person, is guilty under this code.",
+        "punishment": "Up to 30 months",
+        "fine": "$500"
+      },
+      {
+        "code": "(9)08. Felonious Assault with a Deadly Weapon (F)",
+        "text": "1. A person who commits assault with a deadly weapon upon another person with the intent to commit a felony or inflict great bodily injury, is guilty under this code.",
+        "punishment": "Up to 90 months",
+        "fine": "$2000"
+      },
+      {
+        "code": "(9)09. Serious Felon in Possession of a Weapon (F)",
+        "text": "1. A person who has a history of serious violent felonies, or a serious felony within the past year who possesses any type of weapon whether firearm or controlled knife weapon, is guilty under this code.",
+        "punishment": "Up to 40 months",
+        "fine": "$1500"
+      }
+    ]
+  },
+  {
+    "id": "title-10",
+    "title": "10. CRIMES AGAINST AUTHORITY AND AUTONOMY OF THE STATE",
+    "sections": [
+      {
+        "code": "(10)01. Treason",
+        "text": "1. A person who levies war against the state, or adheres to its enemies, giving them aid and comfort, is guilty of treason.",
+        "punishment": "Death or life imprisonment",
+        "fine": "N/A"
+      },
+      {
+        "code": "(10)02. Sedition (F)",
+        "text": "1. A person who willfully advocates the overthrow of the government by force, violence, or other unlawful means, or who willfully organizes or helps to organize any group for the purpose of advocating such overthrow, is guilty under this code.",
+        "punishment": "Up to 120 months",
+        "fine": "$5000"
+      },
+      {
+        "code": "(10)03. Resisting Arrest (M)",
+        "text": "1. A person who willfully resists, delays, or obstructs any peace officer in the discharge of their duty, is guilty under this code.",
+        "punishment": "Up to 30 months",
+        "fine": "$500"
+      },
+      {
+        "code": "(10)04. Evading a Peace Officer (F)",
+        "text": "1. A person who flees or attempts to elude a pursuing peace officer's motor vehicle, is guilty under this code.",
+        "punishment": "Up to 60 months",
+        "fine": "$1000"
+      },
+      {
+        "code": "(10)05. Failure to Obey a Peace Officer (M)",
+        "text": "1. A person who willfully fails or refuses to comply with any lawful order or directive of a peace officer engaged in the performance of their duties, is guilty under this code.",
+        "punishment": "Up to 30 months",
+        "fine": "$500"
+      },
+      {
+        "code": "(10)06. Impersonating a Peace Officer (F)",
+        "text": "1. A person who falsely represents themselves as a peace officer, with the intent to deceive or gain an advantage, is guilty under this code.",
+        "punishment": "Up to 60 months",
+        "fine": "$1000"
+      }
+    ]
+  },
+  {
+    "id": "title-11",
+    "title": "11. OPERATION OF AIRCRAFT",
+    "sections": [
+      {
+        "code": "(11)01. Reckless Operation of Aircraft (F)",
+        "text": "1. A person who operates an aircraft recklessly or with willful disregard for the safety of persons or property, is guilty under this code.",
+        "punishment": "Up to 60 months",
+        "fine": "$2000"
+      },
+      {
+        "code": "(11)02. Flying Under the Influence (F)",
+        "text": "1. A person who operates an aircraft while under the influence of alcohol or drugs, is guilty under this code.",
+        "punishment": "Up to 90 months",
+        "fine": "$3000"
+      }
+    ]
+  },
+  {
+    "id": "title-12",
+    "title": "12. OPERATION OF MARINE VESSELS",
+    "sections": [
+      {
+        "code": "(12)01. Reckless Operation of Watercraft (F)",
+        "text": "1. A person who operates a watercraft recklessly or with willful disregard for the safety of persons or property, is guilty under this code.",
+        "punishment": "Up to 60 months",
+        "fine": "$2000"
+      },
+      {
+        "code": "(12)02. Boating Under the Influence (F)",
+        "text": "1. A person who operates a watercraft while under the influence of alcohol or drugs, is guilty under this code.",
+        "punishment": "Up to 90 months",
+        "fine": "$3000"
+      }
+    ]
+  },
+  {
+    "id": "title-13",
+    "title": "13. ENHANCEMENTS",
+    "sections": [
+      {
+        "code": "(13)01. Habitual Offender (F)",
+        "text": "1. A person who has been convicted of multiple felonies and continues to commit crimes, may be subject to enhanced penalties.",
+        "punishment": "Enhanced sentencing",
+        "fine": "N/A"
+      },
+      {
+        "code": "(13)02. Hate Crime Enhancement",
+        "text": "1. Any crime committed because of the victim's race, religion, sexual orientation, or other protected characteristic, may be subject to enhanced penalties.",
+        "punishment": "Enhanced sentencing",
+        "fine": "N/A"
+      }
+    ]
+  },
+  {
+    "id": "title-14",
+    "title": "14. MISCELLANEOUS CRIMES",
+    "sections": [
+      {
+        "code": "(14)01. Unlawful Assembly (M)",
+        "text": "1. A person who participates in an unlawful assembly, is guilty under this code.",
+        "punishment": "Up to 30 months",
+        "fine": "$500"
+      },
+      {
+        "code": "(14)02. Contempt of Court (M)",
+        "text": "1. A person who willfully disobeys any lawful order or process of a court, is guilty under this code.",
+        "punishment": "Up to 30 months",
+        "fine": "$500"
+      },
+      {
+        "code": "(14)03. Perjury in Official Matters (F)",
+        "text": "1. A person who commits perjury in any official proceeding, is guilty under this code.",
+        "punishment": "Up to 90 months",
+        "fine": "$3000"
+      },
+      {
+        "code": "(14)04. Filing a False Document (F)",
+        "text": "1. A person who willfully files a false document with any government agency, is guilty under this code.",
+        "punishment": "Up to 60 months",
+        "fine": "$1000"
+      },
+      {
+        "code": "(14)05. Identity Theft (F)",
+        "text": "1. A person who willfully obtains personal identifying information of another person, and uses that information without authorization, with the intent to defraud or cause harm, is guilty under this code.",
+        "punishment": "Up to 90 months",
+        "fine": "$3000"
+      },
+      {
+        "code": "(14)06. Money Laundering (F)",
+        "text": "1. A person who conducts or attempts to conduct a financial transaction involving proceeds of specified unlawful activity, knowing the property represents proceeds of some form of unlawful activity, is guilty under this code.",
+        "punishment": "Up to 120 months",
+        "fine": "$5000"
+      },
+      {
+        "code": "(14)07. Racketeering (F)",
+        "text": "1. A person who acquires or maintains, directly or indirectly, any interest in or control of any enterprise through a pattern of racketeering activity, is guilty under this code.",
+        "punishment": "Up to 240 months",
+        "fine": "$10000"
+      },
+      {
+        "code": "(14)08. Corporate Hijacking",
+        "text": "1. A person or group who unlawfully and willfully uses a business location for trade, corporate, or financial gain without license, lease, or consent from its registered owner, shall be fined an amount equal to all profits gained while conducting corporate hijacking.",
+        "punishment": "Up to 20 months",
+        "fine": "an amount equal to all profits gained while conducting corporate hijacking"
+      }
+    ]
+  },
+  {
+    "id": "title-15",
+    "title": "15. TRAFFIC CODES",
+    "sections": [
+      {
+        "code": "15-1 - New Resident License",
+        "text": "A new resident must obtain a valid license from the San Andreas Department of Motor Vehicles within 30 days of establishing residency. Failure to do so results in a citation.",
+        "punishment": "Not Specified",
+        "fine": ""
+      },
+      {
+        "code": "15-2 - Driving on Suspended License",
+        "text": "A person operates a motor vehicle while their license has been suspended or revoked. [cite: 1529].",
+        "punishment": "Not Specified",
+        "fine": ""
+      },
+      {
+        "code": "15-3 - Driving on Revoked License",
+        "text": "A person operates a motor vehicle while their license has been revoked. [cite: 1531].",
+        "punishment": "Not Specified",
+        "fine": ""
+      },
+      {
+        "code": "15-4 - Reckless Driving",
+        "text": "Reckless driving is the operation of a vehicle upon a highway or other public way, willfully or wantonly in disregard of the safety of person or property. [cite: 1533].",
+        "punishment": "Not Specified",
+        "fine": ""
+      },
+      {
+        "code": "15-5 - Reckless Driving Causing Injury",
+        "text": "Reckless driving resulting in bodily injury to another person. [cite: 1535].",
+        "punishment": "Not Specified",
+        "fine": ""
+      },
+      {
+        "code": "15-6 - Drag Racing",
+        "text": "Participating in a speed contest or drag race on a highway or public way. [cite: 1537].",
+        "punishment": "Not Specified",
+        "fine": ""
+      },
+      {
+        "code": "15-7 - Fleeing or Attempting to Elude a Peace Officer",
+        "text": "A person flees or attempts to elude a pursuing peace officer's motor vehicle. [cite: 1539].",
+        "punishment": "Not Specified",
+        "fine": ""
+      },
+      {
+        "code": "15-8 - Driving Under the Influence (DUI)",
+        "text": "A person drives a vehicle while under the influence of alcohol or drugs. [cite: 1541].",
+        "punishment": "Not Specified",
+        "fine": ""
+      },
+      {
+        "code": "15-9 - Driving Under the Influence Causing Injury",
+        "text": "A person drives a vehicle while under the influence of alcohol or drugs, causing bodily injury to another person. [cite: 1543].",
+        "punishment": "Not Specified",
+        "fine": ""
+      },
+      {
+        "code": "15-10 - Driving Under the Influence Causing Death",
+        "text": "A person drives a vehicle while under the influence of alcohol or drugs, causing the death of another person. [cite: 1545].",
+        "punishment": "Not Specified",
+        "fine": ""
+      },
+      {
+        "code": "15-11 - Refusing a Chemical Test",
+        "text": "A person refuses to submit to a chemical test to determine the alcoholic or drug content of their blood or breath when requested by a peace officer. [cite: 1547].",
+        "punishment": "Not Specified",
+        "fine": ""
+      },
+      {
+        "code": "15-12 - Open Alcohol Container in Vehicle",
+        "text": "An open container of alcohol is present in the passenger area of a motor vehicle while it is being operated. [cite: 1549].",
+        "punishment": "Not Specified",
+        "fine": ""
+      },
+      {
+        "code": "15-13 - Minor in Possession of Alcohol",
+        "text": "A person under the age of 21 possesses or consumes alcohol. [cite: 1551].",
+        "punishment": "Not Specified",
+        "fine": ""
+      },
+      {
+        "code": "15-14 - Minor Driving with Alcohol in System",
+        "text": "A person under the age of 21 operates a motor vehicle with any measurable amount of alcohol in their system. [cite: 1553].",
+        "punishment": "Not Specified",
+        "fine": ""
+      },
+      {
+        "code": "15-15 - Hit and Run - Injury or Death",
+        "text": "As a result of a motor vehicle collision where the driver causes bodily injury or death and willfully leaves the scene without contacting the proper authorities. [cite: 1555]. [cite: 1556].",
+        "punishment": "Not Specified",
+        "fine": ""
+      },
+      {
+        "code": "15-16 - Hit and Run - Property Damage Only",
+        "text": "As a result of a motor vehicle collision where the driver damages property and willfully leaves the scene without contacting the proper authorities. [cite: 1557]. [cite: 1558].",
+        "punishment": "Not Specified",
+        "fine": ""
+      },
+      {
+        "code": "15-17 - Hit and Run - Property Damage Only",
+        "text": "As a result of a motor vehicle collision where the driver damages property and leaves the scene intentionally without contacting the proper authorities. [cite: 1567]. [cite: 1568].",
+        "punishment": "Not Specified",
+        "fine": ""
+      },
+      {
+        "code": "15-18 - Passing a Stopped School Bus",
+        "text": "A driver willfully fails to stop for a school bus whose red signal lights are flashing or is stopped taking on passengers. [cite: 1569].",
+        "punishment": "Not Specified",
+        "fine": ""
+      },
+      {
+        "code": "15-19 - Excessive Speed 30+ MPH Over Posted Limit",
+        "text": "A driver detected by Radar, Lidar, Aircraft, or Pacing traveling over the posted limit by 30 MPH. Operator may be subject to license suspension/revocation. [cite: 1571]. [cite: 1572].",
+        "punishment": "Not Specified",
+        "fine": ""
+      },
+      {
+        "code": "15-20 - Vehicular Negligence - Death or Bodily Injury",
+        "text": "Driver is at fault in an accident, where serious bodily injury is involved or death. [cite: 1573].",
+        "punishment": "Not Specified",
+        "fine": ""
+      },
+      {
+        "code": "15-21 - Vehicular Negligence - Property Damage Only",
+        "text": "Driver is at fault in an accident, with property damage involved. [cite: 1575].",
+        "punishment": "Not Specified",
+        "fine": ""
+      },
+      {
+        "code": "15-22 - Illegal Passing",
+        "text": "A motor vehicle operator shall not pass on the right shoulder of the road to overtake another vehicle, or pass on the left when a double yellow line is marked on the surface of the road. A Driver must slow down when passing a bicycle. [cite: 1577]. [cite: 1578].",
+        "punishment": "Not Specified",
+        "fine": ""
+      },
+      {
+        "code": "15-23 - Following Too Closely",
+        "text": "The driver of a motor vehicle shall not follow another vehicle more closely than is reasonable and prudent, having due regard for the speed of such vehicles and the traffic upon and the condition of the highway. [cite: 1579].",
+        "punishment": "Not Specified",
+        "fine": ""
+      },
+      {
+        "code": "15-24 - Unsafe Lane Change",
+        "text": "A driver moves from one lane to another without signaling or checking blind spots, causing a collision or unsafe condition. [cite: 1581].",
+        "punishment": "Not Specified",
+        "fine": ""
+      },
+      {
+        "code": "15-25 - Driving on Wrong Side of Roadway",
+        "text": "Except as otherwise provided by law, on all roadways of sufficient width, drivers of motor vehicles shall drive upon the right half of the roadway, except where impractical to travel on the right side of the roadway and except when overtaking and passing. [cite: 1583].",
+        "punishment": "Not Specified",
+        "fine": ""
+      },
+      {
+        "code": "15-26 - Failure to Obey Traffic Control Devices (Signs/Lights)",
+        "text": "A driver fails to obey a traffic control device, including stop signs, yield signs, traffic lights, or other regulatory signs. [cite: 1585].",
+        "punishment": "Not Specified",
+        "fine": ""
+      },
+      {
+        "code": "15-27 - Failure to Yield Right of Way",
+        "text": "A driver fails to yield the right-of-way to another vehicle or pedestrian when required by law. [cite: 1589].",
+        "punishment": "Not Specified",
+        "fine": ""
+      },
+      {
+        "code": "15-28 - School Zone Violation",
+        "text": "When near a state or private educational institution, the speed limit for motor vehicles is reduced by 10MPH. The limit set by this law applies immediately when passing an educational institution. [cite: 1587]. [cite: 1588].",
+        "punishment": "Not Specified",
+        "fine": ""
+      },
+      {
+        "code": "15-29 - No Valid License",
+        "text": "Operator fails to possess a Class C or higher license while operating a motor vehicle on city or state roadways. [cite: 1590].",
+        "punishment": "Not Specified",
+        "fine": ""
+      },
+      {
+        "code": "15-30 - Failure to Yield Right of Way",
+        "text": "A driver fails to yield the right-of-way to another vehicle or pedestrian when required by law. [cite: 1592].",
+        "punishment": "Not Specified",
+        "fine": ""
+      },
+      {
+        "code": "15-31 - Improper Turn",
+        "text": "A driver makes a turn that is not in accordance with the regulations, such as making a U-turn where prohibited or turning from the wrong lane. [cite: 1594].",
+        "punishment": "Not Specified",
+        "fine": ""
+      },
+      {
+        "code": "15-32 - Failure to Signal Lane Change",
+        "text": "Drivers must signal at least 100 feet before they turn or change lanes. [cite: 1596].",
+        "punishment": "Not Specified",
+        "fine": ""
+      },
+      {
+        "code": "15-33 - Illegal Backing",
+        "text": "A Driver shall not drive a vehicle, in reverse or do any movement so as to obstruct traffic. A driver shall not back on the shoulder or limited access highway. [cite: 1598]. [cite: 1599].",
+        "punishment": "Not Specified",
+        "fine": ""
+      },
+      {
+        "code": "15-34 - No Liability Insurance",
+        "text": "A driver must provide proof of financial responsibility through a licensed motor vehicle insurance company. This policy must have active liability coverage. [cite: 1601]. [cite: 1602].",
+        "punishment": "Not Specified",
+        "fine": ""
+      },
+      {
+        "code": "15-35 - Failure to Display License Plate",
+        "text": "• The operator of a vehicle is responsible for the mounting of registered license plates. [cite: 1603].\n• License plates must be securely fastened to the front and rear of the vehicle in a horizontal position. [cite: 1604].\n• License plates must be clearly visible and legible. [cite: 1605].\n• Temporary tags must be properly displayed. [cite: 1606].\n• Driving with an expired registration. [cite: 1607].",
+        "punishment": "Not Specified",
+        "fine": ""
+      },
+      {
+        "code": "15-36 - Expired Registration",
+        "text": "A vehicle is operated with an expired registration. [cite: 1609].",
+        "punishment": "Not Specified",
+        "fine": ""
+      },
+      {
+        "code": "15-37 - Operating an Unregistered Vehicle",
+        "text": "A vehicle is operated on public roadways without valid registration. [cite: 1611].",
+        "punishment": "Not Specified",
+        "fine": ""
+      },
+      {
+        "code": "15-38 - Driving with a Suspended or Revoked License",
+        "text": "A person operates a motor vehicle knowing that their license has been suspended or revoked. [cite: 1613].",
+        "punishment": "Not Specified",
+        "fine": ""
+      },
+      {
+        "code": "15-39 - Driving on the Wrong Side of the Road",
+        "text": "A driver operates a vehicle on the left side of the roadway when not permitted to do so. [cite: 1615].",
+        "punishment": "Not Specified",
+        "fine": ""
+      },
+      {
+        "code": "15-40 - Excessive Speed 1-9 MPH Over Posted Limit",
+        "text": "A driver detected by Radar, Lidar, Aircraft, or Pacing traveling over the posted limit by 1-9MPH. [cite: 1619].",
+        "punishment": "Not Specified",
+        "fine": ""
+      },
+      {
+        "code": "15-41 - Unsafe Vehicle Operation",
+        "text": "No person shall drive or move upon any highway any motor vehicle, trailer, semitrailer, or combination thereof, unless the vehicle is in good working order and properly adjusted. Vehicles suspected of violating this law may be inspected by Law Enforcement. [cite: 1621]. [cite: 1622].",
+        "punishment": "Not Specified",
+        "fine": ""
+      },
+      {
+        "code": "15-42 - Failure to Use Safety Belts",
+        "text": "Drivers must wear seat belts or restrain their children in motor vehicles while traveling on any highway. [cite: 1624].",
+        "punishment": "Not Specified",
+        "fine": ""
+      },
+      {
+        "code": "15-43 - Littering - from a moving motor vehicle",
+        "text": "A motor vehicle operator is seen discarding \"litter\" from a moving vehicle. [cite: 1626].",
+        "punishment": "Not Specified",
+        "fine": ""
+      },
+      {
+        "code": "15-44 - Failure to Signal Lane Change",
+        "text": "Failure to turn on your amber turn signal lights to indicate to other drivers which lane you will enter. [cite: 1628].",
+        "punishment": "Not Specified",
+        "fine": ""
+      },
+      {
+        "code": "15-45 - Failure to Maintain Lane",
+        "text": "Operating your motor vehicle without keeping your vehicle within the proper marked lane on the roadway. [cite: 1630].",
+        "punishment": "Not Specified",
+        "fine": ""
+      },
+      {
+        "code": "15-46 - Following Too Closely",
+        "text": "Driving your vehicle directly, or within 10 feet of another vehicle's bumper. [cite: 1632].",
+        "punishment": "Not Specified",
+        "fine": ""
+      },
+      {
+        "code": "15-47 - Unsafe Passing",
+        "text": "Passing another vehicle in a no-passing zone, or passing in a manner that endangers other vehicles. [cite: 1634].",
+        "punishment": "Not Specified",
+        "fine": ""
+      },
+      {
+        "code": "15-48 - Driving Too Slowly",
+        "text": "Operating a vehicle so slowly as to impede the normal and reasonable flow of traffic, when not necessary for safe operation or in compliance with law. [cite: 1635].",
+        "punishment": "Not Specified",
+        "fine": ""
+      },
+      {
+        "code": "15-49 - Failure to Stop at Railroad Crossing",
+        "text": "Failing to stop at a railroad crossing when required by signs, signals, or flagman. [cite: 1636].",
+        "punishment": "Not Specified",
+        "fine": ""
+      },
+      {
+        "code": "15-50 - Move Over Law",
+        "text": "Requires drivers to move over into the adjacent traffic lane, if it is safe to do so, or alternatively to slow down to below half the posted speed limit for emergency vehicles, or tow trucks. [cite: 1637].",
+        "punishment": "Not Specified",
+        "fine": ""
+      },
+      {
+        "code": "15-51 - Operating an Unregistered Vehicle",
+        "text": "A vehicle is operated on public roadways without valid registration. [cite: 1639].",
+        "punishment": "Not Specified",
+        "fine": ""
+      },
+      {
+        "code": "15-52 - Failure to Stop for Pedestrian",
+        "text": "A driver fails to stop and yield the right-of-way to a pedestrian crossing the roadway within a marked crosswalk or at an intersection with no marked crosswalk. [cite: 1641].",
+        "punishment": "Not Specified",
+        "fine": ""
+      },
+      {
+        "code": "15-53 - Driving with Obstructed View",
+        "text": "A driver operates a vehicle with objects hanging from the rearview mirror or otherwise obstructing their view of the road ahead or to the sides. [cite: 1643].",
+        "punishment": "Not Specified",
+        "fine": ""
+      },
+      {
+        "code": "15-54 - Failure to Dim Headlights",
+        "text": "A driver fails to dim their high-beam headlights when approaching or following another vehicle. [cite: 1645].",
+        "punishment": "Not Specified",
+        "fine": ""
+      },
+      {
+        "code": "15-55 - Operating an Unregistered Vehicle",
+        "text": "A vehicle is operated on public roadways without valid registration. [cite: 1647].",
+        "punishment": "Not Specified",
+        "fine": ""
+      }
+    ]
+  },
+  {
+    "id": "title-16",
+    "title": "16. FURTHER GENERAL LAWS",
+    "sections": [
+      {
+        "code": "16-01- False Fire Alarm: Damaging or Injuring Fire Alarms",
+        "text": "Knowingly damaging or injuring any fire alarm, sprinkler system, standpipe, or other fire protection equipment. [cite: 1649].",
+        "punishment": "Up to 30 months",
+        "fine": "$1000"
+      },
+      {
+        "code": "16-02- Tampering with Fire Safety Equipment",
+        "text": "Knowingly tampering with, damaging, or disabling any fire extinguisher, fire hose, or other fire safety equipment. [cite: 1651].",
+        "punishment": "Up to 30 months",
+        "fine": "$1000"
+      },
+      {
+        "code": "16-03- Failure to Comply with Emergency Evacuation Order",
+        "text": "Knowingly failing to comply with a lawful order to evacuate a building or area during a fire, natural disaster, or other emergency. [cite: 1653].",
+        "punishment": "Up to 30 months",
+        "fine": "$500"
+      },
+      {
+        "code": "16-04- Public Intoxication",
+        "text": "Being under the influence of alcohol or drugs in a public place to the extent that one's ability to care for oneself or others is impaired. [cite: 1655].",
+        "punishment": "Up to 10 months",
+        "fine": "$300"
+      },
+      {
+        "code": "16-05- Disorderly Conduct",
+        "text": "Engaging in conduct that is disorderly, lewd, or obscene, or that unreasonably annoys or alarms another person. [cite: 1657].",
+        "punishment": "Up to 30 months",
+        "fine": "$500"
+      },
+      {
+        "code": "16-06- Loitering",
+        "text": "Remaining in a public place with the intent to commit an unlawful act or under circumstances that indicate a threat to the public peace or safety. [cite: 1659].",
+        "punishment": "Up to 30 months",
+        "fine": "$300"
+      },
+      {
+        "code": "16-07- Trespassing",
+        "text": "Entering or remaining on the property of another without permission or legal right. [cite: 1661].",
+        "punishment": "Up to 30 months",
+        "fine": "$500"
+      },
+      {
+        "code": "16-08- Loitering Near Schools or Playgrounds",
+        "text": "Loitering near a school or playground with the intent to commit a crime or engage in conduct harmful to minors. [cite: 1663].",
+        "punishment": "Up to 30 months",
+        "fine": "$500"
+      },
+      {
+        "code": "16-09- Prostitution Loitering",
+        "text": "Loitering in a public place for the purpose of engaging in prostitution or soliciting customers for prostitution. [cite: 1665].",
+        "punishment": "Up to 30 months",
+        "fine": "$500"
+      },
+      {
+        "code": "16-10- Gambling",
+        "text": "Participating in or conducting an illegal gambling operation. [cite: 1667].",
+        "punishment": "Up to 60 months",
+        "fine": "$1000"
+      }
+    ]
+  }
+]

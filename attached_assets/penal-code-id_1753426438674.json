@@ -1,0 +1,1161 @@
+[
+  {
+    "id": "title-1",
+    "title": "JUDUL 1. KEBIJAKAN, PEDOMAN DAN UMUM",
+    "sections": [
+      {
+        "code": "1-01. Kebijakan",
+        "text": "Semua kebijakan dan bidang hukum yang umumnya tidak diketahui dijelaskan. Semua JUDUL dicantumkan sebagai referensi. Semua Kejahatan yang tercantum dalam JUDUL dijelaskan dan hukuman yang sesuai diberikan."
+      },
+      {
+        "code": "1-02. Tujuan",
+        "text": "• Untuk keselamatan penduduk Los Santos dan yurisdiksi yang dapat diberlakukan sambil memastikan pencegahan pengabaian hak dan perlindungan penduduk dan properti mereka.\n• Untuk menghormati hak-hak Amandemen atas prosedur yang tepat, hukuman yang kejam dan tidak biasa."
+      },
+      {
+        "code": "1-03. Definisi",
+        "definitions": [
+          { "term": "Tindakan", "definition": "Gerakan tubuh, baik sukarela maupun tidak sukarela, dan mencakup ucapan." },
+          { "term": "Pelaku", "definition": "Seseorang yang tanggung jawab pidananya sedang dipertanyakan dalam suatu proses." },
+          { "term": "Lembaga", "definition": "Otoritas, dewan, biro, komisi, komite, departemen, distrik, divisi, dan kantor." },
+          { "term": "Minuman beralkohol", "definition": "Memiliki arti sebagaimana ditetapkan oleh Kitab Undang-Undang Minuman Beralkohol." },
+          { "term": "Orang lain", "definition": "Orang selain pelaku." },
+          { "term": "Asosiasi", "definition": "Pemerintah atau subdivisi/lembaga pemerintah, perwalian, kemitraan, atau dua orang/lebih dengan kepentingan ekonomi bersama." },
+          { "term": "Keuntungan", "definition": "Segala sesuatu yang dianggap sebagai keuntungan atau keunggulan ekonomi, termasuk bagi pihak lain yang kesejahteraannya diperhatikan oleh penerima manfaat." },
+          { "term": "Cedera fisik", "definition": "Rasa sakit fisik, penyakit, atau gangguan kondisi fisik apa pun." },
+          { "term": "Fasilitas komitmen sipil", "definition": "Fasilitas milik/sewa/operasi negara atau vendor kontrak negara, hanya menampung orang yang dikomitmen secara sipil." },
+          { "term": "Paksaan", "definition": "Ancaman (dengan cara apa pun): melakukan pelanggaran, menimbulkan cedera fisik di masa depan, menuduh seseorang melakukan pelanggaran, menghadapkan seseorang pada kebencian/penghinaan/cemoohan, merusak reputasi kredit/bisnis, atau menahan tindakan sebagai pejabat publik." },
+          { "term": "Perilaku", "definition": "Suatu tindakan atau kelalaian beserta keadaan mental yang menyertainya." },
+          { "term": "Persetujuan", "definition": "Persetujuan secara nyata, baik tersurat maupun tersirat." },
+          { "term": "Zat terlarang", "definition": "Memiliki arti sesuai definisi zat negara bagian." },
+          { "term": "Korporasi", "definition": "Termasuk korporasi nirlaba, asosiasi profesional, dan perusahaan saham gabungan." },
+          { "term": "Fasilitas pemasyarakatan", "definition": "Tempat yang ditentukan hukum untuk penahanan orang yang ditangkap, didakwa, atau dihukum (termasuk penjara kota/kabupaten, fasilitas negara bagian, dan fasilitas koreksi komunitas)." },
+          { "term": "Kelalaian pidana", "definition": "Didefinisikan di bawah bagian ini." },
+          { "term": "Obat berbahaya", "definition": "Memiliki arti sesuai definisi obat, ancaman terhadap nyawa/anggota tubuh jika digunakan." },
+          { "term": "Senjata mematikan", "definition": "Senjata api atau benda lain yang dirancang/digunakan untuk menyebabkan kematian atau cedera fisik serius." },
+          { "term": "Narkoba", "definition": "Memiliki arti sebagaimana ditetapkan oleh bagian tentang zat-zat." },
+          { "term": "Persetujuan yang efektif", "definition": "Persetujuan oleh orang yang berwenang secara hukum untuk bertindak atas nama pemilik. Tidak efektif jika karena paksaan, ancaman, penipuan, diberikan oleh orang yang tidak berwenang, atau oleh orang yang tidak mampu membuat keputusan wajar." },
+          { "term": "Unsur pelanggaran", "definition": "Perilaku yang dilarang, kesalahan yang disyaratkan, hasil yang disyaratkan, dan peniadaan pengecualian terhadap pelanggaran." },
+          { "term": "Kejahatan Berat (Felony)", "definition": "Pelanggaran yang ditetapkan demikian oleh hukum atau dapat dihukum mati/penjara." },
+          { "term": "Pemerintah", "definition": "Negara bagian, county, kotamadya, subdivisi politik, atau cabang/lembaga negara bagian." },
+          { "term": "Kerugian (Harm)", "definition": "Segala sesuatu yang dianggap kerugian, termasuk bagi pihak lain yang kesejahteraannya diperhatikan oleh orang yang terkena dampak." },
+          { "term": "Individu", "definition": "Manusia yang hidup, termasuk janin dari pembuahan hingga kelahiran." },
+          { "term": "Hukum", "definition": "Konstitusi/undang-undang negara bagian atau AS, pendapat tertulis pengadilan, peraturan kota, perintah dewan, atau aturan yang diadopsi secara sah." },
+          { "term": "Kejahatan Ringan (Misdemeanor)", "definition": "Pelanggaran yang ditetapkan demikian oleh hukum atau dapat dihukum dengan denda, penjara, atau keduanya." },
+          { "term": "Sumpah", "definition": "Termasuk afirmasi." },
+          { "term": "Proses resmi", "definition": "Setiap jenis proses administrasi, eksekutif, legislatif, atau yudisial di hadapan pejabat publik." },
+          { "term": "Kelalaian (Omission)", "definition": "Kegagalan untuk bertindak." },
+          { "term": "Pemilik", "definition": "Orang yang memiliki hak atas properti, atau pemegang sah instrumen yang dapat dinegosiasikan." },
+          { "term": "Petugas Perdamaian", "definition": "Seseorang yang dipilih, dipekerjakan, atau ditunjuk sebagai petugas perdamaian." },
+          { "term": "Lembaga pemasyarakatan", "definition": "Tempat yang ditentukan hukum untuk penahanan orang yang ditangkap, didakwa, atau dihukum." },
+          { "term": "Orang", "definition": "Individu, korporasi, asosiasi, perseroan terbatas, atau entitas/organisasi lain yang diatur oleh Kode Organisasi Bisnis." },
+          { "term": "Kepemilikan", "definition": "Perawatan, penguasaan, kontrol, atau manajemen yang sebenarnya." },
+          { "term": "Tempat umum", "definition": "Tempat yang dapat diakses publik/kelompok besar publik (jalan, sekolah, rumah sakit, apartemen, gedung kantor, fasilitas transportasi, toko, dll)." },
+          { "term": "Pelayan Publik", "definition": "Pejabat, karyawan, atau agen pemerintah; juri; arbiter; pengacara/notaris publik saat menjalankan fungsi pemerintah; kandidat jabatan publik; atau orang yang menjalankan fungsi pemerintahan di bawah klaim hak." },
+          { "term": "Keyakinan yang wajar", "definition": "Keyakinan yang akan dipegang oleh orang biasa dan bijaksana dalam keadaan yang sama dengan pelaku." },
+          { "term": "Aturan", "definition": "Termasuk regulasi." },
+          { "term": "Fasilitas pemasyarakatan yang aman", "definition": "Penjara kota atau county." },
+          { "term": "Cedera fisik serius", "definition": "Cedera fisik yang menciptakan risiko kematian substansial, menyebabkan kematian, cacat permanen serius, atau kehilangan/gangguan fungsi anggota tubuh/organ." },
+          { "term": "Melawan hukum (Unlawful)", "definition": "Bersifat pidana/perdata atau keduanya, termasuk apa yang akan menjadi pidana/perdata jika tidak ada pembelaan/justifikasi." },
+          { "term": "Kematian", "definition": "Termasuk, untuk janin, kegagalan untuk dilahirkan hidup." }
+        ],
+        "note": "Definisi suatu istilah dalam kitab ini berlaku untuk setiap variasi gramatikal dari istilah tersebut."
+      },
+      {
+        "code": "1-04. Klasifikasi Kejahatan",
+        "text": "Semua hukuman diklasifikasikan dalam 1 dari 3 cara.\n• <strong>Pelanggaran Ringan (Infraction)</strong> - Pelanggaran ringan terhadap hukum pidana. Seringkali pelanggaran lalu lintas, mengakibatkan denda atau kehilangan hak istimewa.\n• <strong>Kejahatan Ringan (Misdemeanor)</strong> - Kejahatan yang kurang serius daripada kejahatan berat. Umumnya dapat dihukum dengan penjara di penjara kabupaten hingga 1 tahun.\n• <strong>Kejahatan Berat (Felony)</strong> - Kejahatan yang lebih serius daripada kejahatan ringan. Dapat dihukum mati atau penjara di penjara negara bagian."
+      },
+      {
+        "code": "1-05. Hak Terdakwa",
+        "text": "• Terdakwa memiliki hak untuk tetap diam. Apa pun yang mereka katakan dapat dan akan digunakan melawan mereka di pengadilan.\n• Terdakwa memiliki hak untuk mendapat pengacara. Jika mereka tidak mampu, maka satu akan disediakan untuk mereka.\n• Terdakwa memiliki hak atas pengadilan yang cepat dan terbuka oleh juri yang tidak memihak.\n• Terdakwa memiliki hak untuk menghadapi saksi-saksi yang menuduh mereka.\n• Terdakwa memiliki hak untuk memaksa kehadiran saksi-saksi yang mendukung mereka."
+      },
+      {
+        "code": "1-06. Beban Pembuktian",
+        "text": "• Dalam kasus pidana, beban pembuktian ada pada jaksa penuntut umum. Terdakwa dianggap tidak bersalah sampai terbukti bersalah di luar keraguan yang wajar.\n• Dalam kasus perdata, beban pembuktian ada pada penggugat. Terdakwa dianggap tidak bertanggung jawab kecuali terbukti sebaliknya dengan preponderansi bukti."
+      },
+      {
+        "code": "1-07. Dua Kali Diproses (Double Jeopardy)",
+        "text": "• Tidak ada orang yang boleh diproses dua kali atas pelanggaran yang sama terhadap nyawa atau anggota tubuh.\n• Jika seseorang dibebaskan atau dihukum atas suatu kejahatan, mereka tidak dapat diadili lagi atas kejahatan yang sama berdasarkan fakta yang sama."
+      },
+      {
+        "code": "1-08. Pencarian dan Penyitaan",
+        "text": "• Hak rakyat untuk aman dalam diri mereka, rumah, dokumen, dan barang-barang mereka, dari pencarian dan penyitaan yang tidak beralasan, tidak boleh dilanggar.\n• Tidak ada surat perintah yang boleh dikeluarkan, kecuali berdasarkan alasan yang masuk akal, didukung dengan sumpah atau afirmasi, dan secara khusus menggambarkan tempat yang akan digeledah, serta orang atau barang yang akan disita."
+      },
+      {
+        "code": "1-09. Pembelaan Diri dan Pembelaan Orang Lain",
+        "text": "• Seseorang dibenarkan menggunakan kekuatan terhadap orang lain ketika dan sejauh mereka secara masuk akal percaya bahwa kekuatan tersebut diperlukan untuk melindungi diri mereka atau orang ketiga dari penggunaan kekuatan yang melanggar hukum yang segera terjadi oleh orang lain.\n• Seseorang dibenarkan menggunakan kekuatan mematikan hanya jika mereka secara masuk akal percaya bahwa hal itu diperlukan untuk mencegah kematian atau cedera tubuh yang parah pada diri mereka atau orang ketiga, atau untuk mencegah komisi kejahatan kekerasan."
+      },
+      {
+        "code": "1-10. Pembelaan Ketidaksadaran (Insanity Defense)",
+        "text": "• Seseorang tidak bertanggung jawab atas tindakan pidana jika pada saat tindakan tersebut dilakukan, sebagai akibat dari penyakit atau cacat mental, mereka kehilangan kemampuan substansial untuk menghargai sifat kriminal dari tindakan mereka atau untuk menyesuaikan tindakan mereka dengan tuntutan hukum."
+      },
+      {
+        "code": "1-11. Provokasi (Entrapment)",
+        "text": "• Merupakan pembelaan terhadap tuduhan pidana bahwa terdakwa terlibat dalam tindakan yang dilarang karena mereka diprovokasi atau didorong untuk melakukannya oleh petugas penegak hukum atau agen.\n• Permintaan semata tidak merupakan provokasi."
+      },
+      {
+        "code": "1-12. Paksaan (Duress)",
+        "text": "• Seseorang tidak bersalah atas suatu pelanggaran jika tindakannya dipaksa oleh penggunaan atau ancaman penggunaan kekuatan yang melanggar hukum terhadap diri mereka atau orang lain, yang kekuatan atau ancaman tersebut cukup untuk menetapkan paksaan."
+      },
+      {
+        "code": "1-13. Kemacetan (Necessity)",
+        "text": "• Tindakan yang dilakukan pelaku karena percaya bahwa tindakan tersebut diperlukan untuk menghindari bahaya atau kejahatan, dibenarkan jika:\n  1. Bahaya atau kejahatan yang ingin dihindari melalui tindakan tersebut lebih besar daripada bahaya atau kejahatan yang ingin dicegah oleh hukum yang mendefinisikan pelanggaran yang dituduhkan.\n  2. Baik pelaku maupun orang lain tidak menyebabkan bahaya atau kejahatan tersebut.\n  3. Bahaya atau kejahatan tersebut segera terjadi.\n  4. Tidak ada alternatif hukum untuk tindakan tersebut."
+      },
+      {
+        "code": "1-14. Batas Waktu Penuntutan (Statute of Limitations)",
+        "text": "• Kecuali sebagaimana diatur dalam ayat (b), tidak ada orang yang dapat dituntut atas kejahatan ringan kecuali surat dakwaan atau informasi diajukan dalam waktu satu tahun setelah pelanggaran dilakukan.\n• Tidak ada orang yang dapat dituntut atas kejahatan berat kecuali surat dakwaan atau informasi diajukan dalam waktu tiga tahun setelah pelanggaran dilakukan.\n• Tidak ada batas waktu penuntutan untuk pembunuhan, pembunuhan tidak disengaja, atau kejahatan berat lainnya yang dapat dihukum mati atau penjara seumur hidup."
+      },
+      {
+        "code": "1-15. Pengadilan Cepat",
+        "text": "• Seseorang yang didakwa atas suatu kejahatan harus dibawa ke pengadilan dalam waktu 100 hari setelah penghadiran jika ditahan, atau dalam waktu satu tahun jika dibebaskan atas jaminan atau atas kata sendiri.\n• Penundaan yang disebabkan oleh terdakwa, atau karena ketidaktersediaan bukti atau saksi, dapat menunda jam pengadilan cepat."
+      },
+      {
+        "code": "1-16. Jaminan (Bail)",
+        "text": "• Jaminan dapat diberikan kepada terdakwa yang didakwa atas kejahatan yang dapat dijamin.\n• Jaminan dapat ditolak jika pengadilan menemukan bukti yang jelas dan meyakinkan bahwa tidak ada kondisi atau kombinasi kondisi yang akan secara masuk akal menjamin kehadiran orang tersebut sebagaimana diminta atau keselamatan orang lain atau komunitas.\n• Jaminan tidak boleh berlebihan."
+      },
+      {
+        "code": "1-17. Penyitaan Kendaraan",
+        "text": "Jika sebuah kendaraan telah digunakan untuk melanggar batas kecepatan dan pelanggar memiliki beberapa tilang karena melebihi batas kecepatan sebesar 30 MPH+, kendaraan tersebut dapat disita dengan biaya $1.000 hingga $15.000."
+      },
+      {
+        "code": "1-18. Pengadilan Perdata",
+        "text": "Semua klaim perdata dibatasi hingga jumlah $300.000 kecuali yang terkait dengan malpraktik medis. Dalam hal ini, batasnya adalah $500.000."
+      },
+      {
+        "code": "1-19. Kesaksian Saksi",
+        "text": "• Saksi terhadap suatu kejahatan atau tindakan lain dapat meminta pernyataan mereka diajukan ke pengadilan sebagai bukti, tetapi hanya jika saksi telah menandatangani pernyataan tersebut di bawah ancaman tuduhan sumpah palsu yang membuat pernyataan mereka secara hukum sah.\n• Saksi anonim dapat diminta untuk memberikan kesaksian di pengadilan terbuka."
+      }
+    ]
+  },
+  {
+    "id": "title-2",
+    "title": "JUDUL 2. KEJAHATAN TERHADAP ORANG",
+    "sections": [
+      {
+        "code": "(2)01. Ancaman Kriminal (M)",
+        "text": "1. Seseorang yang dengan sengaja mengancam akan melakukan kejahatan yang dapat mengakibatkan kematian atau cedera tubuh yang parah kepada orang lain, dengan niat spesifik bahwa pernyataan tersebut dianggap sebagai ancaman, meskipun tidak ada niat untuk benar-benar melaksanakannya, bersalah berdasarkan kode ini.",
+        "punishment": "hingga 10 bulan",
+        "fine": "$300"
+      },
+      {
+        "code": "(2)02. Penyerangan (M)",
+        "text": "1. Seseorang yang mencoba, dengan kekuatan atau kekerasan, melukai orang lain, bersalah berdasarkan kode ini.",
+        "punishment": "hingga 30 bulan",
+        "fine": "$500"
+      },
+      {
+        "code": "(2)03. Penyerangan dengan Senjata Mematikan (F)",
+        "text": "1. Seseorang yang menyerang orang lain dengan senjata mematikan atau alat selain senjata api, atau dengan cara apa pun yang dapat menyebabkan cedera tubuh yang parah, bersalah berdasarkan kode ini.",
+        "punishment": "hingga 60 bulan",
+        "fine": "$1000"
+      },
+      {
+        "code": "(2)04. Penganiayaan (M)",
+        "text": "1. Seseorang yang dengan sengaja dan melanggar hukum menggunakan kekuatan atau kekerasan terhadap orang lain, bersalah berdasarkan kode ini.",
+        "punishment": "hingga 30 bulan",
+        "fine": "$500"
+      },
+      {
+        "code": "(2)05. Penganiayaan yang Memperberat (F)",
+        "text": "1. Seseorang yang melakukan penganiayaan yang menyebabkan cedera tubuh serius kepada siapa pun, atau menimbulkan cedera tubuh yang parah kepada petugas perdamaian, pemadam kebakaran, paramedis, atau teknisi medis darurat, bersalah berdasarkan kode ini.",
+        "punishment": "hingga 60 bulan",
+        "fine": "$1000"
+      },
+      {
+        "code": "(2)06. Penganiayaan terhadap Petugas Perdamaian (F)",
+        "text": "1. Seseorang yang melakukan penganiayaan terhadap petugas perdamaian, pemadam kebakaran, paramedis, atau teknisi medis darurat yang sedang menjalankan tugas mereka, bersalah berdasarkan kode ini.",
+        "punishment": "hingga 60 bulan",
+        "fine": "$1000"
+      },
+      {
+        "code": "(2)07. Pengurangan Anggota Tubuh (Mayhem) (F)",
+        "text": "1. Seseorang yang secara melanggar hukum dan sengaja merampas anggota tubuh manusia, atau melumpuhkan, mencacatkan, atau membuatnya tidak berguna, atau yang memotong atau melumpuhkan lidah atau mengeluarkan mata, atau memotong atau melumpuhkan anggota tubuh atau bagian tubuh orang lain, bersalah berdasarkan kode ini.",
+        "punishment": "hingga 90 bulan",
+        "fine": "$1500"
+      },
+      {
+        "code": "(2)08. Penculikan (F)",
+        "text": "1. Seseorang yang secara paksa, atau dengan cara apa pun lainnya yang menimbulkan rasa takut, mencuri atau mengambil, atau menahan, menetapkan, atau menangkap seseorang, bersalah berdasarkan kode ini.\n2. Seseorang yang secara paksa, atau dengan cara apa pun lainnya yang menimbulkan rasa takut, mencuri atau mengambil, atau menahan, menetapkan, atau menangkap pegawai pemerintah untuk melindungi diri dari penangkapan, yang secara substansial meningkatkan risiko bahaya bagi korban, atau untuk tujuan menggunakan orang tersebut sebagai perisainya, bersalah berdasarkan kode ini.",
+        "punishment": "hingga 40 bulan",
+        "fine": "$1000"
+      },
+      {
+        "code": "(2)09. Penahanan Palsu (M)",
+        "text": "1. Seseorang yang secara melanggar hukum dan tanpa wewenang menangkap, menahan, atau membatasi seseorang dan menyebabkan mereka tinggal atau pergi ke suatu tempat yang bertentangan dengan kehendak mereka, bersalah berdasarkan kode ini.",
+        "punishment": "hingga 60 bulan",
+        "fine": "$400"
+      },
+      {
+        "code": "(2)10. Penahanan Palsu terhadap Pegawai Pemerintah (F)",
+        "text": "1. Seseorang yang secara melanggar hukum dan tanpa wewenang menangkap, menahan, atau membatasi seseorang dan menyebabkan mereka tinggal atau pergi ke suatu tempat yang bertentangan dengan kehendak mereka, bersalah berdasarkan kode ini.\n2. Seseorang yang secara paksa, atau dengan cara apa pun lainnya yang menimbulkan rasa takut, mencuri atau mengambil, atau menahan, menetapkan, atau menangkap pegawai pemerintah termasuk petugas perdamaian, bersalah berdasarkan kode ini.\n3. Seseorang yang melakukan penahanan palsu untuk melindungi diri dari penangkapan, bersalah berdasarkan kode ini.",
+        "punishment": "hingga 40 bulan",
+        "fine": "$1000"
+      },
+      {
+        "code": "(2)11. Penyiksaan (F)",
+        "text": "1. Seseorang yang sengaja menyebabkan rasa sakit atau penderitaan fisik atau mental yang luar biasa kepada orang lain untuk tujuan balas dendam, pemerasan, bujukan, atau untuk tujuan sadis apa pun, bersalah berdasarkan kode ini.",
+        "punishment": "hingga 90 bulan",
+        "fine": "$5000"
+      },
+      {
+        "code": "(2)12. Pembunuhan (F)",
+        "text": "1. Seseorang yang secara melanggar hukum membunuh manusia, atau janin yang mampu hidup di luar rahim, dengan niat jahat sebelumnya, baik yang diungkapkan maupun tersirat, bersalah berdasarkan kode ini.\n2. Seseorang yang melakukan pembunuhan saat terlibat dalam pelaksanaan atau percobaan pelaksanaan kejahatan tertentu, bersalah berdasarkan kode ini.\n*Hukuman ditentukan oleh putusan pengadilan.*",
+        "punishment": "hingga 240 bulan",
+        "fine": "$5000"
+      },
+      {
+        "code": "(2)13. Pembunuhan Tidak Sengaja (Voluntary Manslaughter) (F)",
+        "text": "1. Seseorang yang secara melanggar hukum membunuh manusia atau janin yang mampu hidup di luar rahim, tanpa niat jahat sebelumnya, atas suatu perselisihan tiba-tiba atau luapan emosi, bersalah berdasarkan kode ini.",
+        "punishment": "hingga 120 bulan",
+        "fine": "$2500"
+      },
+      {
+        "code": "(2)14. Pembunuhan Tidak Disengaja (Involuntary Manslaughter) (F)",
+        "text": "1. Seseorang yang membunuh orang lain tanpa pembenaran hukum dan dalam pelaksanaan suatu tindakan yang melanggar hukum, tidak sampai pada tingkat kejahatan berat, atau dalam pelaksanaan suatu tindakan yang sah yang dapat menghasilkan kematian, dengan cara yang melanggar hukum, atau tanpa kehati-hatian dan pertimbangan yang tepat, bersalah berdasarkan kode ini.",
+        "punishment": "hingga 60 bulan",
+        "fine": "$1500"
+      },
+      {
+        "code": "(2)15. Percobaan Pembunuhan (F)",
+        "text": "1. Seseorang yang mencoba membunuh manusia lain dengan niat jahat sebelumnya yang diungkapkan, tetapi gagal dalam pelaksanaannya atau dicegah dari menyelesaikan tindakan tersebut, bersalah berdasarkan kode ini.\n2. Seseorang yang mencoba membunuh petugas perdamaian yang sedang menjalankan tugas mereka, bersalah berdasarkan kode ini.",
+        "punishment": "hingga 120 bulan",
+        "fine": "$2500"
+      }
+    ]
+  },
+  {
+    "id": "title-3",
+    "title": "JUDUL 3. KEJAHATAN TERHADAP HARTA BENDA",
+    "sections": [
+      {
+        "code": "(3)01. Pembakaran (Arson) (F)",
+        "text": "1. Seseorang yang dengan sengaja dan jahat menyalakan api atau membakar atau menyebabkan dibakarnya, atau yang membantu, menasihati, atau mengatur pembakaran, bangunan, tanah hutan, atau properti apa pun, bersalah berdasarkan kode ini.",
+        "punishment": "hingga 90 bulan",
+        "fine": "$3000"
+      },
+      {
+        "code": "(3)02. Pembobolan (Burglary) (F)",
+        "text": "1. Seseorang yang memasuki rumah, kamar, apartemen, tanah sewaan, toko, gudang, toko, pabrik, lumbung, kandang, gudang kecil, atau bangunan lain, tenda, kapal, atau gerbong kereta api, atau halaman atau bagian dari tanah bangunan tersebut dengan maksud untuk melakukan pencurian besar atau kecil atau kejahatan apa pun, bersalah berdasarkan kode ini.",
+        "punishment": "hingga 60 bulan",
+        "fine": "$1000"
+      },
+      {
+        "code": "(3)03. Kepemilikan Alat Pembobolan (M)",
+        "text": "1. Seseorang yang memiliki bit, bor, jimmy, obeng, alat buka kunci, potongan logam ramping atau alat lainnya, dengan maksud untuk menggunakannya untuk memecah atau membuka bangunan apa pun, bersalah berdasarkan kode ini.\nAlat-alat dapat mencakup, tetapi tidak terbatas pada:\n• Alat\n• Kunci\n• Slimjim\n• Obeng\n• Tongkat besi",
+        "punishment": "hingga 0 bulan",
+        "fine": "$350"
+      },
+      {
+        "code": "(3)04. Perampokan (Robbery) (F)",
+        "text": "1. Seseorang yang mengambil properti dari kepemilikan orang lain yang bertentangan dengan kehendak mereka, dengan cara kekuatan atau rasa takut, seperti melalui ancaman kriminal, senjata tumpul, penyerangan atau penganiayaan, bersalah berdasarkan kode ini.",
+        "punishment": "hingga 120 bulan",
+        "fine": "$500"
+      },
+      {
+        "code": "(3)05. Perampokan Bersenjata (F)",
+        "text": "1. Seseorang yang mengambil properti dari kepemilikan orang lain yang bertentangan dengan kehendak mereka, dengan cara kekuatan yang difasilitasi dengan senjata api atau senjata tajam apa pun, bersalah berdasarkan kode ini.",
+        "punishment": "hingga 60 bulan",
+        "fine": "$1000"
+      },
+      {
+        "code": "(3)06. Pencurian Kecil (Petty Theft) (M)",
+        "text": "1. Seseorang yang mencuri atau mengambil properti pribadi orang lain senilai $950 atau kurang, bersalah berdasarkan kode ini.\n2. Seseorang yang gagal membayar kontrak atau tagihan dalam jangka waktu yang wajar untuk layanan senilai total kurang dari $950, bersalah berdasarkan kode ini.",
+        "punishment": "hingga 10 bulan",
+        "fine": "$1500"
+      },
+      {
+        "code": "(3)07. Pencurian Besar (Grand Theft) (M/F)",
+        "text": "1. Seseorang yang mencuri atau mengambil properti pribadi orang lain senilai lebih dari $950, atau senjata api apa pun terlepas dari nilainya, bersalah berdasarkan kode ini.\n2. Seseorang yang gagal membayar kontrak atau tagihan dalam jangka waktu yang wajar untuk layanan senilai total lebih dari $950, bersalah berdasarkan kode ini.\n3. Otomatis - Seseorang yang diduga oleh penegak hukum berdasarkan alasan yang masuk akal telah mencuri kendaraan, bersalah berdasarkan kode ini.",
+        "punishment": "hingga 180 bulan",
+        "fine": "$1500"
+      },
+      {
+        "code": "(3)08. Penerimaan Barang Curian (M)",
+        "text": "1. Seseorang yang membeli, menerima, menyembunyikan, menjual, atau menahan properti yang mereka ketahui atau percaya dicuri, bersalah berdasarkan kode ini.",
+        "punishment": "hingga 30 bulan",
+        "fine": "$500"
+      },
+      {
+        "code": "(3)09. Penggelapan (Embezzlement) (F)",
+        "text": "1. Seseorang yang secara menipu mengambil alih properti yang telah dipercayakan kepada mereka, bersalah berdasarkan kode ini.",
+        "punishment": "hingga 90 bulan",
+        "fine": "$2000"
+      },
+      {
+        "code": "(3)10. Kepemilikan Kendaraan Curian (M)",
+        "text": "1. Seseorang yang dengan sengaja membeli, menjual, menerima, menyembunyikan, atau memiliki kendaraan yang mereka ketahui atau percaya dicuri, bersalah berdasarkan kode ini.",
+        "punishment": "hingga 30 bulan",
+        "fine": "$1000"
+      },
+      {
+        "code": "(3)11. Pemalsuan/Penipuan (F)",
+        "text": "1. Seseorang yang dengan sengaja mengubah, membuat, atau menggunakan dokumen tertulis apa pun dengan maksud untuk menipu atau menipu orang lain, bersalah berdasarkan kode ini.\n2. Seseorang yang dengan sengaja menandatangani dokumen atau perjanjian, elektronik atau lainnya, tanpa persetujuan atau wewenang dari siapa yang mereka tandatangani untuk, bersalah berdasarkan kode ini.\n3. Seseorang yang memiliki, membeli, menjual, mentransfer, atau menyembunyikan dokumen identitas atau informasi pribadi dengan maksud untuk melakukan penipuan atau kejahatan lainnya, bersalah berdasarkan kode ini.",
+        "punishment": "hingga 30 bulan",
+        "fine": "$1000"
+      },
+      {
+        "code": "(3)12. Vandalisme (M)",
+        "text": "1. Seseorang yang merusak, menghancurkan, atau mencemarkan properti orang lain, bersalah berdasarkan kode ini.",
+        "punishment": "hingga 30 bulan",
+        "fine": "$500"
+      },
+      {
+        "code": "(3)13. Pemerasan (Extortion) (F)",
+        "text": "1. Seseorang yang memperoleh properti dari orang lain, dengan persetujuan mereka, yang diinduksi oleh penggunaan kekuatan atau rasa takut yang melanggar hukum, atau di bawah warna hak resmi, bersalah berdasarkan kode ini.",
+        "punishment": "hingga 120 bulan",
+        "fine": "$2000"
+      }
+    ]
+  },
+  {
+    "id": "title-4",
+    "title": "JUDUL 4. KEJAHATAN TERHADAP KELUHURANAN UMUM",
+    "sections": [
+      {
+        "code": "(4)01. Ekspos Diri yang Tidak Senonoh (M)",
+        "text": "1. Seseorang yang dengan sengaja dan tidak senonoh mengekspos dirinya, atau bagian tubuh pribadinya, di tempat umum atau dalam pandangan umum, bersalah berdasarkan kode ini.",
+        "punishment": "hingga 10 bulan",
+        "fine": "$300"
+      },
+      {
+        "code": "(4)02. Perbuatan Tidak Senonoh (F)",
+        "text": "1. Seseorang yang terlibat dalam perbuatan tidak senonoh atau cabul di hadapan anak di bawah usia 14 tahun, dengan maksud untuk membangkitkan, menarik, atau memuaskan nafsu birahi atau gairah orang tersebut atau anak tersebut, bersalah berdasarkan kode ini.",
+        "punishment": "hingga 90 bulan",
+        "fine": "$3000"
+      },
+      {
+        "code": "(4)03. Memancing Prostitusi (M)",
+        "text": "1. Seseorang yang memancing orang lain untuk terlibat dalam tindakan prostitusi, bersalah berdasarkan kode ini.",
+        "punishment": "hingga 30 bulan",
+        "fine": "$500"
+      },
+      {
+        "code": "(4)04. Prostitusi (M)",
+        "text": "1. Seseorang yang terlibat dalam tindakan prostitusi, bersalah berdasarkan kode ini.",
+        "punishment": "hingga 30 bulan",
+        "fine": "$500"
+      },
+      {
+        "code": "(4)05. Pemandu (Pandering) (F)",
+        "text": "1. Seseorang yang memperkerjakan atau mendorong orang lain untuk menjadi pelacur, atau yang hidup seluruhnya atau sebagian dari penghasilan prostitusi, bersalah berdasarkan kode ini.",
+        "punishment": "hingga 60 bulan",
+        "fine": "$1000"
+      },
+      {
+        "code": "(4)06. Pemerkosaan (Rape) (F)",
+        "text": "1. Seseorang yang memaksa orang lain untuk melakukan hubungan seksual, bersalah berdasarkan kode ini.\n2. Seseorang yang melakukan hubungan seksual tanpa persetujuan dengan orang lain, bersalah berdasarkan kode ini.\n3. Seseorang yang melakukan hubungan seksual dengan orang lain yang tidak berdaya, cacat, atau tidak dapat memberikan persetujuan, bersalah berdasarkan kode ini.",
+        "punishment": "hingga 90 bulan",
+        "fine": "$5000"
+      },
+      {
+        "code": "(4)07. Penguntitan (Stalking) (F)",
+        "text": "1. Seseorang yang dengan sengaja, jahat, dan berulang kali mengikuti atau mengganggu orang lain dan yang membuat ancaman yang dapat dipercaya dengan maksud untuk menempatkan orang tersebut dalam rasa takut yang wajar atas keselamatan mereka atau keselamatan keluarga inti mereka, bersalah berdasarkan kode ini.",
+        "punishment": "hingga 60 bulan",
+        "fine": "$1000"
+      }
+    ]
+  },
+  {
+    "id": "title-5",
+    "title": "JUDUL 5. KEJAHATAN TERHADAP KEADILAN UMUM",
+    "sections": [
+      {
+        "code": "(5)01. Suap (Bribery) (F)",
+        "text": "1. Seseorang yang memberikan atau menawarkan suap apa pun kepada pejabat eksekutif, legislatif, administratif, atau yudisial negara bagian atau subdivisi politik mana pun, atau kepada orang yang dipilih untuk melayani dalam juri mana pun, bersalah berdasarkan kode ini.\n2. Seseorang yang meminta, menerima, atau setuju untuk menerima suap apa pun, bersalah berdasarkan kode ini.",
+        "punishment": "hingga 120 bulan",
+        "fine": "$5000"
+      },
+      {
+        "code": "(5)02. Sumpah Palsu (Perjury) (F)",
+        "text": "1. Seseorang yang, setelah mengambil sumpah yang mereka ketahui palsu, dengan sengaja menyatakan sebagai benar hal materi apa pun yang mereka ketahui palsu, bersalah berdasarkan kode ini.",
+        "punishment": "hingga 90 bulan",
+        "fine": "$3000"
+      },
+      {
+        "code": "(5)03. Melaporkan Informasi Palsu (M)",
+        "text": "1. Seseorang yang dengan sengaja mengajukan laporan palsu atau menipu kepada petugas perdamaian atau pejabat publik mana pun, mengetahui informasi tersebut palsu, bersalah berdasarkan kode ini.",
+        "punishment": "hingga 30 bulan",
+        "fine": "$500"
+      },
+      {
+        "code": "(5)04. Menghalangi Keadilan (Obstruction of Justice) (F)",
+        "text": "1. Seseorang yang dengan sengaja berusaha mencegah, menghalangi, atau menunda komunikasi informasi atau kesaksian kepada pejabat legislatif, eksekutif, atau yudisial atau lembaga mana pun, atau kepada petugas perdamaian, jaksa penuntut umum, atau hakim mana pun, mengenai pelaksanaan kejahatan, bersalah berdasarkan kode ini.",
+        "punishment": "hingga 60 bulan",
+        "fine": "$1000"
+      },
+      {
+        "code": "(5)05. Memalsukan Bukti (Tampering with Evidence) (F)",
+        "text": "1. Seseorang yang mengetahui bahwa kejahatan telah dilakukan dan dengan sengaja menghancurkan, mengubah, menyembunyikan, atau menghilangkan bukti dengan maksud untuk mencegah penggunaannya dalam proses resmi mana pun, atau untuk merusak kebenarannya atau ketersediaannya, bersalah berdasarkan kode ini.",
+        "punishment": "hingga 60 bulan",
+        "fine": "$1000"
+      },
+      {
+        "code": "(5)06. Aksesori Setelah Fakta (Accessory After the Fact) (F)",
+        "text": "1. Seseorang yang, setelah kejahatan berat dilakukan, menyembunyikan, menutupi, atau membantu pelaku utama, dengan maksud agar pelaku dapat menghindari atau melarikan diri dari penangkapan, persidangan, hukuman, atau penghukuman, mengetahui bahwa orang tersebut telah melakukan kejahatan berat, bersalah berdasarkan kode ini.",
+        "punishment": "hingga 60 bulan",
+        "fine": "$1000"
+      },
+      {
+        "code": "(5)07. Konspirasi (Conspiracy) (F)",
+        "text": "1. Jika dua orang atau lebih bersekongkol untuk melakukan kejahatan apa pun, untuk secara palsu dan jahat menuduh orang lain atas kejahatan apa pun, atau untuk menyebabkan orang lain dituntut atau ditangkap atas kejahatan apa pun, mereka harus dihukum dengan cara yang sama seperti jika kejahatan tersebut telah selesai.",
+        "punishment": "hingga 120 bulan",
+        "fine": "$2500"
+      },
+      {
+        "code": "(5)08. Memancing (Soliciting) (LEVEL 3)",
+        "text": "1. Seseorang yang memancing untuk melakukan atau menjalankan kejahatan apa pun harus dihukum dengan cara yang sama seperti jika kejahatan tersebut telah selesai.",
+        "punishment": "Tingkat 3",
+        "fine": "N/A"
+      },
+      {
+        "code": "(5)09. Pelanggaran Senjata (Weapon Violation) (LEVEL 4)",
+        "text": "1. Seseorang yang melakukan kejahatan berat sambil memiliki senjata api harus dicabut lisensi senjatanya.\n2. Seseorang yang menunjukkan penggunaan senjata api secara ilegal atau tidak bertanggung jawab harus dianggap memiliki lisensi senjata apinya ditangguhkan atau dicabut tergantung pada entri pidana pelanggaran senjata. Jika tidak ada deskripsi, akan menjadi kebijaksanaan petugas.",
+        "punishment": "Tingkat 4",
+        "fine": "N/A"
+      },
+      {
+        "code": "(5)10. Penyamaran (Impersonation) (F)",
+        "text": "1. Seseorang yang secara palsu mengaku sebagai petugas perdamaian, pemadam kebakaran, paramedis, teknisi medis darurat, atau pejabat pemerintah lainnya, dengan maksud untuk memperoleh manfaat atau menipu orang lain, bersalah berdasarkan kode ini.",
+        "punishment": "hingga 60 bulan",
+        "fine": "$1500"
+      },
+      {
+        "code": "(5)11. Melarikan Diri (Escape) (F)",
+        "text": "1. Seseorang yang melarikan diri atau mencoba melarikan diri dari tahanan petugas perdamaian atau dari penjara atau penjara negara bagian, bersalah berdasarkan kode ini.",
+        "punishment": "hingga 60 bulan",
+        "fine": "$1000"
+      },
+      {
+        "code": "(5)12. Pelanggaran Perdagangan Manusia (Human Trafficking Violation) (F)",
+        "text": "1. Seseorang yang dengan sengaja menyelundupkan orang asing ke negara bagian tanpa visa dan otorisasi yang tepat, bersalah berdasarkan kode ini.\n2. Seseorang yang dengan sengaja membatasi kebebasan orang lain dengan maksud untuk memaksa kerja atau perdagangan seks, atau aktivitas terpaksa lainnya, bersalah berdasarkan kode ini.\n3. Tuduhan ini tidak dapat digabungkan dengan Penculikan.",
+        "punishment": "hingga 360 bulan",
+        "fine": "$5000"
+      },
+      {
+        "code": "(5)13. Penyalahgunaan Saluran Pemerintah (Abuse of Government Channels) (M)",
+        "text": "1. Seseorang yang dengan sengaja menggunakan saluran komunikasi pemerintah untuk penggunaan pribadi atau untuk bisnis non-resmi, bersalah berdasarkan kode ini.",
+        "punishment": "hingga 30 bulan",
+        "fine": "$500"
+      },
+      {
+        "code": "(5)14. Penyamaran Pegawai Pemerintah (Impersonation of a Government Employee) (F)",
+        "text": "1. Seseorang bersalah jika mereka secara menipu mengambil atau berpura-pura menjadi pemilik hal-hal berikut dengan maksud untuk memperoleh uang, properti, atau manfaat berwujud lainnya:\n• Medali Kehormatan\n• Identifikasi Petugas Perdamaian\n• Rompi Petugas Perdamaian\n• Pakaian Paramedis\n• Kartu Identitas Pegawai Pemerintah\n• Kartu Identitas Petugas Perdamaian\n• Pengganti atau duplikat medali apa pun untuk medali tersebut sebagaimana diotorisasi oleh hukum.",
+        "punishment": "hingga 90 bulan",
+        "fine": "$3500"
+      },
+      {
+        "code": "(5)15. Penghancuran Identitas Pegawai Pemerintah (Destruction of Government Employee Identity) (F)",
+        "text": "1. Seseorang bersalah berdasarkan kode ini jika mereka dengan sengaja, melanggar hukum, atau jahat mencoreng, merusak, atau mencemari properti publik San Andreas, Amerika Serikat untuk memperoleh uang, properti, atau manfaat berwujud lainnya sambil secara menipu mengambil atau berpura-pura menjadi pemilik hal-hal berikut:\n• Medali Kehormatan\n• Identifikasi Petugas Perdamaian\n• Rompi Petugas Perdamaian\n• Pakaian Paramedis\n• Kartu Identitas Pegawai Pemerintah\n• Kartu Identitas Petugas Perdamaian\n• Pengganti atau duplikat medali apa pun untuk medali tersebut sebagaimana diotorisasi oleh hukum.",
+        "punishment": "hingga 90 bulan",
+        "fine": "$3500"
+      }
+    ]
+  },
+  {
+    "id": "title-6",
+    "title": "JUDUL 6. KEJAHATAN TERHADAP PERDAMAIAN UMUM",
+    "sections": [
+      {
+        "code": "(6)01. Mengganggu Ketertiban Umum (Disturbing the Peace) (M)",
+        "text": "• Setiap orang yang secara melanggar hukum berkelahi di tempat umum atau menantang orang lain di tempat umum untuk berkelahi, bersalah berdasarkan kode ini.\n• Setiap orang yang dengan sengaja dan jahat mengganggu orang lain dengan suara yang keras dan tidak masuk akal, bersalah berdasarkan kode ini.",
+        "punishment": "hingga 10 bulan",
+        "fine": "$2000"
+      },
+      {
+        "code": "(6)02. Kerusuhan (Riot) (F)",
+        "text": "1. Seseorang yang terlibat dalam tindakan yang menciptakan bahaya serius kerusakan properti atau cedera terhadap orang, atau secara substansial menghalangi fungsi penegakan hukum atau pemerintahan lainnya, bersalah berdasarkan kode ini.",
+        "punishment": "hingga 60 bulan",
+        "fine": "$1000"
+      },
+      {
+        "code": "(6)03. Menghasut Kerusuhan (Inciting a Riot) (M)",
+        "text": "1. Seseorang yang, dengan maksud untuk menyebabkan kerusuhan, melakukan tindakan apa pun atau terlibat dalam tindakan yang mendorong kerusuhan, atau mendorong orang lain untuk melakukan tindakan kekuatan atau kekerasan, atau pembakaran atau penghancuran properti, dan pada waktu dan tempat serta dalam keadaan yang menciptakan bahaya jelas, segera, dan langsung terhadap tindakan kekuatan atau kekerasan atau pembakaran atau penghancuran properti, bersalah berdasarkan kode ini.",
+        "punishment": "hingga 30 bulan",
+        "fine": "$800"
+      }
+    ]
+  },
+  {
+    "id": "title-7",
+    "title": "JUDUL 7. KEJAHATAN TERHADAP KESEHATAN DAN KESELAMATAN PUBLIK",
+    "sections": [
+      {
+        "code": "(7)01. Kepemilikan Zat Terlarang (Possession of Controlled Substance) (M)",
+        "text": "1. Seseorang yang secara melanggar hukum memiliki zat terkontrol, ganja, atau beberapa zat terkontrol dalam jumlah besar, bersalah berdasarkan kode ini.\n2. Seseorang yang secara melanggar hukum memiliki zat terkontrol atau ganja yang dikemas dalam kantong atau bungkusan terpisah, bersalah berdasarkan kode ini.",
+        "punishment": "hingga 60 bulan",
+        "fine": "$1500"
+      },
+      {
+        "code": "(7)02. Kepemilikan Peralatan Narkoba (Possession of Drug Paraphernalia) (M)",
+        "text": "1. Seseorang yang dengan sengaja memiliki perangkat atau mekanisme yang digunakan secara eksklusif untuk persiapan, distribusi, atau konsumsi zat terkontrol ilegal, bersalah berdasarkan kode ini.",
+        "punishment": "hingga 90 bulan",
+        "fine": "$1500"
+      },
+      {
+        "code": "(7)03. Menjaga Tempat untuk Distribusi (Maintaining a Place for Distribution) (F)",
+        "text": "1. Seseorang yang membuka atau menjaga properti apa pun untuk tujuan menjual, memberikan, menyimpan, atau menggunakan zat terkontrol ilegal, senjata api, atau perangkat, barang, atau layanan ilegal lainnya, bersalah berdasarkan kode ini.",
+        "punishment": "hingga 120 bulan",
+        "fine": "$3000"
+      },
+      {
+        "code": "(7)04. Penjualan atau Distribusi Zat Terlarang (Sale or Distribution of Controlled Substance) (F)",
+        "text": "1. Seseorang yang menjual, menawarkan untuk menjual, mengangkut dengan maksud untuk menjual, atau memberikan zat terkontrol kepada orang lain, terlepas dari apakah mereka memiliki zat terkontrol tersebut atau tidak, bersalah berdasarkan kode ini.",
+        "punishment": "hingga 90 bulan",
+        "fine": "$3000"
+      },
+      {
+        "code": "(7)05. Di Bawah Pengaruh Zat Terlarang (Under the Influence of a Controlled Substance) (M)",
+        "text": "1. Seseorang yang menggunakan atau berada di bawah pengaruh zat terkontrol atau zat berbahaya tanpa otorisasi atau resep yang tepat untuk menggunakan zat tersebut, bersalah berdasarkan kode ini.",
+        "punishment": "hingga 90 bulan",
+        "fine": "$5000"
+      },
+      {
+        "code": "(7)06. Membuang Sampah Sembarangan (Littering) (M)",
+        "text": "1. Sebagaimana digunakan dalam bagian ini, 'sampah' berarti sampah, limbah, abu, kaleng, botol, kawat, kertas, kardus, bagian kapal, bagian kendaraan, furnitur, kaca, atau apa pun yang tidak sedap dipandang atau tidak sehat.\n2. Tidak ada orang yang boleh menempatkan limbah, sampah, atau benda asing di area atau wadah apa pun kecuali yang disediakan untuk tujuan tersebut.",
+        "punishment": "hingga 0 bulan",
+        "fine": "$300"
+      },
+      {
+        "code": "(7)07. Bergelandangan untuk Prostitusi (Loitering for Prostitution) (M)",
+        "text": "1. Seseorang yang bergelandangan, mengembara, atau tinggal di tempat dengan maksud untuk melakukan prostitusi, bersalah berdasarkan kode ini.",
+        "punishment": "hingga 30 bulan",
+        "fine": "$500"
+      }
+    ]
+  },
+  {
+    "id": "title-8",
+    "title": "JUDUL 8. KEJAHATAN TERHADAP TANGGUNG JAWAB NEGARA",
+    "sections": [
+      {
+        "code": "(8)01. Penganiayaan Anak (Child Abuse) (F)",
+        "text": "1. Seseorang yang dengan sengaja menyebabkan atau membiarkan anak menderita, atau menimbulkan cedera pada anak mana pun, atau membiarkan anak ditempatkan dalam situasi di mana kesehatannya terancam, bersalah berdasarkan kode ini.",
+        "punishment": "hingga 120 bulan",
+        "fine": "$2000"
+      },
+      {
+        "code": "(8)02. Pengabaian Anak (Child Neglect) (F)",
+        "text": "1. Seseorang yang gagal menyediakan makanan, pakaian, tempat tinggal, perawatan medis, atau pengawasan yang diperlukan untuk anak, bersalah berdasarkan kode ini.",
+        "punishment": "hingga 90 bulan",
+        "fine": "$1500"
+      },
+      {
+        "code": "(8)03. Berkontribusi terhadap Kenakalan Anak (Contributing to the Delinquency of a Minor) (M)",
+        "text": "1. Seseorang yang mendorong, membantu, menganjurkan, atau berkontribusi terhadap ketergantungan, kenakalan, atau keluyuran anak di bawah umur mana pun, bersalah berdasarkan kode ini.",
+        "punishment": "hingga 30 bulan",
+        "fine": "$500"
+      }
+    ]
+  },
+  {
+    "id": "title-9",
+    "title": "JUDUL 9. PEMBATASAN SENJATA DAN PERALATAN MEMATIKAN",
+    "sections": [
+      {
+        "code": "(9)01. Kepemilikan Senjata Api Ilegal (Unlawful Possession of a Firearm) (F)",
+        "text": "1. Seseorang yang memiliki senjata api dengan melanggar hukum negara bagian, bersalah berdasarkan kode ini.",
+        "punishment": "hingga 60 bulan",
+        "fine": "$1000"
+      },
+      {
+        "code": "(9)02. Mengacungkan Senjata Api (Brandishing a Firearm) (F)",
+        "text": "1. Seseorang yang menggambar atau memperlihatkan senjata mematikan apa pun, selain senjata api, dengan cara yang kasar, marah, atau mengancam, atau secara melanggar hukum menggunakan senjata api dengan cara apa pun, bersalah berdasarkan kode ini.\n2. Seseorang yang memegang benda dengan cara yang mirip dengan senjata api mencoba menimbulkan rasa takut atau respons yang sama seperti mengacungkan senjata api sungguhan, bersalah berdasarkan kode ini.",
+        "punishment": "hingga 60 bulan",
+        "fine": "$1500"
+      },
+      {
+        "code": "(9)03. Pelanggaran Penggunaan Senjata Api (Firearm Use Violation) (F)",
+        "text": "1. Seseorang yang dengan sengaja melepaskan senjata api dengan cara yang sangat ceroboh yang dapat menyebabkan cedera atau kematian, bersalah berdasarkan kode ini.",
+        "punishment": "hingga 60 bulan",
+        "fine": "$1000"
+      },
+      {
+        "code": "(9)04. Kepemilikan Pisau Ilegal (Unlawful Possession of a Knife) (M)",
+        "text": "1. Seseorang yang membawa dirk atau dagger secara terbuka atau tersembunyi, atau yang membawa pisau tersembunyi dengan mata lebih dari 3 inci, bersalah berdasarkan kode ini.",
+        "punishment": "hingga 30 bulan",
+        "fine": "$500"
+      },
+      {
+        "code": "(9)05. Bekas Tahanan yang Memiliki Senjata Api (Felon in Possession of a Firearm) (F)",
+        "text": "1. Seseorang yang telah dihukum atas kejahatan berat dan yang memiliki senjata api, bersalah berdasarkan kode ini.",
+        "punishment": "hingga 60 bulan",
+        "fine": "$1000"
+      },
+      {
+        "code": "(9)06. Kepemilikan Bahan Peledak (Possession of an Explosive) (F)",
+        "text": "1. Seseorang yang secara melanggar hukum memiliki perangkat peledak atau incendiary apa pun, bersalah berdasarkan kode ini.",
+        "punishment": "hingga 120 bulan",
+        "fine": "$5000"
+      },
+      {
+        "code": "(9)07. Endangerment Sembrono (Reckless Endangerment) (M)",
+        "text": "1. Seseorang yang dengan sembrono terlibat dalam tindakan yang menciptakan risiko substansial cedera fisik serius terhadap orang lain, bersalah berdasarkan kode ini.",
+        "punishment": "hingga 30 bulan",
+        "fine": "$500"
+      },
+      {
+        "code": "(9)08. Penyerangan Berat dengan Senjata Mematikan (Felony Assault with a Deadly Weapon) (F)",
+        "text": "1. Seseorang yang melakukan penyerangan dengan senjata mematikan terhadap orang lain dengan maksud untuk melakukan kejahatan berat atau menimbulkan cedera tubuh yang parah, bersalah berdasarkan kode ini.",
+        "punishment": "hingga 90 bulan",
+        "fine": "$2000"
+      },
+      {
+        "code": "(9)09. Pelaku Kejahatan Berat dengan Kekerasan yang Memiliki Senjata (Serious Felon in Possession of a Weapon) (F)",
+        "text": "1. Seseorang yang memiliki riwayat kejahatan berat dengan kekerasan, atau kejahatan berat dalam setahun terakhir yang memiliki jenis senjata apa pun baik senjata api maupun alat pisau yang dikendalikan, bersalah berdasarkan kode ini.",
+        "punishment": "hingga 40 bulan",
+        "fine": "$1500"
+      }
+    ]
+  },
+  {
+    "id": "title-10",
+    "title": "JUDUL 10. KEJAHATAN TERHADAP OTORITAS DAN OTONOMI NEGARA",
+    "sections": [
+      {
+        "code": "(10)01. Pengkhianatan (Treason)",
+        "text": "1. Seseorang yang membangkitkan perang melawan negara bagian, atau bersekutu dengan musuhnya, memberi mereka bantuan dan kenyamanan, bersalah atas pengkhianatan.",
+        "punishment": "Hukuman Mati atau Penjara Seumur Hidup",
+        "fine": "N/A"
+      },
+      {
+        "code": "(10)02. Penghasutan (Sedition) (F)",
+        "text": "1. Seseorang yang dengan sengaja menganjurkan penggulingan pemerintah dengan kekuatan, kekerasan, atau cara ilegal lainnya, atau yang dengan sengaja mengorganisir atau membantu mengorganisir kelompok apa pun untuk tujuan menganjurkan penggulingan tersebut, bersalah berdasarkan kode ini.",
+        "punishment": "hingga 120 bulan",
+        "fine": "$5000"
+      },
+      {
+        "code": "(10)03. Melawan Penangkapan (Resisting Arrest) (M)",
+        "text": "1. Seseorang yang dengan sengaja melawan, menunda, atau menghalangi petugas perdamaian dalam pelaksanaan tugas mereka, bersalah berdasarkan kode ini.",
+        "punishment": "hingga 30 bulan",
+        "fine": "$500"
+      },
+      {
+        "code": "(10)04. Menghindari Petugas Perdamaian (Evading a Peace Officer) (F)",
+        "text": "1. Seseorang yang melarikan diri atau mencoba menghindari kendaraan bermotor petugas perdamaian yang sedang mengejar, bersalah berdasarkan kode ini.",
+        "punishment": "hingga 60 bulan",
+        "fine": "$1000"
+      },
+      {
+        "code": "(10)05. Gagal Mematuhi Petugas Perdamaian (Failure to Obey a Peace Officer) (M)",
+        "text": "1. Seseorang yang dengan sengaja gagal atau menolak mematuhi perintah atau arahan hukum apa pun dari petugas perdamaian yang sedang menjalankan tugas mereka, bersalah berdasarkan kode ini.",
+        "punishment": "hingga 30 bulan",
+        "fine": "$500"
+      },
+      {
+        "code": "(10)06. Menyamar sebagai Petugas Perdamaian (Impersonating a Peace Officer) (F)",
+        "text": "1. Seseorang yang secara palsu mengaku sebagai petugas perdamaian, dengan maksud untuk menipu atau memperoleh keuntungan, bersalah berdasarkan kode ini.",
+        "punishment": "hingga 60 bulan",
+        "fine": "$1000"
+      }
+    ]
+  },
+  {
+    "id": "title-11",
+    "title": "JUDUL 11. OPERASI PESAWAT UDARA",
+    "sections": [
+      {
+        "code": "(11)01. Operasi Pesawat Sembrono (Reckless Operation of Aircraft) (F)",
+        "text": "1. Seseorang yang mengoperasikan pesawat dengan sembrono atau dengan pengabaian yang disengaja terhadap keselamatan orang atau properti, bersalah berdasarkan kode ini.",
+        "punishment": "hingga 60 bulan",
+        "fine": "$2000"
+      },
+      {
+        "code": "(11)02. Terbang dalam Keadaan Mabuk (Flying Under the Influence) (F)",
+        "text": "1. Seseorang yang mengoperasikan pesawat saat berada di bawah pengaruh alkohol atau narkoba, bersalah berdasarkan kode ini.",
+        "punishment": "hingga 90 bulan",
+        "fine": "$3000"
+      }
+    ]
+  },
+  {
+    "id": "title-12",
+    "title": "JUDUL 12. OPERASI KAPAL LAUT",
+    "sections": [
+      {
+        "code": "(12)01. Operasi Kapal Sembrono (Reckless Operation of Watercraft) (F)",
+        "text": "1. Seseorang yang mengoperasikan kapal laut dengan sembrono atau dengan pengabaian yang disengaja terhadap keselamatan orang atau properti, bersalah berdasarkan kode ini.",
+        "punishment": "hingga 60 bulan",
+        "fine": "$2000"
+      },
+      {
+        "code": "(12)02. Mengemudi Kapal dalam Keadaan Mabuk (Boating Under the Influence) (F)",
+        "text": "1. Seseorang yang mengoperasikan kapal laut saat berada di bawah pengaruh alkohol atau narkoba, bersalah berdasarkan kode ini.",
+        "punishment": "hingga 90 bulan",
+        "fine": "$3000"
+      }
+    ]
+  },
+  {
+    "id": "title-13",
+    "title": "JUDUL 13. PEMBERATAN HUKUMAN",
+    "sections": [
+      {
+        "code": "(13)01. Pelanggar Terbiasa (Habitual Offender) (F)",
+        "text": "1. Seseorang yang telah dihukum atas beberapa kejahatan berat dan terus melakukan kejahatan, dapat dikenai hukuman yang diperberat.",
+        "punishment": "Hukuman yang diperberat",
+        "fine": "N/A"
+      },
+      {
+        "code": "(13)02. Pemberatan Kejahatan Benci",
+        "text": "1. Kejahatan apa pun yang dilakukan karena ras, agama, orientasi seksual, atau karakteristik terlindungi lainnya dari korban, dapat dikenai hukuman yang diperberat.",
+        "punishment": "Hukuman yang diperberat",
+        "fine": "N/A"
+      }
+    ]
+  },
+  {
+    "id": "title-14",
+    "title": "JUDUL 14. KEJAHATAN LAIN-LAIN",
+    "sections": [
+      {
+        "code": "(14)01. Perkumpulan Ilegal (Unlawful Assembly) (M)",
+        "text": "1. Seseorang yang berpartisipasi dalam perkumpulan ilegal, bersalah berdasarkan kode ini.",
+        "punishment": "hingga 30 bulan",
+        "fine": "$500"
+      },
+      {
+        "code": "(14)02. Penghinaan terhadap Pengadilan (Contempt of Court) (M)",
+        "text": "1. Seseorang yang dengan sengaja tidak mematuhi perintah atau proses hukum apa pun dari pengadilan, bersalah berdasarkan kode ini.",
+        "punishment": "hingga 30 bulan",
+        "fine": "$500"
+      },
+      {
+        "code": "(14)03. Sumpah Palsu dalam Urusan Resmi (Perjury in Official Matters) (F)",
+        "text": "1. Seseorang yang melakukan sumpah palsu dalam proses resmi apa pun, bersalah berdasarkan kode ini.",
+        "punishment": "hingga 90 bulan",
+        "fine": "$3000"
+      },
+      {
+        "code": "(14)04. Mengajukan Dokumen Palsu (Filing a False Document) (F)",
+        "text": "1. Seseorang yang dengan sengaja mengajukan dokumen palsu kepada lembaga pemerintah apa pun, bersalah berdasarkan kode ini.",
+        "punishment": "hingga 60 bulan",
+        "fine": "$1000"
+      },
+      {
+        "code": "(14)05. Pencurian Identitas (Identity Theft) (F)",
+        "text": "1. Seseorang yang dengan sengaja memperoleh informasi identitas pribadi orang lain, dan menggunakan informasi tersebut tanpa otorisasi, dengan maksud untuk menipu atau menyebabkan kerugian, bersalah berdasarkan kode ini.",
+        "punishment": "hingga 90 bulan",
+        "fine": "$3000"
+      },
+      {
+        "code": "(14)06. Pencucian Uang (Money Laundering) (F)",
+        "text": "1. Seseorang yang melakukan atau mencoba melakukan transaksi keuangan yang melibatkan hasil dari aktivitas ilegal tertentu, mengetahui bahwa properti tersebut merupakan hasil dari suatu bentuk aktivitas ilegal, bersalah berdasarkan kode ini.",
+        "punishment": "hingga 120 bulan",
+        "fine": "$5000"
+      },
+      {
+        "code": "(14)07. Peretasan (Racketeering) (F)",
+        "text": "1. Seseorang yang memperoleh atau mempertahankan, secara langsung atau tidak langsung, minat atau kontrol atas perusahaan apa pun melalui pola aktivitas peretasan, bersalah berdasarkan kode ini.",
+        "punishment": "hingga 240 bulan",
+        "fine": "$10000"
+      },
+      {
+        "code": "(14)08. Pembajakan Korporasi",
+        "text": "1. Seseorang atau kelompok yang secara melanggar hukum dan sengaja menggunakan lokasi bisnis untuk keuntungan perdagangan, korporasi, atau keuangan tanpa lisensi, sewa, atau persetujuan dari pemilik terdaftar, akan dikenai denda sejumlah semua keuntungan yang diperoleh selama melakukan pembajakan korporasi.",
+        "punishment": "hingga 20 bulan",
+        "fine": "jumlah semua keuntungan yang diperoleh selama melakukan pembajakan korporasi"
+      }
+    ]
+  },
+  {
+    "id": "title-15",
+    "title": "JUDUL 15. KODE LALU LINTAS",
+    "sections": [
+      {
+        "code": "CHPC 15-1 - Lisensi Penduduk Baru",
+        "text": "Penduduk baru harus memperoleh lisensi yang sah dari Departemen Kendaraan Bermotor San Andreas dalam waktu 30 hari setelah menetap. Kegagalan melakukannya mengakibatkan tilang.",
+        "punishment": "Tidak ditentukan",
+        "fine": ""
+      },
+      {
+        "code": "CHPC 15-2 - Mengemudi dengan Lisensi yang Ditangguhkan",
+        "text": "Seseorang mengoperasikan kendaraan bermotor sementara lisensinya telah ditangguhkan atau dicabut. [cite: 1529].",
+        "punishment": "Tidak ditentukan",
+        "fine": ""
+      },
+      {
+        "code": "CHPC 15-3 - Mengemudi dengan Lisensi yang Dicabut",
+        "text": "Seseorang mengoperasikan kendaraan bermotor sementara lisensinya telah dicabut. [cite: 1531].",
+        "punishment": "Tidak ditentukan",
+        "fine": ""
+      },
+      {
+        "code": "CHPC 15-4 - Mengemudi Sembrono",
+        "text": "Mengemudi sembrono adalah operasi kendaraan di jalan raya atau jalan umum lainnya, dengan sengaja atau semena-mena tanpa memperhatikan keselamatan orang atau properti. [cite: 1533].",
+        "punishment": "Tidak ditentukan",
+        "fine": ""
+      },
+      {
+        "code": "CHPC 15-5 - Mengemudi Sembrono Menyebabkan Cedera",
+        "text": "Mengemudi sembrono yang mengakibatkan cedera tubuh pada orang lain. [cite: 1535].",
+        "punishment": "Tidak ditentukan",
+        "fine": ""
+      },
+      {
+        "code": "CHPC 15-6 - Balap Liar",
+        "text": "Berpartisipasi dalam kontes kecepatan atau balap seret di jalan raya atau jalan umum. [cite: 1537].",
+        "punishment": "Tidak ditentukan",
+        "fine": ""
+      },
+      {
+        "code": "CHPC 15-7 - Melarikan Diri atau Mencoba Menghindari Petugas Perdamaian",
+        "text": "Seseorang melarikan diri atau mencoba menghindari kendaraan bermotor petugas perdamaian yang sedang mengejar. [cite: 1539].",
+        "punishment": "Tidak ditentukan",
+        "fine": ""
+      },
+      {
+        "code": "CHPC 15-8 - Mengemudi dalam Keadaan Mabuk (DUI)",
+        "text": "Seseorang mengemudi kendaraan saat berada di bawah pengaruh alkohol atau narkoba. [cite: 1541].",
+        "punishment": "Tidak ditentukan",
+        "fine": ""
+      },
+      {
+        "code": "CHPC 15-9 - Mengemudi dalam Keadaan Mabuk Menyebabkan Cedera",
+        "text": "Seseorang mengemudi kendaraan saat berada di bawah pengaruh alkohol atau narkoba, menyebabkan cedera tubuh pada orang lain. [cite: 1543].",
+        "punishment": "Tidak ditentukan",
+        "fine": ""
+      },
+      {
+        "code": "CHPC 15-10 - Mengemudi dalam Keadaan Mabuk Menyebabkan Kematian",
+        "text": "Seseorang mengemudi kendaraan saat berada di bawah pengaruh alkohol atau narkoba, menyebabkan kematian orang lain. [cite: 1545].",
+        "punishment": "Tidak ditentukan",
+        "fine": ""
+      },
+      {
+        "code": "CHPC 15-11 - Menolak Tes Kimia",
+        "text": "Seseorang menolak untuk menjalani tes kimia untuk menentukan kadar alkohol atau narkoba dalam darah atau napas mereka ketika diminta oleh petugas perdamaian. [cite: 1547].",
+        "punishment": "Tidak ditentukan",
+        "fine": ""
+      },
+      {
+        "code": "CHPC 15-12 - Wadah Alkohol Terbuka di Dalam Kendaraan",
+        "text": "Wadah alkohol terbuka ada di area penumpang kendaraan bermotor saat sedang dioperasikan. [cite: 1549].",
+        "punishment": "Tidak ditentukan",
+        "fine": ""
+      },
+      {
+        "code": "CHPC 15-13 - Anak di Bawah Umur yang Memiliki Alkohol",
+        "text": "Seseorang di bawah usia 21 tahun memiliki atau mengonsumsi alkohol. [cite: 1551].",
+        "punishment": "Tidak ditentukan",
+        "fine": ""
+      },
+      {
+        "code": "CHPC 15-14 - Anak di Bawah Umur Mengemudi dengan Alkohol dalam Tubuh",
+        "text": "Seseorang di bawah usia 21 tahun mengoperasikan kendaraan bermotor dengan kadar alkohol yang terukur dalam tubuh mereka. [cite: 1553].",
+        "punishment": "Tidak ditentukan",
+        "fine": ""
+      },
+      {
+        "code": "CHPC 15-15 - Lari dari Tempat Kejadian - Cedera atau Kematian",
+        "text": "Akibat tabrakan kendaraan bermotor di mana pengemudi menyebabkan cedera tubuh atau kematian dan dengan sengaja meninggalkan tempat kejadian tanpa menghubungi pihak berwenang yang tepat. [cite: 1555]. [cite: 1556].",
+        "punishment": "Tidak ditentukan",
+        "fine": ""
+      },
+      {
+        "code": "CHPC 15-16 - Lari dari Tempat Kejadian - Kerusakan Properti Saja",
+        "text": "Akibat tabrakan kendaraan bermotor di mana pengemudi merusak properti dan dengan sengaja meninggalkan tempat kejadian tanpa menghubungi pihak berwenang yang tepat. [cite: 1557]. [cite: 1558].",
+        "punishment": "Tidak ditentukan",
+        "fine": ""
+      },
+      {
+        "code": "CHPC 15-17 - Lari dari Tempat Kejadian - Kerusakan Properti Saja",
+        "text": "Akibat tabrakan kendaraan bermotor di mana pengemudi merusak properti dan meninggalkan tempat kejadian secara disengaja tanpa menghubungi pihak berwenang yang tepat. [cite: 1567]. [cite: 1568].",
+        "punishment": "Tidak ditentukan",
+        "fine": ""
+      },
+      {
+        "code": "CHPC 15-18 - Melewati Bus Sekolah yang Berhenti",
+        "text": "Pengemudi dengan sengaja gagal berhenti untuk bus sekolah yang lampu sinyal merahnya berkedip atau sedang berhenti mengambil penumpang. [cite: 1569].",
+        "punishment": "Tidak ditentukan",
+        "fine": ""
+      },
+      {
+        "code": "CHPC 15-19 - Kecepatan Berlebih 30+ MPH di Atas Batas yang Dipasang",
+        "text": "Pengemudi terdeteksi oleh Radar, Lidar, Pesawat Udara, atau Pacing yang melampaui batas yang dipasang sebesar 30 MPH. Operator dapat dikenai penangguhan/pencabutan lisensi. [cite: 1571]. [cite: 1572].",
+        "punishment": "Tidak ditentukan",
+        "fine": ""
+      },
+      {
+        "code": "CHPC 15-20 - Kelalaian Kendaraan - Kematian atau Cedera Tubuh",
+        "text": "Pengemudi bersalah atas kecelakaan, di mana cedera tubuh serius terlibat atau kematian. [cite: 1573].",
+        "punishment": "Tidak ditentukan",
+        "fine": ""
+      },
+      {
+        "code": "CHPC 15-21 - Kelalaian Kendaraan - Kerusakan Properti Saja",
+        "text": "Pengemudi bersalah atas kecelakaan, dengan kerusakan properti terlibat. [cite: 1575].",
+        "punishment": "Tidak ditentukan",
+        "fine": ""
+      },
+      {
+        "code": "CHPC 15-22 - Menyalip Secara Ilegal",
+        "text": "Pengemudi kendaraan bermotor tidak boleh menyalip di bahu kanan jalan untuk mendahului kendaraan lain, atau menyalip di kiri ketika garis kuning ganda ditandai di permukaan jalan. Pengemudi harus melambat saat menyalip sepeda. [cite: 1577]. [cite: 1578].",
+        "punishment": "Tidak ditentukan",
+        "fine": ""
+      },
+      {
+        "code": "CHPC 15-23 - Mengikuti Terlalu Dekat",
+        "text": "Pengemudi kendaraan bermotor tidak boleh mengikuti kendaraan lain lebih dekat dari yang masuk akal dan bijaksana, dengan mempertimbangkan kecepatan kendaraan tersebut dan lalu lintas serta kondisi jalan raya. [cite: 1579].",
+        "punishment": "Tidak ditentukan",
+        "fine": ""
+      },
+      {
+        "code": "CHPC 15-24 - Perubahan Jalur yang Tidak Aman",
+        "text": "Pengemudi berpindah dari satu jalur ke jalur lain tanpa memberi sinyal atau memeriksa titik buta, menyebabkan tabrakan atau kondisi yang tidak aman. [cite: 1581].",
+        "punishment": "Tidak ditentukan",
+        "fine": ""
+      },
+      {
+        "code": "CHPC 15-25 - Mengemudi di Sisi Jalan yang Salah",
+        "text": "Kecuali sebagaimana diatur lain oleh hukum, di semua jalan raya dengan lebar yang cukup, pengemudi kendaraan bermotor harus mengemudi di separuh kanan jalan raya, kecuali ketika tidak praktis untuk bepergian di sisi kanan jalan raya dan kecuali saat mendahului dan menyalip. [cite: 1583].",
+        "punishment": "Tidak ditentukan",
+        "fine": ""
+      },
+      {
+        "code": "CHPC 15-26 - Gagal Mematuhi Perangkat Kontrol Lalu Lintas (Rambu/Lampu)",
+        "text": "Pengemudi gagal mematuhi perangkat kontrol lalu lintas, termasuk rambu berhenti, rambu yield, lampu lalu lintas, atau rambu regulasi lainnya. [cite: 1585].",
+        "punishment": "Tidak ditentukan",
+        "fine": ""
+      },
+      {
+        "code": "CHPC 15-27 - Gagal Memberikan Jalan",
+        "text": "Pengemudi gagal memberikan hak utama kepada kendaraan atau pejalan kaki lain ketika diwajibkan oleh hukum. [cite: 1589].",
+        "punishment": "Tidak ditentukan",
+        "fine": ""
+      },
+      {
+        "code": "CHPC 15-28 - Pelanggaran Zona Sekolah",
+        "text": "Ketika dekat dengan institusi pendidikan negara atau swasta, batas kecepatan untuk kendaraan bermotor dikurangi 10MPH. Batas yang ditetapkan oleh hukum ini berlaku segera ketika melewati institusi pendidikan. [cite: 1587]. [cite: 1588].",
+        "punishment": "Tidak ditentukan",
+        "fine": ""
+      },
+      {
+        "code": "CHPC 15-29 - Tidak Memiliki Lisensi yang Sah",
+        "text": "Operator gagal memiliki lisensi Kelas C atau lebih tinggi saat mengoperasikan kendaraan bermotor di jalan raya kota atau negara bagian. [cite: 1590].",
+        "punishment": "Tidak ditentukan",
+        "fine": ""
+      },
+      {
+        "code": "CHPC 15-30 - Gagal Memberikan Jalan",
+        "text": "Pengemudi gagal memberikan hak utama kepada kendaraan atau pejalan kaki lain ketika diwajibkan oleh hukum. [cite: 1592].",
+        "punishment": "Tidak ditentukan",
+        "fine": ""
+      },
+      {
+        "code": "CHPC 15-31 - Belok yang Tidak Benar",
+        "text": "Pengemudi melakukan belok yang tidak sesuai dengan peraturan, seperti melakukan putar balik yang dilarang atau belok dari jalur yang salah. [cite: 1594].",
+        "punishment": "Tidak ditentukan",
+        "fine": ""
+      },
+      {
+        "code": "CHPC 15-32 - Gagal Memberi Sinyal Perubahan Jalur",
+        "text": "Pengemudi harus memberi sinyal setidaknya 100 kaki sebelum mereka belok atau berpindah jalur. [cite: 1596].",
+        "punishment": "Tidak ditentukan",
+        "fine": ""
+      },
+      {
+        "code": "CHPC 15-33 - Mundur Ilegal",
+        "text": "Pengemudi tidak boleh mengemudi kendaraan, mundur atau melakukan gerakan apa pun sehingga menghalangi lalu lintas. Pengemudi tidak boleh mundur di bahu atau jalan tol terbatas. [cite: 1598]. [cite: 1599].",
+        "punishment": "Tidak ditentukan",
+        "fine": ""
+      },
+      {
+        "code": "CHPC 15-34 - Tidak Memiliki Asuransi Tanggung Jawab",
+        "text": "Pengemudi harus menyediakan bukti tanggung jawab keuangan melalui perusahaan asuransi kendaraan bermotor yang berlisensi. Polis ini harus memiliki cakupan tanggung jawab aktif. [cite: 1601]. [cite: 1602].",
+        "punishment": "Tidak ditentukan",
+        "fine": ""
+      },
+      {
+        "code": "CHPC 15-35 - Gagal Menampilkan Plat Nomor",
+        "text": "• Operator kendaraan bertanggung jawab atas pemasangan plat nomor terdaftar. [cite: 1603].\n• Plat nomor harus dipasang dengan aman di bagian depan dan belakang kendaraan dalam posisi horizontal. [cite: 1604].\n• Plat nomor harus terlihat jelas dan dapat dibaca. [cite: 1605].\n• Tanda sementara harus ditampilkan dengan benar. [cite: 1606].\n• Mengemudi dengan registrasi yang kedaluwarsa. [cite: 1607].",
+        "punishment": "Tidak ditentukan",
+        "fine": ""
+      },
+      {
+        "code": "CHPC 15-36 - Registrasi Kedaluwarsa",
+        "text": "Kendaraan dioperasikan dengan registrasi yang kedaluwarsa. [cite: 1609].",
+        "punishment": "Tidak ditentukan",
+        "fine": ""
+      },
+      {
+        "code": "CHPC 15-37 - Mengoperasikan Kendaraan yang Tidak Terdaftar",
+        "text": "Kendaraan dioperasikan di jalan raya umum tanpa registrasi yang sah. [cite: 1611].",
+        "punishment": "Tidak ditentukan",
+        "fine": ""
+      },
+      {
+        "code": "CHPC 15-38 - Mengemudi dengan Lisensi yang Ditangguhkan atau Dicabut",
+        "text": "Seseorang mengoperasikan kendaraan bermotor mengetahui bahwa lisensinya telah ditangguhkan atau dicabut. [cite: 1613].",
+        "punishment": "Tidak ditentukan",
+        "fine": ""
+      },
+      {
+        "code": "CHPC 15-39 - Mengemudi di Sisi Jalan yang Salah",
+        "text": "Pengemudi mengoperasikan kendaraan di sisi kiri jalan raya ketika tidak diizinkan untuk melakukannya. [cite: 1615].",
+        "punishment": "Tidak ditentukan",
+        "fine": ""
+      },
+      {
+        "code": "CHPC 15-40 - Kecepatan Berlebih 1-9 MPH di Atas Batas yang Dipasang",
+        "text": "Pengemudi terdeteksi oleh Radar, Lidar, Pesawat Udara, atau Pacing yang melampaui batas yang dipasang sebesar 1-9MPH. [cite: 1619].",
+        "punishment": "Tidak ditentukan",
+        "fine": ""
+      },
+      {
+        "code": "CHPC 15-41 - Operasi Kendaraan yang Tidak Aman",
+        "text": "Tidak ada orang yang boleh mengemudi atau menggerakkan di jalan raya mana pun kendaraan bermotor, trailer, semi-trailer, atau kombinasinya, kecuali kendaraan tersebut dalam keadaan baik dan disesuaikan dengan benar. Kendaraan yang dicurigai melanggar hukum ini dapat diperiksa oleh Penegak Hukum. [cite: 1621]. [cite: 1622].",
+        "punishment": "Tidak ditentukan",
+        "fine": ""
+      },
+      {
+        "code": "CHPC 15-42 - Gagal Menggunakan Sabuk Keselamatan",
+        "text": "Pengemudi harus mengenakan sabuk keselamatan atau menahan anak mereka di dalam kendaraan bermotor saat bepergian di jalan raya mana pun. [cite: 1624].",
+        "punishment": "Tidak ditentukan",
+        "fine": ""
+      },
+      {
+        "code": "CHPC 15-43 - Membuang Sampah - dari kendaraan bermotor yang bergerak",
+        "text": "Operator kendaraan bermotor terlihat membuang \"sampah\" dari kendaraan yang sedang bergerak. [cite: 1626].",
+        "punishment": "Tidak ditentukan",
+        "fine": ""
+      },
+      {
+        "code": "CHPC 15-44 - Gagal Memberi Sinyal Perubahan Jalur",
+        "text": "Gagal menyalakan lampu sinyal belok amber untuk menunjukkan kepada pengemudi lain jalur mana yang akan dimasuki. [cite: 1628].",
+        "punishment": "Tidak ditentukan",
+        "fine": ""
+      },
+      {
+        "code": "CHPC 15-45 - Gagal Mempertahankan Jalur",
+        "text": "Mengoperasikan kendaraan bermotor tanpa menjaga kendaraan dalam jalur yang ditandai dengan benar di jalan raya. [cite: 1630].",
+        "punishment": "Tidak ditentukan",
+        "fine": ""
+      },
+      {
+        "code": "CHPC 15-46 - Mengikuti Terlalu Dekat",
+        "text": "Mengemudi kendaraan Anda langsung, atau dalam 10 kaki dari bumper kendaraan lain. [cite: 1632].",
+        "punishment": "Tidak ditentukan",
+        "fine": ""
+      },
+      {
+        "code": "CHPC 15-47 - Menyalip yang Tidak Aman",
+        "text": "Menyalip kendaraan lain di zona tidak boleh menyalip, atau menyalip dengan cara yang membahayakan kendaraan lain. [cite: 1634].",
+        "punishment": "Tidak ditentukan",
+        "fine": ""
+      },
+      {
+        "code": "CHPC 15-48 - Mengemudi Terlalu Lambat",
+        "text": "Mengoperasikan kendaraan begitu lambat sehingga menghambat aliran lalu lintas yang normal dan masuk akal, ketika tidak diperlukan untuk operasi yang aman atau dalam pemenuhan hukum. [cite: 1635].",
+        "punishment": "Tidak ditentukan",
+        "fine": ""
+      },
+      {
+        "code": "CHPC 15-49 - Gagal Berhenti di Perlintasan Kereta Api",
+        "text": "Gagal berhenti di perlintasan kereta api ketika diwajibkan oleh rambu, sinyal, atau penjaga pintu. [cite: 1636].",
+        "punishment": "Tidak ditentukan",
+        "fine": ""
+      },
+      {
+        "code": "CHPC 15-50 - Undang-Undang Minggir (Move Over Law)",
+        "text": "Mengharuskan pengemudi untuk pindah ke jalur lalu lintas yang berdekatan, jika aman untuk melakukannya, atau sebagai alternatif untuk melambat hingga di bawah setengah batas kecepatan yang dipasang untuk kendaraan darurat, atau kendaraan derek. [cite: 1637].",
+        "punishment": "Tidak ditentukan",
+        "fine": ""
+      },
+      {
+        "code": "CHPC 15-51 - Mengoperasikan Kendaraan yang Tidak Terdaftar",
+        "text": "Kendaraan dioperasikan di jalan raya umum tanpa registrasi yang sah. [cite: 1639].",
+        "punishment": "Tidak ditentukan",
+        "fine": ""
+      },
+      {
+        "code": "CHPC 15-52 - Gagal Berhenti untuk Pejalan Kaki",
+        "text": "Pengemudi gagal berhenti dan memberikan hak utama kepada pejalan kaki yang menyeberang jalan raya dalam zebra cross atau di persimpangan tanpa zebra cross. [cite: 1641].",
+        "punishment": "Tidak ditentukan",
+        "fine": ""
+      },
+      {
+        "code": "CHPC 15-53 - Mengemudi dengan Pandangan yang Terhalang",
+        "text": "Pengemudi mengoperasikan kendaraan dengan benda-benda yang tergantung dari kaca spion atau dengan cara lain menghalangi pandangan mereka terhadap jalan di depan atau ke samping. [cite: 1643].",
+        "punishment": "Tidak ditentukan",
+        "fine": ""
+      },
+      {
+        "code": "CHPC 15-54 - Gagal Meredupkan Lampu Depan",
+        "text": "Pengemudi gagal meredupkan lampu depan mereka ketika mendekati atau mengikuti kendaraan lain. [cite: 1645].",
+        "punishment": "Tidak ditentukan",
+        "fine": ""
+      },
+      {
+        "code": "CHPC 15-55 - Mengoperasikan Kendaraan yang Tidak Terdaftar",
+        "text": "Kendaraan dioperasikan di jalan raya umum tanpa registrasi yang sah. [cite: 1647].",
+        "punishment": "Tidak ditentukan",
+        "fine": ""
+      }
+    ]
+  },
+  {
+    "id": "title-16",
+    "title": "JUDUL 16. HUKUM UMUM LAINNYA",
+    "sections": [
+      {
+        "code": "CHPC16-01- Alarm Kebakaran Palsu: Merusak atau Melukai Alarm Kebakaran",
+        "text": "Dengan sengaja merusak atau melukai alarm kebakaran, sistem sprinkler, standpipe, atau peralatan perlindungan kebakaran lainnya. [cite: 1649].",
+        "punishment": "hingga 30 bulan",
+        "fine": "$1000"
+      },
+      {
+        "code": "CHPC16-02- Merusak Peralatan Keselamatan Kebakaran",
+        "text": "Dengan sengaja merusak, merusak, atau menonaktifkan pemadam kebakaran, selang kebakaran, atau peralatan keselamatan kebakaran lainnya. [cite: 1651].",
+        "punishment": "hingga 30 bulan",
+        "fine": "$1000"
+      },
+      {
+        "code": "CHPC16-03- Gagal Mematuhi Perintah Evakuasi Darurat",
+        "text": "Dengan sengaja gagal mematuhi perintah hukum untuk evakuasi bangunan atau area selama kebakaran, bencana alam, atau keadaan darurat lainnya. [cite: 1653].",
+        "punishment": "hingga 30 bulan",
+        "fine": "$500"
+      },
+      {
+        "code": "CHPC16-04- Mabuk di Tempat Umum",
+        "text": "Berada di bawah pengaruh alkohol atau narkoba di tempat umum hingga tingkat kemampuan untuk merawat diri sendiri atau orang lain terganggu. [cite: 1655].",
+        "punishment": "hingga 10 bulan",
+        "fine": "$300"
+      },
+      {
+        "code": "CHPC16-05- Perilaku Tidak Tertib",
+        "text": "Terlibat dalam perilaku yang tidak tertib, cabul, atau tidak sopan, atau yang secara tidak masuk akal mengganggu atau menakut-nakuti orang lain. [cite: 1657].",
+        "punishment": "hingga 30 bulan",
+        "fine": "$500"
+      },
+      {
+        "code": "CHPC16-06- Bergelandangan",
+        "text": "Tinggal di tempat umum dengan maksud untuk melakukan tindakan ilegal atau dalam keadaan yang menunjukkan ancaman terhadap perdamaian atau keselamatan umum. [cite: 1659].",
+        "punishment": "hingga 30 bulan",
+        "fine": "$300"
+      },
+      {
+        "code": "CHPC16-07- Masuk Liar",
+        "text": "Memasuki atau tinggal di properti orang lain tanpa izin atau hak hukum. [cite: 1661].",
+        "punishment": "hingga 30 bulan",
+        "fine": "$500"
+      },
+      {
+        "code": "CHPC16-08- Bergelandangan di Sekitar Sekolah atau Taman Bermain",
+        "text": "Bergelandangan di dekat sekolah atau taman bermain dengan maksud untuk melakukan kejahatan atau terlibat dalam perilaku yang membahayakan anak di bawah umur. [cite: 1663].",
+        "punishment": "hingga 30 bulan",
+        "fine": "$500"
+      },
+      {
+        "code": "CHPC16-09- Bergelandangan untuk Prostitusi",
+        "text": "Bergelandangan di tempat umum untuk tujuan terlibat dalam prostitusi atau memancing pelanggan untuk prostitusi. [cite: 1665].",
+        "punishment": "hingga 30 bulan",
+        "fine": "$500"
+      },
+      {
+        "code": "CHPC16-10- Judi",
+        "text": "Berpartisipasi dalam atau mengelola operasi judi ilegal. [cite: 1667].",
+        "punishment": "hingga 60 bulan",
+        "fine": "$1000"
+      }
+    ]
+  }
+]
