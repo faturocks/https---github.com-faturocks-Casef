@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Los Santos Penal Code - Desktop Application</title>
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    
+    <!-- Feather Icons -->
+    <script src="https://unpkg.com/feather-icons"></script>
+    
+    <!-- Chart.js for calculator visualizations -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    
+    <!-- Application CSS -->
+    <link rel="stylesheet" href="src/calculator/calculator.css">
+</head>
+<body class="main-bg text-white">
+    <!-- Preloader -->
+    <div id="preloader" class="fixed inset-0 bg-gray-900 z-50 flex items-center justify-center">
+        <div class="text-center">
+            <div class="animate-spin rounded-full h-16 w-16 border-b-2 border-sky-400 mx-auto mb-4"></div>
+            <h2 class="text-xl font-semibold text-white mb-2">Los Santos Penal Code</h2>
+            <p class="text-gray-400">Loading desktop application...</p>
+        </div>
+    </div>
+
+    <!-- Main Container -->
+    <div class="flex h-screen overflow-hidden">
+        <!-- Sidebar -->
+        <aside id="sidebar" class="w-80 bg-gray-800 border-r border-gray-700 flex-shrink-0 transition-transform duration-300 ease-in-out transform lg:translate-x-0">
+            <!-- Sidebar Header -->
+            <div class="p-4 border-b border-gray-700">
+                <div class="flex items-center justify-between mb-4">
+                    <h1 class="text-xl font-bold text-white">Los Santos PC</h1>
+                    <button id="sidebar-close" class="lg:hidden text-gray-400 hover:text-white">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+                        </svg>
+                    </button>
+                </div>
+
+                <!-- Desktop-specific controls -->
+                <div class="mb-4 space-y-2">
+                    <!-- Calculator Quick Access -->
+                    <button id="quick-calculator" class="w-full bg-sky-600 hover:bg-sky-700 text-white px-3 py-2 rounded text-sm font-medium transition-colors flex items-center gap-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 7h6m0 10v-3m-3 3h.01M9 17h.01M9 14h.01M12 14h.01M15 11h.01M12 11h.01M9 11h.01M7 21h10a2 2 0 002-2V5a2 2 0 00-2-2H7a2 2 0 002 2z" />
+                        </svg>
+                        Fine & Jail Calculator
+                    </button>
+
+                    <!-- Bookmarks Quick Access -->
+                    <button id="quick-bookmarks" class="w-full bg-yellow-600 hover:bg-yellow-700 text-white px-3 py-2 rounded text-sm font-medium transition-colors flex items-center gap-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 5a2 2 0 012-2h10a2 2 0 012 2v16l-7-3.5L5 21V5z" />
+                        </svg>
+                        Bookmarks
+                    </button>
+                </div>
+
+                <!-- Language Selector -->
+                <div class="mb-4">
+                    <label class="block text-sm font-medium text-gray-300 mb-2">Language</label>
+                    <div class="flex rounded-md overflow-hidden">
+                        <button id="lang-en-desktop" class="lang-btn flex-1 px-3 py-2 text-sm bg-gray-700 hover:bg-gray-600 text-white border-r border-gray-600 active">
+                            English
+                        </button>
+                        <button id="lang-id-desktop" class="lang-btn flex-1 px-3 py-2 text-sm bg-gray-700 hover:bg-gray-600 text-white">
+                            Bahasa
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Theme Toggle -->
+                <div class="mb-4">
+                    <label class="flex items-center justify-between">
+                        <span class="text-sm font-medium text-gray-300">Dark Mode</span>
+                        <div class="relative">
+                            <input type="checkbox" id="theme-switch" class="toggle-checkbox sr-only" checked>
+                            <div class="toggle-label bg-gray-600 w-12 h-6 rounded-full cursor-pointer transition-colors duration-300"></div>
+                        </div>
+                    </label>
+                </div>
+
+                <!-- Search -->
+                <div class="relative">
+                    <input 
+                        type="text" 
+                        id="search-input" 
+                        placeholder="Search penal code..." 
+                        class="w-full bg-gray-700 text-white rounded-lg pl-10 pr-10 py-2.5 text-sm border border-gray-600 focus:border-sky-400 focus:outline-none"
+                    >
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                    </svg>
+                    <button id="clear-search" class="absolute right-3 top-1/2 transform -translate-y-1/2 text-gray-400 hover:text-white hidden">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+                        </svg>
+                    </button>
+                </div>
+
+                <!-- Search Filters -->
+                <div class="mt-3 space-y-2">
+                    <div class="filter-option">
+                        <label class="flex items-center cursor-pointer">
+                            <input type="radio" name="search-filter" value="all" class="sr-only" checked>
+                            <span class="flex-1 px-2 py-1 text-xs rounded bg-sky-500 text-white text-center transition-colors">All</span>
+                        </label>
+                    </div>
+                    <div class="grid grid-cols-3 gap-1">
+                        <div class="filter-option">
+                            <label class="flex items-center cursor-pointer">
+                                <input type="radio" name="search-filter" value="code" class="sr-only">
+                                <span class="flex-1 px-2 py-1 text-xs rounded bg-gray-800 text-gray-300 text-center transition-colors">Code</span>
+                            </label>
+                        </div>
+                        <div class="filter-option">
+                            <label class="flex items-center cursor-pointer">
+                                <input type="radio" name="search-filter" value="title" class="sr-only">
+                                <span class="flex-1 px-2 py-1 text-xs rounded bg-gray-800 text-gray-300 text-center transition-colors">Title</span>
+                            </label>
+                        </div>
+                        <div class="filter-option">
+                            <label class="flex items-center cursor-pointer">
+                                <input type="radio" name="search-filter" value="content" class="sr-only">
+                                <span class="flex-1 px-2 py-1 text-xs rounded bg-gray-800 text-gray-300 text-center transition-colors">Content</span>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Search Stats -->
+                <div id="search-stats" class="mt-2 text-xs text-gray-400 hidden"></div>
+            </div>
+
+            <!-- Table of Contents -->
+            <div id="sidebar-menu" class="flex-1 overflow-y-auto p-4">
+                <div class="mb-4">
+                    <h3 class="font-bold text-gray-300 text-sm mb-3">All Titles</h3>
+                    <div id="table-of-contents">
+                        <ul class="space-y-1">
+                            <!-- TOC will be populated here -->
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Sidebar Footer -->
+            <div class="p-4 border-t border-gray-700">
+                <div class="text-xs text-gray-400 text-center">
+                    <p>Desktop v1.0.0</p>
+                    <p>Los Santos Legal Dept.</p>
+                </div>
+            </div>
+        </aside>
+
+        <!-- Main Content Area -->
+        <main class="flex-1 flex flex-col overflow-hidden">
+            <!-- Header -->
+            <header class="bg-gray-800 border-b border-gray-700 px-6 py-4">
+                <div class="flex items-center justify-between">
+                    <div class="flex items-center gap-4">
+                        <!-- Mobile Sidebar Toggle -->
+                        <button id="sidebar-toggle" class="lg:hidden text-gray-400 hover:text-white">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                            </svg>
+                        </button>
+
+                        <div>
+                            <h1 class="text-xl font-bold text-white">Los Santos Penal Code</h1>
+                            <p class="text-sm text-gray-400">Desktop Application with Fine & Jail Calculator</p>
+                        </div>
+                    </div>
+
+                    <!-- Header Actions -->
+                    <div class="flex items-center gap-3">
+                        <!-- Quick Actions -->
+                        <button id="export-current" class="text-gray-400 hover:text-white transition-colors" title="Export Current View">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+                            </svg>
+                        </button>
+
+                        <button id="print-current" class="text-gray-400 hover:text-white transition-colors" title="Print Current View">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 17h2a2 2 0 002-2v-4a2 2 0 00-2-2H5a2 2 0 00-2 2v4a2 2 0 002 2h2m2 4h6a2 2 0 002-2v-4a2 2 0 00-2-2H9a2 2 0 00-2 2v4a2 2 0 002 2zm8-12V5a2 2 0 00-2-2H9a2 2 0 00-2 2v4h10z" />
+                            </svg>
+                        </button>
+
+                        <!-- Theme Toggle Button (Alternative) -->
+                        <button id="theme-toggle-btn" class="text-gray-400 hover:text-white transition-colors" title="Toggle Theme">
+                            <svg id="dark-icon" xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z" />
+                            </svg>
+                            <svg id="light-icon" xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 hidden" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z" />
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+            </header>
+
+            <!-- Content Container -->
+            <div class="flex-1 overflow-y-auto bg-gray-900">
+                <div class="max-w-none mx-auto p-6">
+                    <!-- No Results Message -->
+                    <div id="no-results" class="hidden text-center py-16">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="mx-auto h-16 w-16 text-gray-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.172 16.172a4 4 0 015.656 0M9 12h6m-6-4h6m2 5.291A7.962 7.962 0 0112 15c-2.34 0-4.47.901-6.06 2.379C4.825 18.343 4.002 19.515 4 20.75V21a2 2 0 002 2h12a2 2 0 002-2v-.25c-.002-1.235-.825-2.407-1.94-3.371A7.962 7.962 0 0112 15z" />
+                        </svg>
+                        <h3 class="mt-4 text-xl font-semibold text-gray-400">No Results Found</h3>
+                        <p class="mt-2 text-gray-500">Try adjusting your search terms or filters.</p>
+                    </div>
+
+                    <!-- Main Content -->
+                    <div id="penal-code-content">
+                        <!-- Content will be loaded here -->
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <!-- Load all JavaScript modules -->
+    <script src="src/utils/punishment-parser.js"></script>
+    <script src="src/utils/clipboard.js"></script>
+    <script src="src/export/report-templates.js"></script>
+    <script src="js/theme.js"></script>
+    <script src="js/language.js"></script>
+    <script src="js/search.js"></script>
+    <script src="js/toc.js"></script>
+    <script src="js/float-btn.js"></script>
+    <script src="src/calculator/calculator.js"></script>
+    <script src="src/bookmarks/bookmarks.js"></script>
+    <script src="js/app.js"></script>
+
+    <!-- Initialize Desktop Features -->
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            // Initialize quick access buttons
+            document.getElementById('quick-calculator').addEventListener('click', () => {
+                if (window.penalCodeCalculator) {
+                    window.penalCodeCalculator.showCalculator();
+                }
+            });
+
+            document.getElementById('quick-bookmarks').addEventListener('click', () => {
+                if (window.bookmarksManager) {
+                    window.bookmarksManager.showBookmarks();
+                }
+            });
+
+            // Initialize export/print buttons
+            document.getElementById('export-current').addEventListener('click', async () => {
+                try {
+                    const content = document.getElementById('penal-code-content').innerHTML;
+                    const reportData = {
+                        type: 'generic',
+                        title: 'Los Santos Penal Code - Current View',
+                        html: content,
+                        text: document.getElementById('penal-code-content').textContent
+                    };
+                    
+                    if (window.electronAPI) {
+                        const result = await window.electronAPI.exportPDF(reportData, {
+                            title: 'Current View Export',
+                            format: 'legal'
+                        });
+                        
+                        if (result.success) {
+                            alert(`Exported to: ${result.path}`);
+                        }
+                    } else {
+                        alert('Export feature requires desktop application');
+                    }
+                } catch (error) {
+                    console.error('Export failed:', error);
+                    alert('Export failed: ' + error.message);
+                }
+            });
+
+            document.getElementById('print-current').addEventListener('click', () => {
+                window.print();
+            });
+
+            // Set current language for global access
+            window.currentLang = 'en';
+            
+            // Platform-specific initialization
+            if (window.platform && window.platform.isElectron) {
+                console.log('Running in Electron desktop mode');
+                document.body.classList.add('desktop-mode');
+            } else {
+                console.log('Running in web browser mode');
+                document.body.classList.add('web-mode');
+            }
+
+            // Initialize Feather icons
+            if (typeof feather !== 'undefined') {
+                feather.replace();
+            }
+        });
+    </script>
+</body>
+</html>

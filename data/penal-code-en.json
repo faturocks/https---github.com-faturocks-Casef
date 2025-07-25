@@ -1,0 +1,368 @@
+[
+  {
+    "id": "title-1",
+    "title": "TITLE 1. CRIMES AGAINST PERSONS",
+    "sections": [
+      {
+        "id": "title-1-101",
+        "code": "1 01",
+        "name": "Murder in the First Degree",
+        "text": "The unlawful killing of a human being with malice aforethought and premeditation. **First degree murder** requires deliberate intent and planning. This includes killings that are willful, deliberate, and premeditated, or that occur during the commission of certain felonies. [cite: LSPC 1-101]",
+        "punishment": "25 years to life imprisonment",
+        "fine": "$50,000 - $100,000"
+      },
+      {
+        "id": "title-1-102",
+        "code": "1 02",
+        "name": "Murder in the Second Degree",
+        "text": "The unlawful killing of a human being with malice aforethought but without premeditation. **Second degree murder** includes intentional killings that are not premeditated and killings resulting from dangerous conduct. [cite: LSPC 1-102]",
+        "punishment": "15 - 25 years imprisonment",
+        "fine": "$25,000 - $75,000"
+      },
+      {
+        "id": "title-1-103",
+        "code": "1 03",
+        "name": "Voluntary Manslaughter",
+        "text": "The unlawful killing of a human being without malice aforethought, committed in the heat of passion or upon sudden provocation. **Voluntary manslaughter** occurs when a person kills in response to adequate provocation. [cite: LSPC 1-103]",
+        "punishment": "5 - 15 years imprisonment",
+        "fine": "$15,000 - $30,000"
+      },
+      {
+        "id": "title-1-104",
+        "code": "1 04",
+        "name": "Involuntary Manslaughter",
+        "text": "The unlawful killing of a human being without malice aforethought, committed without intent to kill but as a result of criminal negligence or during the commission of a misdemeanor. [cite: LSPC 1-104]",
+        "punishment": "2 - 8 years imprisonment",
+        "fine": "$10,000 - $25,000"
+      },
+      {
+        "id": "title-1-105",
+        "code": "1 05",
+        "name": "Assault with a Deadly Weapon",
+        "text": "An intentional act that creates a reasonable apprehension of imminent harmful contact using a deadly weapon. **Deadly weapons** include firearms, knives, vehicles when used as weapons, or any object capable of causing death or great bodily harm. [cite: LSPC 1-105]",
+        "punishment": "2 - 6 years imprisonment",
+        "fine": "$10,000 - $20,000"
+      },
+      {
+        "id": "title-1-106",
+        "code": "1 06",
+        "name": "Aggravated Assault",
+        "text": "An assault committed with the intent to commit a felony or that results in serious bodily injury. **Aggravated assault** involves circumstances that make the crime more serious than simple assault. [cite: LSPC 1-106]",
+        "punishment": "1 - 4 years imprisonment",
+        "fine": "$5,000 - $15,000"
+      },
+      {
+        "id": "title-1-107",
+        "code": "1 07",
+        "name": "Battery",
+        "text": "The willful and unlawful use of force or violence upon another person. **Battery** requires actual physical contact or touching of another person in a harmful or offensive manner. [cite: LSPC 1-107]",
+        "punishment": "6 months - 3 years imprisonment",
+        "fine": "$2,500 - $10,000"
+      },
+      {
+        "id": "title-1-108",
+        "code": "1 08",
+        "name": "Kidnapping",
+        "text": "The unlawful taking and carrying away of another person by force, fraud, or intimidation with intent to detain them against their will. **Kidnapping** includes false imprisonment with movement of the victim. [cite: LSPC 1-108]",
+        "punishment": "5 - 20 years imprisonment",
+        "fine": "$25,000 - $50,000"
+      },
+      {
+        "id": "title-1-109",
+        "code": "1 09",
+        "name": "Domestic Violence",
+        "text": "Any willful infliction of physical injury upon a current or former spouse, cohabitant, or person with whom the perpetrator has a dating relationship. **Domestic violence** includes threats and emotional abuse patterns. [cite: LSPC 1-109]",
+        "punishment": "6 months - 5 years imprisonment",
+        "fine": "$5,000 - $15,000"
+      },
+      {
+        "id": "title-1-110",
+        "code": "1 10",
+        "name": "Stalking",
+        "text": "Willfully, maliciously, and repeatedly following or harassing another person with credible threats that would cause a reasonable person to fear for their safety. **Stalking** includes cyberstalking and surveillance. [cite: LSPC 1-110]",
+        "punishment": "1 - 3 years imprisonment",
+        "fine": "$5,000 - $12,000"
+      }
+    ]
+  },
+  {
+    "id": "title-2",
+    "title": "TITLE 2. CRIMES AGAINST PROPERTY",
+    "sections": [
+      {
+        "id": "title-2-201",
+        "code": "2 01",
+        "name": "Grand Theft",
+        "text": "The unlawful taking of another person's property valued at more than $950 with intent to permanently deprive the owner. **Grand theft** includes theft of vehicles, firearms, and property taken from a person. [cite: LSPC 2-201]",
+        "punishment": "1 - 5 years imprisonment",
+        "fine": "$5,000 - $25,000"
+      },
+      {
+        "id": "title-2-202",
+        "code": "2 02",
+        "name": "Petty Theft",
+        "text": "The unlawful taking of another person's property valued at $950 or less with intent to permanently deprive the owner. **Petty theft** is a misdemeanor offense for low-value property crimes. [cite: LSPC 2-202]",
+        "punishment": "6 months - 1 year imprisonment",
+        "fine": "$1,000 - $5,000"
+      },
+      {
+        "id": "title-2-203",
+        "code": "2 03",
+        "name": "Burglary in the First Degree",
+        "text": "Unlawful entry into an inhabited dwelling with intent to commit theft or any felony. **First degree burglary** applies to residential structures where people live or sleep. [cite: LSPC 2-203]",
+        "punishment": "3 - 8 years imprisonment",
+        "fine": "$10,000 - $30,000"
+      },
+      {
+        "id": "title-2-204",
+        "code": "2 04",
+        "name": "Burglary in the Second Degree",
+        "text": "Unlawful entry into any building, vehicle, or structure with intent to commit theft or any felony. **Second degree burglary** applies to commercial and uninhabited structures. [cite: LSPC 2-204]",
+        "punishment": "1 - 6 years imprisonment",
+        "fine": "$5,000 - $20,000"
+      },
+      {
+        "id": "title-2-205",
+        "code": "2 05",
+        "name": "Robbery in the First Degree",
+        "text": "The unlawful taking of property from another person through force or threat of force while armed with a deadly weapon. **Armed robbery** carries enhanced penalties due to weapon involvement. [cite: LSPC 2-205]",
+        "punishment": "5 - 15 years imprisonment",
+        "fine": "$15,000 - $50,000"
+      },
+      {
+        "id": "title-2-206",
+        "code": "2 06",
+        "name": "Robbery in the Second Degree",
+        "text": "The unlawful taking of property from another person through force or threat of force without use of a deadly weapon. **Unarmed robbery** involves intimidation or physical force without weapons. [cite: LSPC 2-206]",
+        "punishment": "2 - 8 years imprisonment",
+        "fine": "$8,000 - $25,000"
+      },
+      {
+        "id": "title-2-207",
+        "code": "2 07",
+        "name": "Motor Vehicle Theft",
+        "text": "The unlawful taking of a motor vehicle belonging to another with intent to permanently or temporarily deprive the owner. **Vehicle theft** includes carjacking and joyriding. [cite: LSPC 2-207]",
+        "punishment": "1 - 4 years imprisonment",
+        "fine": "$5,000 - $20,000"
+      },
+      {
+        "id": "title-2-208",
+        "code": "2 08",
+        "name": "Arson",
+        "text": "Willfully and maliciously setting fire to or burning any structure, forest land, or property. **Arson** includes burning one's own property if it endangers others or is done to defraud insurance. [cite: LSPC 2-208]",
+        "punishment": "3 - 12 years imprisonment",
+        "fine": "$15,000 - $75,000"
+      },
+      {
+        "id": "title-2-209",
+        "code": "2 09",
+        "name": "Vandalism",
+        "text": "Willfully damaging, destroying, or defacing property belonging to another. **Vandalism** includes graffiti, property destruction, and defacement of public or private property. [cite: LSPC 2-209]",
+        "punishment": "3 months - 2 years imprisonment",
+        "fine": "$2,000 - $10,000"
+      },
+      {
+        "id": "title-2-210",
+        "code": "2 10",
+        "name": "Fraud",
+        "text": "Intentionally deceiving another person for financial gain by misrepresenting facts or concealing material information. **Fraud** includes identity theft, credit card fraud, and check fraud. [cite: LSPC 2-210]",
+        "punishment": "1 - 7 years imprisonment",
+        "fine": "$10,000 - $50,000"
+      }
+    ]
+  },
+  {
+    "id": "title-3",
+    "title": "TITLE 3. DRUG AND NARCOTIC OFFENSES",
+    "sections": [
+      {
+        "id": "title-3-301",
+        "code": "3 01",
+        "name": "Possession of Controlled Substances",
+        "text": "Unlawful possession of any controlled substance without a valid prescription. **Controlled substances** are classified by schedules based on medical use and potential for abuse. Personal use quantities may receive reduced penalties. [cite: LSPC 3-301]",
+        "punishment": "6 months - 3 years imprisonment",
+        "fine": "$5,000 - $15,000"
+      },
+      {
+        "id": "title-3-302",
+        "code": "3 02",
+        "name": "Possession with Intent to Distribute",
+        "text": "Possession of controlled substances in quantities or circumstances indicating intent to sell or distribute. **Intent to distribute** may be inferred from quantity, packaging, paraphernalia, or other evidence. [cite: LSPC 3-302]",
+        "punishment": "2 - 10 years imprisonment",
+        "fine": "$10,000 - $100,000"
+      },
+      {
+        "id": "title-3-303",
+        "code": "3 03",
+        "name": "Sale of Controlled Substances",
+        "text": "The unlawful sale, delivery, or transfer of any controlled substance. **Drug dealing** penalties increase based on the type and quantity of substance sold and proximity to schools or parks. [cite: LSPC 3-303]",
+        "punishment": "3 - 15 years imprisonment",
+        "fine": "$15,000 - $250,000"
+      },
+      {
+        "id": "title-3-304",
+        "code": "3 04",
+        "name": "Manufacturing Controlled Substances",
+        "text": "The unlawful production, cultivation, or synthesis of controlled substances. **Drug manufacturing** includes operating drug labs, growing marijuana operations, and synthesizing illegal drugs. [cite: LSPC 3-304]",
+        "punishment": "5 - 20 years imprisonment",
+        "fine": "$25,000 - $500,000"
+      },
+      {
+        "id": "title-3-305",
+        "code": "3 05",
+        "name": "Trafficking in Controlled Substances",
+        "text": "The large-scale distribution, transportation, or importation of controlled substances. **Drug trafficking** involves commercial quantities and organized distribution networks. [cite: LSPC 3-305]",
+        "punishment": "10 - 30 years imprisonment",
+        "fine": "$50,000 - $1,000,000"
+      },
+      {
+        "id": "title-3-306",
+        "code": "3 06",
+        "name": "Possession of Drug Paraphernalia",
+        "text": "Possession of equipment, materials, or devices used for consuming, manufacturing, or distributing controlled substances. **Drug paraphernalia** includes pipes, scales, syringes, and manufacturing equipment. [cite: LSPC 3-306]",
+        "punishment": "3 - 12 months imprisonment",
+        "fine": "$1,000 - $5,000"
+      },
+      {
+        "id": "title-3-307",
+        "code": "3 07",
+        "name": "Under the Influence of Controlled Substances",
+        "text": "Being under the influence of any controlled substance in a public place or while operating a vehicle. **Public intoxication** from illegal drugs is a misdemeanor with treatment options available. [cite: LSPC 3-307]",
+        "punishment": "3 - 6 months imprisonment",
+        "fine": "$500 - $2,500"
+      },
+      {
+        "id": "title-3-308",
+        "code": "3 08",
+        "name": "Prescription Fraud",
+        "text": "Fraudulently obtaining or attempting to obtain controlled substances through forged prescriptions, doctor shopping, or misrepresentation. **Prescription fraud** includes altering prescriptions and pharmacy theft. [cite: LSPC 3-308]",
+        "punishment": "1 - 5 years imprisonment",
+        "fine": "$5,000 - $25,000"
+      }
+    ]
+  },
+  {
+    "id": "title-4",
+    "title": "TITLE 4. WEAPONS AND FIREARMS OFFENSES",
+    "sections": [
+      {
+        "id": "title-4-401",
+        "code": "4 01",
+        "name": "Illegal Possession of Firearms",
+        "text": "Possession of any firearm by a person prohibited from owning firearms or possession without proper licensing. **Prohibited persons** include felons, persons with restraining orders, and those with certain mental health conditions. [cite: LSPC 4-401]",
+        "punishment": "1 - 5 years imprisonment",
+        "fine": "$5,000 - $25,000"
+      },
+      {
+        "id": "title-4-402",
+        "code": "4 02",
+        "name": "Carrying a Concealed Weapon",
+        "text": "Carrying a concealed firearm or deadly weapon without a valid permit. **Concealed carry** violations include improper licensing or carrying in prohibited areas. [cite: LSPC 4-402]",
+        "punishment": "6 months - 3 years imprisonment",
+        "fine": "$2,500 - $10,000"
+      },
+      {
+        "id": "title-4-403",
+        "code": "4 03",
+        "name": "Assault with a Firearm",
+        "text": "Committing an assault while armed with a firearm. **Armed assault** carries enhanced penalties due to the use of firearms and increased danger to victims and public safety. [cite: LSPC 4-403]",
+        "punishment": "3 - 8 years imprisonment",
+        "fine": "$10,000 - $30,000"
+      },
+      {
+        "id": "title-4-404",
+        "code": "4 04",
+        "name": "Discharge of Firearm in Public",
+        "text": "Unlawfully discharging a firearm in any public place, inhabited area, or in a manner that endangers others. **Reckless discharge** includes warning shots and celebratory gunfire. [cite: LSPC 4-404]",
+        "punishment": "1 - 4 years imprisonment",
+        "fine": "$5,000 - $20,000"
+      },
+      {
+        "id": "title-4-405",
+        "code": "4 05",
+        "name": "Sale of Illegal Weapons",
+        "text": "Unlawfully selling, transferring, or distributing firearms, ammunition, or prohibited weapons without proper licensing. **Illegal gun sales** include straw purchases and unlicensed dealing. [cite: LSPC 4-405]",
+        "punishment": "2 - 10 years imprisonment",
+        "fine": "$10,000 - $75,000"
+      },
+      {
+        "id": "title-4-406",
+        "code": "4 06",
+        "name": "Possession of Prohibited Weapons",
+        "text": "Possession of weapons prohibited by law including automatic firearms, explosive devices, armor-piercing ammunition, and certain knives. **Prohibited weapons** are banned due to public safety concerns. [cite: LSPC 4-406]",
+        "punishment": "2 - 7 years imprisonment",
+        "fine": "$7,500 - $50,000"
+      }
+    ]
+  },
+  {
+    "id": "title-5",
+    "title": "TITLE 5. PUBLIC ORDER AND SAFETY OFFENSES",
+    "sections": [
+      {
+        "id": "title-5-501",
+        "code": "5 01",
+        "name": "Disturbing the Peace",
+        "text": "Unlawfully fighting, using offensive words in public, or making loud and unreasonable noise that disturbs others. **Disturbing the peace** includes public arguments, loud music, and disruptive behavior. [cite: LSPC 5-501]",
+        "punishment": "3 - 6 months imprisonment",
+        "fine": "$500 - $2,000"
+      },
+      {
+        "id": "title-5-502",
+        "code": "5 02",
+        "name": "Public Intoxication",
+        "text": "Being in any public place while under the influence of alcohol or drugs to such a degree as to be unable to care for oneself or others, or to create a public disturbance. [cite: LSPC 5-502]",
+        "punishment": "24 hours - 6 months imprisonment",
+        "fine": "$250 - $1,500"
+      },
+      {
+        "id": "title-5-503",
+        "code": "5 03",
+        "name": "Loitering",
+        "text": "Remaining in a public place for an extended period without apparent purpose, especially when such presence is likely to cause alarm or is in violation of posted restrictions. [cite: LSPC 5-503]",
+        "punishment": "Fine only or 30 days imprisonment",
+        "fine": "$100 - $500"
+      },
+      {
+        "id": "title-5-504",
+        "code": "5 04",
+        "name": "Trespassing",
+        "text": "Unlawfully entering or remaining on the property of another after being forbidden to do so. **Criminal trespass** includes entering posted private property and remaining after being asked to leave. [cite: LSPC 5-504]",
+        "punishment": "3 months - 1 year imprisonment",
+        "fine": "$1,000 - $5,000"
+      },
+      {
+        "id": "title-5-505",
+        "code": "5 05",
+        "name": "Resisting Arrest",
+        "text": "Willfully resisting, delaying, or obstructing a law enforcement officer in the discharge of their duties. **Resisting arrest** includes physical resistance and failure to comply with lawful orders. [cite: LSPC 5-505]",
+        "punishment": "6 months - 2 years imprisonment",
+        "fine": "$2,500 - $10,000"
+      },
+      {
+        "id": "title-5-506",
+        "code": "5 06",
+        "name": "Obstruction of Justice",
+        "text": "Willfully interfering with or obstructing the administration of justice including tampering with evidence, intimidating witnesses, or providing false information to authorities. [cite: LSPC 5-506]",
+        "punishment": "1 - 5 years imprisonment",
+        "fine": "$5,000 - $25,000"
+      },
+      {
+        "id": "title-5-507",
+        "code": "5 07",
+        "name": "Reckless Driving",
+        "text": "Operating a vehicle with willful or wanton disregard for the safety of persons or property. **Reckless driving** includes excessive speeding, racing, and dangerous maneuvers. [cite: LSPC 5-507]",
+        "punishment": "6 months - 2 years imprisonment",
+        "fine": "$1,500 - $7,500"
+      },
+      {
+        "id": "title-5-508",
+        "code": "5 08",
+        "name": "Driving Under the Influence",
+        "text": "Operating a motor vehicle while under the influence of alcohol, drugs, or any combination thereof that impairs driving ability. **DUI** penalties increase with prior convictions and blood alcohol level. [cite: LSPC 5-508]",
+        "punishment": "6 months - 5 years imprisonment",
+        "fine": "$2,000 - $15,000"
+      }
+    ]
+  }
+]

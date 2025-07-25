@@ -1,0 +1,368 @@
+[
+  {
+    "id": "title-1",
+    "title": "JUDUL 1. KEJAHATAN TERHADAP ORANG",
+    "sections": [
+      {
+        "id": "title-1-101",
+        "code": "1 01",
+        "name": "Pembunuhan Tingkat Pertama",
+        "text": "Pembunuhan manusia secara melawan hukum dengan niat jahat dan perencanaan sebelumnya. **Pembunuhan tingkat pertama** memerlukan niat yang disengaja dan perencanaan. Ini termasuk pembunuhan yang disengaja, direncanakan, dan dipertimbangkan, atau yang terjadi selama melakukan kejahatan berat tertentu. [cite: LSPC 1-101]",
+        "punishment": "Penjara 25 tahun sampai seumur hidup",
+        "fine": "$50,000 - $100,000"
+      },
+      {
+        "id": "title-1-102",
+        "code": "1 02",
+        "name": "Pembunuhan Tingkat Kedua",
+        "text": "Pembunuhan manusia secara melawan hukum dengan niat jahat tetapi tanpa perencanaan sebelumnya. **Pembunuhan tingkat kedua** termasuk pembunuhan yang disengaja yang tidak direncanakan dan pembunuhan akibat tindakan berbahaya. [cite: LSPC 1-102]",
+        "punishment": "Penjara 15 - 25 tahun",
+        "fine": "$25,000 - $75,000"
+      },
+      {
+        "id": "title-1-103",
+        "code": "1 03",
+        "name": "Pembunuhan Sukarela",
+        "text": "Pembunuhan manusia secara melawan hukum tanpa niat jahat, dilakukan dalam keadaan emosi atau karena provokasi mendadak. **Pembunuhan sukarela** terjadi ketika seseorang membunuh sebagai respons terhadap provokasi yang memadai. [cite: LSPC 1-103]",
+        "punishment": "Penjara 5 - 15 tahun",
+        "fine": "$15,000 - $30,000"
+      },
+      {
+        "id": "title-1-104",
+        "code": "1 04",
+        "name": "Pembunuhan Tidak Sengaja",
+        "text": "Pembunuhan manusia secara melawan hukum tanpa niat jahat, dilakukan tanpa niat untuk membunuh tetapi sebagai akibat dari kelalaian kriminal atau selama melakukan pelanggaran ringan. [cite: LSPC 1-104]",
+        "punishment": "Penjara 2 - 8 tahun",
+        "fine": "$10,000 - $25,000"
+      },
+      {
+        "id": "title-1-105",
+        "code": "1 05",
+        "name": "Penyerangan dengan Senjata Mematikan",
+        "text": "Tindakan sengaja yang menciptakan kekhawatiran yang wajar akan kontak berbahaya yang akan segera terjadi menggunakan senjata mematikan. **Senjata mematikan** termasuk senjata api, pisau, kendaraan yang digunakan sebagai senjata, atau objek apa pun yang mampu menyebabkan kematian atau cedera tubuh yang parah. [cite: LSPC 1-105]",
+        "punishment": "Penjara 2 - 6 tahun",
+        "fine": "$10,000 - $20,000"
+      },
+      {
+        "id": "title-1-106",
+        "code": "1 06",
+        "name": "Penyerangan Berat",
+        "text": "Penyerangan yang dilakukan dengan niat untuk melakukan kejahatan berat atau yang mengakibatkan cedera tubuh serius. **Penyerangan berat** melibatkan keadaan yang membuat kejahatan lebih serius daripada penyerangan biasa. [cite: LSPC 1-106]",
+        "punishment": "Penjara 1 - 4 tahun",
+        "fine": "$5,000 - $15,000"
+      },
+      {
+        "id": "title-1-107",
+        "code": "1 07",
+        "name": "Penganiayaan",
+        "text": "Penggunaan kekuatan atau kekerasan secara sengaja dan melawan hukum terhadap orang lain. **Penganiayaan** memerlukan kontak fisik atau sentuhan yang sebenarnya terhadap orang lain dengan cara yang berbahaya atau menyinggung. [cite: LSPC 1-107]",
+        "punishment": "Penjara 6 bulan - 3 tahun",
+        "fine": "$2,500 - $10,000"
+      },
+      {
+        "id": "title-1-108",
+        "code": "1 08",
+        "name": "Penculikan",
+        "text": "Mengambil dan membawa pergi orang lain secara melawan hukum dengan kekerasan, penipuan, atau intimidasi dengan maksud untuk menahan mereka berlawanan dengan kehendak mereka. **Penculikan** termasuk penahanan palsu dengan perpindahan korban. [cite: LSPC 1-108]",
+        "punishment": "Penjara 5 - 20 tahun",
+        "fine": "$25,000 - $50,000"
+      },
+      {
+        "id": "title-1-109",
+        "code": "1 09",
+        "name": "Kekerasan Dalam Rumah Tangga",
+        "text": "Setiap penyiksaan fisik yang disengaja terhadap pasangan saat ini atau mantan, teman hidup, atau orang yang memiliki hubungan kencan dengan pelaku. **Kekerasan dalam rumah tangga** termasuk ancaman dan pola kekerasan emosional. [cite: LSPC 1-109]",
+        "punishment": "Penjara 6 bulan - 5 tahun",
+        "fine": "$5,000 - $15,000"
+      },
+      {
+        "id": "title-1-110",
+        "code": "1 10",
+        "name": "Menguntit",
+        "text": "Secara sengaja, dengan niat jahat, dan berulang kali mengikuti atau mengganggu orang lain dengan ancaman yang dapat dipercaya yang akan menyebabkan orang yang wajar takut akan keselamatan mereka. **Menguntit** termasuk menguntit dunia maya dan pengawasan. [cite: LSPC 1-110]",
+        "punishment": "Penjara 1 - 3 tahun",
+        "fine": "$5,000 - $12,000"
+      }
+    ]
+  },
+  {
+    "id": "title-2",
+    "title": "JUDUL 2. KEJAHATAN TERHADAP HARTA BENDA",
+    "sections": [
+      {
+        "id": "title-2-201",
+        "code": "2 01",
+        "name": "Pencurian Berat",
+        "text": "Pengambilan harta orang lain secara melawan hukum yang bernilai lebih dari $950 dengan maksud untuk merampas pemilik secara permanen. **Pencurian berat** termasuk pencurian kendaraan, senjata api, dan harta yang diambil dari seseorang. [cite: LSPC 2-201]",
+        "punishment": "Penjara 1 - 5 tahun",
+        "fine": "$5,000 - $25,000"
+      },
+      {
+        "id": "title-2-202",
+        "code": "2 02",
+        "name": "Pencurian Ringan",
+        "text": "Pengambilan harta orang lain secara melawan hukum yang bernilai $950 atau kurang dengan maksud untuk merampas pemilik secara permanen. **Pencurian ringan** adalah pelanggaran ringan untuk kejahatan harta bernilai rendah. [cite: LSPC 2-202]",
+        "punishment": "Penjara 6 bulan - 1 tahun",
+        "fine": "$1,000 - $5,000"
+      },
+      {
+        "id": "title-2-203",
+        "code": "2 03",
+        "name": "Pembobolan Tingkat Pertama",
+        "text": "Masuk secara melawan hukum ke dalam tempat tinggal yang berpenghuni dengan maksud untuk melakukan pencurian atau kejahatan berat apa pun. **Pembobolan tingkat pertama** berlaku untuk struktur perumahan tempat orang tinggal atau tidur. [cite: LSPC 2-203]",
+        "punishment": "Penjara 3 - 8 tahun",
+        "fine": "$10,000 - $30,000"
+      },
+      {
+        "id": "title-2-204",
+        "code": "2 04",
+        "name": "Pembobolan Tingkat Kedua",
+        "text": "Masuk secara melawan hukum ke dalam bangunan, kendaraan, atau struktur apa pun dengan maksud untuk melakukan pencurian atau kejahatan berat apa pun. **Pembobolan tingkat kedua** berlaku untuk struktur komersial dan yang tidak berpenghuni. [cite: LSPC 2-204]",
+        "punishment": "Penjara 1 - 6 tahun",
+        "fine": "$5,000 - $20,000"
+      },
+      {
+        "id": "title-2-205",
+        "code": "2 05",
+        "name": "Perampokan Tingkat Pertama",
+        "text": "Pengambilan harta dari orang lain secara melawan hukum melalui kekerasan atau ancaman kekerasan sambil bersenjata dengan senjata mematikan. **Perampokan bersenjata** memiliki hukuman yang diperberat karena keterlibatan senjata. [cite: LSPC 2-205]",
+        "punishment": "Penjara 5 - 15 tahun",
+        "fine": "$15,000 - $50,000"
+      },
+      {
+        "id": "title-2-206",
+        "code": "2 06",
+        "name": "Perampokan Tingkat Kedua",
+        "text": "Pengambilan harta dari orang lain secara melawan hukum melalui kekerasan atau ancaman kekerasan tanpa menggunakan senjata mematikan. **Perampokan tidak bersenjata** melibatkan intimidasi atau kekerasan fisik tanpa senjata. [cite: LSPC 2-206]",
+        "punishment": "Penjara 2 - 8 tahun",
+        "fine": "$8,000 - $25,000"
+      },
+      {
+        "id": "title-2-207",
+        "code": "2 07",
+        "name": "Pencurian Kendaraan Bermotor",
+        "text": "Pengambilan kendaraan bermotor milik orang lain secara melawan hukum dengan maksud untuk merampas pemilik secara permanen atau sementara. **Pencurian kendaraan** termasuk pembajakan mobil dan joyriding. [cite: LSPC 2-207]",
+        "punishment": "Penjara 1 - 4 tahun",
+        "fine": "$5,000 - $20,000"
+      },
+      {
+        "id": "title-2-208",
+        "code": "2 08",
+        "name": "Pembakaran",
+        "text": "Secara sengaja dan dengan niat jahat membakar atau membakar struktur, lahan hutan, atau harta benda apa pun. **Pembakaran** termasuk membakar harta sendiri jika membahayakan orang lain atau dilakukan untuk menipu asuransi. [cite: LSPC 2-208]",
+        "punishment": "Penjara 3 - 12 tahun",
+        "fine": "$15,000 - $75,000"
+      },
+      {
+        "id": "title-2-209",
+        "code": "2 09",
+        "name": "Vandalisme",
+        "text": "Secara sengaja merusak, menghancurkan, atau mencemarkan harta benda milik orang lain. **Vandalisme** termasuk grafiti, perusakan harta benda, dan pencemaran harta benda publik atau pribadi. [cite: LSPC 2-209]",
+        "punishment": "Penjara 3 bulan - 2 tahun",
+        "fine": "$2,000 - $10,000"
+      },
+      {
+        "id": "title-2-210",
+        "code": "2 10",
+        "name": "Penipuan",
+        "text": "Secara sengaja menipu orang lain untuk keuntungan finansial dengan salah menyajikan fakta atau menyembunyikan informasi material. **Penipuan** termasuk pencurian identitas, penipuan kartu kredit, dan penipuan cek. [cite: LSPC 2-210]",
+        "punishment": "Penjara 1 - 7 tahun",
+        "fine": "$10,000 - $50,000"
+      }
+    ]
+  },
+  {
+    "id": "title-3",
+    "title": "JUDUL 3. PELANGGARAN NARKOBA DAN NARKOTIKA",
+    "sections": [
+      {
+        "id": "title-3-301",
+        "code": "3 01",
+        "name": "Kepemilikan Zat Terkontrol",
+        "text": "Kepemilikan melawan hukum dari zat terkontrol apa pun tanpa resep yang valid. **Zat terkontrol** diklasifikasikan berdasarkan jadwal berdasarkan penggunaan medis dan potensi penyalahgunaan. Jumlah untuk penggunaan pribadi mungkin menerima hukuman yang dikurangi. [cite: LSPC 3-301]",
+        "punishment": "Penjara 6 bulan - 3 tahun",
+        "fine": "$5,000 - $15,000"
+      },
+      {
+        "id": "title-3-302",
+        "code": "3 02",
+        "name": "Kepemilikan dengan Niat untuk Mendistribusikan",
+        "text": "Kepemilikan zat terkontrol dalam jumlah atau keadaan yang menunjukkan niat untuk menjual atau mendistribusikan. **Niat untuk mendistribusikan** dapat disimpulkan dari jumlah, kemasan, perlengkapan, atau bukti lainnya. [cite: LSPC 3-302]",
+        "punishment": "Penjara 2 - 10 tahun",
+        "fine": "$10,000 - $100,000"
+      },
+      {
+        "id": "title-3-303",
+        "code": "3 03",
+        "name": "Penjualan Zat Terkontrol",
+        "text": "Penjualan, pengiriman, atau transfer melawan hukum dari zat terkontrol apa pun. **Perdagangan narkoba** hukumannya meningkat berdasarkan jenis dan jumlah zat yang dijual dan kedekatan dengan sekolah atau taman. [cite: LSPC 3-303]",
+        "punishment": "Penjara 3 - 15 tahun",
+        "fine": "$15,000 - $250,000"
+      },
+      {
+        "id": "title-3-304",
+        "code": "3 04",
+        "name": "Manufaktur Zat Terkontrol",
+        "text": "Produksi, kultivasi, atau sintesis melawan hukum dari zat terkontrol. **Manufaktur narkoba** termasuk mengoperasikan laboratorium narkoba, operasi menanam ganja, dan mensintesis obat-obatan ilegal. [cite: LSPC 3-304]",
+        "punishment": "Penjara 5 - 20 tahun",
+        "fine": "$25,000 - $500,000"
+      },
+      {
+        "id": "title-3-305",
+        "code": "3 05",
+        "name": "Perdagangan Zat Terkontrol",
+        "text": "Distribusi, transportasi, atau impor besar-besaran zat terkontrol. **Perdagangan narkoba** melibatkan jumlah komersial dan jaringan distribusi yang terorganisir. [cite: LSPC 3-305]",
+        "punishment": "Penjara 10 - 30 tahun",
+        "fine": "$50,000 - $1,000,000"
+      },
+      {
+        "id": "title-3-306",
+        "code": "3 06",
+        "name": "Kepemilikan Perlengkapan Narkoba",
+        "text": "Kepemilikan peralatan, bahan, atau perangkat yang digunakan untuk mengonsumsi, membuat, atau mendistribusikan zat terkontrol. **Perlengkapan narkoba** termasuk pipa, timbangan, jarum suntik, dan peralatan manufaktur. [cite: LSPC 3-306]",
+        "punishment": "Penjara 3 - 12 bulan",
+        "fine": "$1,000 - $5,000"
+      },
+      {
+        "id": "title-3-307",
+        "code": "3 07",
+        "name": "Di Bawah Pengaruh Zat Terkontrol",
+        "text": "Berada di bawah pengaruh zat terkontrol apa pun di tempat umum atau saat mengoperasikan kendaraan. **Mabuk di tempat umum** dari obat-obatan ilegal adalah pelanggaran ringan dengan pilihan perawatan yang tersedia. [cite: LSPC 3-307]",
+        "punishment": "Penjara 3 - 6 bulan",
+        "fine": "$500 - $2,500"
+      },
+      {
+        "id": "title-3-308",
+        "code": "3 08",
+        "name": "Penipuan Resep",
+        "text": "Secara curang memperoleh atau mencoba memperoleh zat terkontrol melalui resep palsu, doctor shopping, atau salah penyajian. **Penipuan resep** termasuk mengubah resep dan pencurian apotek. [cite: LSPC 3-308]",
+        "punishment": "Penjara 1 - 5 tahun",
+        "fine": "$5,000 - $25,000"
+      }
+    ]
+  },
+  {
+    "id": "title-4",
+    "title": "JUDUL 4. PELANGGARAN SENJATA DAN SENJATA API",
+    "sections": [
+      {
+        "id": "title-4-401",
+        "code": "4 01",
+        "name": "Kepemilikan Senjata Api Ilegal",
+        "text": "Kepemilikan senjata api apa pun oleh orang yang dilarang memiliki senjata api atau kepemilikan tanpa lisensi yang tepat. **Orang yang dilarang** termasuk penjahat, orang dengan perintah pembatasan, dan mereka dengan kondisi kesehatan mental tertentu. [cite: LSPC 4-401]",
+        "punishment": "Penjara 1 - 5 tahun",
+        "fine": "$5,000 - $25,000"
+      },
+      {
+        "id": "title-4-402",
+        "code": "4 02",
+        "name": "Membawa Senjata Tersembunyi",
+        "text": "Membawa senjata api tersembunyi atau senjata mematikan tanpa izin yang valid. **Pelanggaran membawa tersembunyi** termasuk lisensi yang tidak tepat atau membawa di area yang dilarang. [cite: LSPC 4-402]",
+        "punishment": "Penjara 6 bulan - 3 tahun",
+        "fine": "$2,500 - $10,000"
+      },
+      {
+        "id": "title-4-403",
+        "code": "4 03",
+        "name": "Penyerangan dengan Senjata Api",
+        "text": "Melakukan penyerangan sambil bersenjata dengan senjata api. **Penyerangan bersenjata** memiliki hukuman yang diperberat karena penggunaan senjata api dan peningkatan bahaya bagi korban dan keselamatan publik. [cite: LSPC 4-403]",
+        "punishment": "Penjara 3 - 8 tahun",
+        "fine": "$10,000 - $30,000"
+      },
+      {
+        "id": "title-4-404",
+        "code": "4 04",
+        "name": "Penembakan Senjata Api di Tempat Umum",
+        "text": "Secara melawan hukum menembakkan senjata api di tempat umum mana pun, area berpenghuni, atau dengan cara yang membahayakan orang lain. **Penembakan sembrono** termasuk tembakan peringatan dan tembakan perayaan. [cite: LSPC 4-404]",
+        "punishment": "Penjara 1 - 4 tahun",
+        "fine": "$5,000 - $20,000"
+      },
+      {
+        "id": "title-4-405",
+        "code": "4 05",
+        "name": "Penjualan Senjata Ilegal",
+        "text": "Secara melawan hukum menjual, mentransfer, atau mendistribusikan senjata api, amunisi, atau senjata yang dilarang tanpa lisensi yang tepat. **Penjualan senjata ilegal** termasuk pembelian jerami dan perdagangan tanpa lisensi. [cite: LSPC 4-405]",
+        "punishment": "Penjara 2 - 10 tahun",
+        "fine": "$10,000 - $75,000"
+      },
+      {
+        "id": "title-4-406",
+        "code": "4 06",
+        "name": "Kepemilikan Senjata Terlarang",
+        "text": "Kepemilikan senjata yang dilarang oleh hukum termasuk senjata api otomatis, perangkat peledak, amunisi tembus lapis baja, dan pisau tertentu. **Senjata terlarang** dilarang karena masalah keselamatan publik. [cite: LSPC 4-406]",
+        "punishment": "Penjara 2 - 7 tahun",
+        "fine": "$7,500 - $50,000"
+      }
+    ]
+  },
+  {
+    "id": "title-5",
+    "title": "JUDUL 5. PELANGGARAN KETERTIBAN DAN KESELAMATAN PUBLIK",
+    "sections": [
+      {
+        "id": "title-5-501",
+        "code": "5 01",
+        "name": "Mengganggu Ketenangan",
+        "text": "Secara melawan hukum berkelahi, menggunakan kata-kata menyinggung di depan umum, atau membuat kebisingan keras dan tidak masuk akal yang mengganggu orang lain. **Mengganggu ketenangan** termasuk pertengkaran publik, musik keras, dan perilaku mengganggu. [cite: LSPC 5-501]",
+        "punishment": "Penjara 3 - 6 bulan",
+        "fine": "$500 - $2,000"
+      },
+      {
+        "id": "title-5-502",
+        "code": "5 02",
+        "name": "Mabuk di Tempat Umum",
+        "text": "Berada di tempat umum mana pun saat di bawah pengaruh alkohol atau narkoba sampai tingkat tidak dapat merawat diri sendiri atau orang lain, atau menciptakan gangguan publik. [cite: LSPC 5-502]",
+        "punishment": "Penjara 24 jam - 6 bulan",
+        "fine": "$250 - $1,500"
+      },
+      {
+        "id": "title-5-503",
+        "code": "5 03",
+        "name": "Berkeliaran",
+        "text": "Tetap berada di tempat umum untuk jangka waktu yang lama tanpa tujuan yang jelas, terutama ketika kehadiran tersebut kemungkinan akan menyebabkan alarm atau melanggar pembatasan yang dipasang. [cite: LSPC 5-503]",
+        "punishment": "Hanya denda atau penjara 30 hari",
+        "fine": "$100 - $500"
+      },
+      {
+        "id": "title-5-504",
+        "code": "5 04",
+        "name": "Masuk Tanpa Izin",
+        "text": "Secara melawan hukum memasuki atau tetap berada di properti orang lain setelah dilarang melakukannya. **Masuk tanpa izin kriminal** termasuk memasuki properti pribadi yang dipasang dan tetap berada setelah diminta pergi. [cite: LSPC 5-504]",
+        "punishment": "Penjara 3 bulan - 1 tahun",
+        "fine": "$1,000 - $5,000"
+      },
+      {
+        "id": "title-5-505",
+        "code": "5 05",
+        "name": "Melawan Penangkapan",
+        "text": "Secara sengaja menolak, menunda, atau menghalangi petugas penegak hukum dalam melaksanakan tugas mereka. **Melawan penangkapan** termasuk perlawanan fisik dan kegagalan mematuhi perintah yang sah. [cite: LSPC 5-505]",
+        "punishment": "Penjara 6 bulan - 2 tahun",
+        "fine": "$2,500 - $10,000"
+      },
+      {
+        "id": "title-5-506",
+        "code": "5 06",
+        "name": "Obstruksi Keadilan",
+        "text": "Secara sengaja mengganggu atau menghalangi administrasi keadilan termasuk merusak bukti, mengintimidasi saksi, atau memberikan informasi palsu kepada otoritas. [cite: LSPC 5-506]",
+        "punishment": "Penjara 1 - 5 tahun",
+        "fine": "$5,000 - $25,000"
+      },
+      {
+        "id": "title-5-507",
+        "code": "5 07",
+        "name": "Mengemudi Sembrono",
+        "text": "Mengoperasikan kendaraan dengan mengabaikan keselamatan orang atau properti secara sengaja atau sembrono. **Mengemudi sembrono** termasuk kecepatan berlebihan, balapan, dan manuver berbahaya. [cite: LSPC 5-507]",
+        "punishment": "Penjara 6 bulan - 2 tahun",
+        "fine": "$1,500 - $7,500"
+      },
+      {
+        "id": "title-5-508",
+        "code": "5 08",
+        "name": "Mengemudi Di Bawah Pengaruh",
+        "text": "Mengoperasikan kendaraan bermotor saat di bawah pengaruh alkohol, narkoba, atau kombinasi dari keduanya yang mengganggu kemampuan mengemudi. **DUI** hukumannya meningkat dengan keyakinan sebelumnya dan tingkat alkohol darah. [cite: LSPC 5-508]",
+        "punishment": "Penjara 6 bulan - 5 tahun",
+        "fine": "$2,000 - $15,000"
+      }
+    ]
+  }
+]
